@@ -1,0 +1,302 @@
+[
+  {
+    "id": 376,
+    "title": "Recursive Factorial",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Easy",
+    "className": "questions.q376.Q376RecursiveFactorial",
+    "source": "src/questions/q376/Q376RecursiveFactorial.java",
+    "lesson": "docs/questions/q376.md",
+    "expectedOutput": "120\n"
+  },
+  {
+    "id": 377,
+    "title": "Recursive Digit Sum",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Easy",
+    "className": "questions.q377.Q377RecursiveDigitSum",
+    "source": "src/questions/q377/Q377RecursiveDigitSum.java",
+    "lesson": "docs/questions/q377.md",
+    "expectedOutput": "14\n"
+  },
+  {
+    "id": 378,
+    "title": "Recursive Array Total",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Easy",
+    "className": "questions.q378.Q378RecursiveArrayTotal",
+    "source": "src/questions/q378/Q378RecursiveArrayTotal.java",
+    "lesson": "docs/questions/q378.md",
+    "expectedOutput": "9\n"
+  },
+  {
+    "id": 379,
+    "title": "Recursive String Reversal",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Easy",
+    "className": "questions.q379.Q379RecursiveStringReversal",
+    "source": "src/questions/q379/Q379RecursiveStringReversal.java",
+    "lesson": "docs/questions/q379.md",
+    "expectedOutput": "avaj\n"
+  },
+  {
+    "id": 380,
+    "title": "Recursive Palindrome Test",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Easy",
+    "className": "questions.q380.Q380RecursivePalindromeTest",
+    "source": "src/questions/q380/Q380RecursivePalindromeTest.java",
+    "lesson": "docs/questions/q380.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 381,
+    "title": "Fast Recursive Power",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q381.Q381FastRecursivePower",
+    "source": "src/questions/q381/Q381FastRecursivePower.java",
+    "lesson": "docs/questions/q381.md",
+    "expectedOutput": "1024.0\n"
+  },
+  {
+    "id": 382,
+    "title": "Recursive Euclidean GCD",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Easy",
+    "className": "questions.q382.Q382RecursiveEuclideanGCD",
+    "source": "src/questions/q382/Q382RecursiveEuclideanGCD.java",
+    "lesson": "docs/questions/q382.md",
+    "expectedOutput": "6\n"
+  },
+  {
+    "id": 383,
+    "title": "Recursive Binary Search",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Easy",
+    "className": "questions.q383.Q383RecursiveBinarySearch",
+    "source": "src/questions/q383/Q383RecursiveBinarySearch.java",
+    "lesson": "docs/questions/q383.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 384,
+    "title": "Tower Of Hanoi Moves",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q384.Q384TowerOfHanoiMoves",
+    "source": "src/questions/q384/Q384TowerOfHanoiMoves.java",
+    "lesson": "docs/questions/q384.md",
+    "expectedOutput": "[A->B, A->C, B->C]\n"
+  },
+  {
+    "id": 385,
+    "title": "Generate String Subsequences",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q385.Q385GenerateStringSubsequences",
+    "source": "src/questions/q385/Q385GenerateStringSubsequences.java",
+    "lesson": "docs/questions/q385.md",
+    "expectedOutput": "[, b, a, ab]\n"
+  },
+  {
+    "id": 386,
+    "title": "Generate Distinct Permutations",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q386.Q386GenerateDistinctPermutations",
+    "source": "src/questions/q386/Q386GenerateDistinctPermutations.java",
+    "lesson": "docs/questions/q386.md",
+    "expectedOutput": "[[1, 2], [2, 1]]\n"
+  },
+  {
+    "id": 387,
+    "title": "Choose K Numbers",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q387.Q387ChooseKNumbers",
+    "source": "src/questions/q387/Q387ChooseKNumbers.java",
+    "lesson": "docs/questions/q387.md",
+    "expectedOutput": "[[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]\n"
+  },
+  {
+    "id": 388,
+    "title": "Phone Keypad Combinations",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q388.Q388PhoneKeypadCombinations",
+    "source": "src/questions/q388/Q388PhoneKeypadCombinations.java",
+    "lesson": "docs/questions/q388.md",
+    "expectedOutput": "[ad, ae, af, bd, be, bf, cd, ce, cf]\n"
+  },
+  {
+    "id": 389,
+    "title": "Generate Balanced Parentheses",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q389.Q389GenerateBalancedParentheses",
+    "source": "src/questions/q389/Q389GenerateBalancedParentheses.java",
+    "lesson": "docs/questions/q389.md",
+    "expectedOutput": "[((())), (()()), (())(), ()(()), ()()()]\n"
+  },
+  {
+    "id": 390,
+    "title": "Count N Queens Placements",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Hard",
+    "className": "questions.q390.Q390CountNQueensPlacements",
+    "source": "src/questions/q390/Q390CountNQueensPlacements.java",
+    "lesson": "docs/questions/q390.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 391,
+    "title": "Count Blocked Grid Paths Recursively",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q391.Q391CountBlockedGridPathsRecursively",
+    "source": "src/questions/q391/Q391CountBlockedGridPathsRecursively.java",
+    "lesson": "docs/questions/q391.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 392,
+    "title": "Word Search Backtracking",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q392.Q392WordSearchBacktracking",
+    "source": "src/questions/q392/Q392WordSearchBacktracking.java",
+    "lesson": "docs/questions/q392.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 393,
+    "title": "Combination Sum Unlimited",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q393.Q393CombinationSumUnlimited",
+    "source": "src/questions/q393/Q393CombinationSumUnlimited.java",
+    "lesson": "docs/questions/q393.md",
+    "expectedOutput": "[[2, 2, 3], [7]]\n"
+  },
+  {
+    "id": 394,
+    "title": "Combination Sum Single Use",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q394.Q394CombinationSumSingleUse",
+    "source": "src/questions/q394/Q394CombinationSumSingleUse.java",
+    "lesson": "docs/questions/q394.md",
+    "expectedOutput": "[[1, 2]]\n"
+  },
+  {
+    "id": 395,
+    "title": "Recursive Subset Sum Decision",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q395.Q395RecursiveSubsetSumDecision",
+    "source": "src/questions/q395/Q395RecursiveSubsetSumDecision.java",
+    "lesson": "docs/questions/q395.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 396,
+    "title": "Palindrome Partition Enumeration",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q396.Q396PalindromePartitionEnumeration",
+    "source": "src/questions/q396/Q396PalindromePartitionEnumeration.java",
+    "lesson": "docs/questions/q396.md",
+    "expectedOutput": "[[a, a, b], [aa, b]]\n"
+  },
+  {
+    "id": 397,
+    "title": "Restore IPv4 Addresses",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q397.Q397RestoreIPv4Addresses",
+    "source": "src/questions/q397/Q397RestoreIPv4Addresses.java",
+    "lesson": "docs/questions/q397.md",
+    "expectedOutput": "[255.255.11.135, 255.255.111.35]\n"
+  },
+  {
+    "id": 398,
+    "title": "Recursive Digit Decodings",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q398.Q398RecursiveDigitDecodings",
+    "source": "src/questions/q398/Q398RecursiveDigitDecodings.java",
+    "lesson": "docs/questions/q398.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 399,
+    "title": "Kth Grammar Symbol",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q399.Q399KthGrammarSymbol",
+    "source": "src/questions/q399/Q399KthGrammarSymbol.java",
+    "lesson": "docs/questions/q399.md",
+    "expectedOutput": "1\n"
+  },
+  {
+    "id": 400,
+    "title": "Josephus Survivor",
+    "topic": "Recursion and backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q400.Q400JosephusSurvivor",
+    "source": "src/questions/q400/Q400JosephusSurvivor.java",
+    "lesson": "docs/questions/q400.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 401,
+    "title": "Climbing Stairs",
+    "topic": "Dynamic programming",
+    "difficulty": "Easy",
+    "className": "questions.q401.Q401ClimbingStairs",
+    "source": "src/questions/q401/Q401ClimbingStairs.java",
+    "lesson": "docs/questions/q401.md",
+    "expectedOutput": "8\n"
+  },
+  {
+    "id": 402,
+    "title": "Minimum Cost Climbing Stairs",
+    "topic": "Dynamic programming",
+    "difficulty": "Easy",
+    "className": "questions.q402.Q402MinimumCostClimbingStairs",
+    "source": "src/questions/q402/Q402MinimumCostClimbingStairs.java",
+    "lesson": "docs/questions/q402.md",
+    "expectedOutput": "15\n"
+  },
+  {
+    "id": 403,
+    "title": "House Robber",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q403.Q403HouseRobber",
+    "source": "src/questions/q403/Q403HouseRobber.java",
+    "lesson": "docs/questions/q403.md",
+    "expectedOutput": "12\n"
+  },
+  {
+    "id": 404,
+    "title": "Circular House Robber",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q404.Q404CircularHouseRobber",
+    "source": "src/questions/q404/Q404CircularHouseRobber.java",
+    "lesson": "docs/questions/q404.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 405,
+    "title": "Unique Grid Paths",
+    "topic": "Dynamic programming",
+    "difficulty": "Easy",
+    "className": "questions.q405.Q405UniqueGridPaths",
+    "source": "src/questions/q405/Q405UniqueGridPaths.java",
+    "lesson": "docs/questions/q405.md",
+    "expectedOutput": "28\n"
+  }
+]

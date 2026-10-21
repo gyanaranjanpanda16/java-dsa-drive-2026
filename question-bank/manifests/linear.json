@@ -1,0 +1,202 @@
+[
+  {
+    "id": 126,
+    "title": "Print every character with its index",
+    "topic": "Strings",
+    "difficulty": "Beginner",
+    "className": "questions.q126.Q126Characters",
+    "source": "src/questions/q126/Q126Characters.java",
+    "lesson": "docs/questions/q126.md",
+    "expectedOutput": "0:J, 1:a, 2:v, 3:a\n"
+  },
+  {
+    "id": 127,
+    "title": "Reverse text using two pointers",
+    "topic": "Strings",
+    "difficulty": "Beginner",
+    "className": "questions.q127.Q127Reverse",
+    "source": "src/questions/q127/Q127Reverse.java",
+    "lesson": "docs/questions/q127.md",
+    "expectedOutput": "avaj\n"
+  },
+  {
+    "id": 128,
+    "title": "Check an exact palindrome",
+    "topic": "Strings",
+    "difficulty": "Beginner",
+    "className": "questions.q128.Q128Palindrome",
+    "source": "src/questions/q128/Q128Palindrome.java",
+    "lesson": "docs/questions/q128.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 129,
+    "title": "Count ASCII vowels and consonants",
+    "topic": "Strings",
+    "difficulty": "Beginner",
+    "className": "questions.q129.Q129Letters",
+    "source": "src/questions/q129/Q129Letters.java",
+    "lesson": "docs/questions/q129.md",
+    "expectedOutput": "[2, 2]\n"
+  },
+  {
+    "id": 130,
+    "title": "Count whitespace-delimited words",
+    "topic": "Strings",
+    "difficulty": "Beginner",
+    "className": "questions.q130.Q130Words",
+    "source": "src/questions/q130/Q130Words.java",
+    "lesson": "docs/questions/q130.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 131,
+    "title": "Toggle ASCII letter case",
+    "topic": "Strings",
+    "difficulty": "Beginner",
+    "className": "questions.q131.Q131ToggleCase",
+    "source": "src/questions/q131/Q131ToggleCase.java",
+    "lesson": "docs/questions/q131.md",
+    "expectedOutput": "jAVA17!\n"
+  },
+  {
+    "id": 132,
+    "title": "Remove whitespace characters",
+    "topic": "Strings",
+    "difficulty": "Beginner",
+    "className": "questions.q132.Q132RemoveWhitespace",
+    "source": "src/questions/q132/Q132RemoveWhitespace.java",
+    "lesson": "docs/questions/q132.md",
+    "expectedOutput": "abc\n"
+  },
+  {
+    "id": 133,
+    "title": "Count characters in sorted order",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q133.Q133CharFrequency",
+    "source": "src/questions/q133/Q133CharFrequency.java",
+    "lesson": "docs/questions/q133.md",
+    "expectedOutput": "{a=3, b=1, n=2}\n"
+  },
+  {
+    "id": 134,
+    "title": "Find the first non-repeating character index",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q134.Q134FirstUnique",
+    "source": "src/questions/q134/Q134FirstUnique.java",
+    "lesson": "docs/questions/q134.md",
+    "expectedOutput": "1\n"
+  },
+  {
+    "id": 135,
+    "title": "Find the first repeated encounter",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q135.Q135FirstRepeat",
+    "source": "src/questions/q135/Q135FirstRepeat.java",
+    "lesson": "docs/questions/q135.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 136,
+    "title": "Check exact anagrams",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q136.Q136Anagram",
+    "source": "src/questions/q136/Q136Anagram.java",
+    "lesson": "docs/questions/q136.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 137,
+    "title": "Remove repeated characters stably",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q137.Q137Deduplicate",
+    "source": "src/questions/q137/Q137Deduplicate.java",
+    "lesson": "docs/questions/q137.md",
+    "expectedOutput": "ban\n"
+  },
+  {
+    "id": 138,
+    "title": "Find the longest common prefix",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q138.Q138CommonPrefix",
+    "source": "src/questions/q138/Q138CommonPrefix.java",
+    "lesson": "docs/questions/q138.md",
+    "expectedOutput": "fl\n"
+  },
+  {
+    "id": 139,
+    "title": "Reverse word order and normalize spaces",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q139.Q139ReverseWords",
+    "source": "src/questions/q139/Q139ReverseWords.java",
+    "lesson": "docs/questions/q139.md",
+    "expectedOutput": "fun is Java\n"
+  },
+  {
+    "id": 140,
+    "title": "Recognize a rotation of a string",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q140.Q140Rotation",
+    "source": "src/questions/q140/Q140Rotation.java",
+    "lesson": "docs/questions/q140.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 141,
+    "title": "Count characters in sorted order",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q141.Q141CharacterFrequencies",
+    "source": "src/questions/q141/Q141CharacterFrequencies.java",
+    "lesson": "docs/questions/q141.md",
+    "expectedOutput": "{a=3, b=1, n=2}\n"
+  },
+  {
+    "id": 142,
+    "title": "Find the longest substring without repeated chars",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "className": "questions.q142.Q142LongestUnique",
+    "source": "src/questions/q142/Q142LongestUnique.java",
+    "lesson": "docs/questions/q142.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 143,
+    "title": "Find the longest common prefix of strings",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q143.Q143CommonPrefix",
+    "source": "src/questions/q143/Q143CommonPrefix.java",
+    "lesson": "docs/questions/q143.md",
+    "expectedOutput": "fl\n"
+  },
+  {
+    "id": 144,
+    "title": "Find the first exact substring match",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q144.Q144NaiveSubstring",
+    "source": "src/questions/q144/Q144NaiveSubstring.java",
+    "lesson": "docs/questions/q144.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 145,
+    "title": "Find a substring using KMP failure links",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "className": "questions.q145.Q145KmpSubstring",
+    "source": "src/questions/q145/Q145KmpSubstring.java",
+    "lesson": "docs/questions/q145.md",
+    "expectedOutput": "10\n"
+  }
+]
