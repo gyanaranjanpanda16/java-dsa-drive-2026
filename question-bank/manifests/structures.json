@@ -1,0 +1,452 @@
+[
+  {
+    "id": 251,
+    "title": "List tree values in inorder",
+    "topic": "Trees and BST",
+    "difficulty": "Beginner",
+    "className": "questions.q251.Q251Inorder",
+    "source": "src/questions/q251/Q251Inorder.java",
+    "lesson": "docs/questions/q251.md",
+    "expectedOutput": "[1, 2, 3, 4, 5, 6, 7]\n"
+  },
+  {
+    "id": 252,
+    "title": "List tree values in preorder",
+    "topic": "Trees and BST",
+    "difficulty": "Beginner",
+    "className": "questions.q252.Q252Preorder",
+    "source": "src/questions/q252/Q252Preorder.java",
+    "lesson": "docs/questions/q252.md",
+    "expectedOutput": "[4, 2, 1, 3, 6, 5, 7]\n"
+  },
+  {
+    "id": 253,
+    "title": "List tree values in postorder",
+    "topic": "Trees and BST",
+    "difficulty": "Beginner",
+    "className": "questions.q253.Q253Postorder",
+    "source": "src/questions/q253/Q253Postorder.java",
+    "lesson": "docs/questions/q253.md",
+    "expectedOutput": "[1, 3, 2, 5, 7, 6, 4]\n"
+  },
+  {
+    "id": 254,
+    "title": "List values in breadth-first level order",
+    "topic": "Trees and BST",
+    "difficulty": "Beginner",
+    "className": "questions.q254.Q254LevelOrder",
+    "source": "src/questions/q254/Q254LevelOrder.java",
+    "lesson": "docs/questions/q254.md",
+    "expectedOutput": "[4, 2, 6, 1, 3, 5, 7]\n"
+  },
+  {
+    "id": 255,
+    "title": "Alternate direction on successive tree levels",
+    "topic": "Trees and BST",
+    "difficulty": "Beginner",
+    "className": "questions.q255.Q255ZigzagLevels",
+    "source": "src/questions/q255/Q255ZigzagLevels.java",
+    "lesson": "docs/questions/q255.md",
+    "expectedOutput": "[[4], [6, 2], [1, 3, 5, 7]]\n"
+  },
+  {
+    "id": 256,
+    "title": "Count every node",
+    "topic": "Trees and BST",
+    "difficulty": "Beginner",
+    "className": "questions.q256.Q256NodeCount",
+    "source": "src/questions/q256/Q256NodeCount.java",
+    "lesson": "docs/questions/q256.md",
+    "expectedOutput": "7\n"
+  },
+  {
+    "id": 257,
+    "title": "Count leaf nodes",
+    "topic": "Trees and BST",
+    "difficulty": "Beginner",
+    "className": "questions.q257.Q257LeafCount",
+    "source": "src/questions/q257/Q257LeafCount.java",
+    "lesson": "docs/questions/q257.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 258,
+    "title": "Measure height in nodes",
+    "topic": "Trees and BST",
+    "difficulty": "Beginner",
+    "className": "questions.q258.Q258TreeHeight",
+    "source": "src/questions/q258/Q258TreeHeight.java",
+    "lesson": "docs/questions/q258.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 259,
+    "title": "Sum all tree values",
+    "topic": "Trees and BST",
+    "difficulty": "Beginner",
+    "className": "questions.q259.Q259TreeSum",
+    "source": "src/questions/q259/Q259TreeSum.java",
+    "lesson": "docs/questions/q259.md",
+    "expectedOutput": "28\n"
+  },
+  {
+    "id": 260,
+    "title": "Find the maximum tree value",
+    "topic": "Trees and BST",
+    "difficulty": "Beginner",
+    "className": "questions.q260.Q260TreeMaximum",
+    "source": "src/questions/q260/Q260TreeMaximum.java",
+    "lesson": "docs/questions/q260.md",
+    "expectedOutput": "7\n"
+  },
+  {
+    "id": 261,
+    "title": "Check whether every subtree is height-balanced",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q261.Q261BalancedTree",
+    "source": "src/questions/q261/Q261BalancedTree.java",
+    "lesson": "docs/questions/q261.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 262,
+    "title": "Find tree diameter measured in edges",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q262.Q262TreeDiameter",
+    "source": "src/questions/q262/Q262TreeDiameter.java",
+    "lesson": "docs/questions/q262.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 263,
+    "title": "Return the left view of a binary tree",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q263.Q263LeftView",
+    "source": "src/questions/q263/Q263LeftView.java",
+    "lesson": "docs/questions/q263.md",
+    "expectedOutput": "[4, 2, 1]\n"
+  },
+  {
+    "id": 264,
+    "title": "Return the right view of a binary tree",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q264.Q264RightView",
+    "source": "src/questions/q264/Q264RightView.java",
+    "lesson": "docs/questions/q264.md",
+    "expectedOutput": "[4, 6, 7]\n"
+  },
+  {
+    "id": 265,
+    "title": "Compute the sum at every depth",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q265.Q265LevelSums",
+    "source": "src/questions/q265/Q265LevelSums.java",
+    "lesson": "docs/questions/q265.md",
+    "expectedOutput": "[4, 8, 16]\n"
+  },
+  {
+    "id": 266,
+    "title": "Mirror a tree and return its inorder traversal",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q266.Q266MirrorTree",
+    "source": "src/questions/q266/Q266MirrorTree.java",
+    "lesson": "docs/questions/q266.md",
+    "expectedOutput": "[7, 6, 5, 4, 3, 2, 1]\n"
+  },
+  {
+    "id": 267,
+    "title": "Check whether a root-to-leaf path has a target sum",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q267.Q267RootLeafSum",
+    "source": "src/questions/q267/Q267RootLeafSum.java",
+    "lesson": "docs/questions/q267.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 268,
+    "title": "Sum numbers represented by root-to-leaf digits",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q268.Q268RootLeafNumbers",
+    "source": "src/questions/q268/Q268RootLeafNumbers.java",
+    "lesson": "docs/questions/q268.md",
+    "expectedOutput": "1776\n"
+  },
+  {
+    "id": 269,
+    "title": "Sum only the deepest leaves",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q269.Q269DeepestLeavesSum",
+    "source": "src/questions/q269/Q269DeepestLeavesSum.java",
+    "lesson": "docs/questions/q269.md",
+    "expectedOutput": "16\n"
+  },
+  {
+    "id": 270,
+    "title": "Find the maximum sum of a nonempty tree path",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q270.Q270MaximumPathSum",
+    "source": "src/questions/q270/Q270MaximumPathSum.java",
+    "lesson": "docs/questions/q270.md",
+    "expectedOutput": "22\n"
+  },
+  {
+    "id": 271,
+    "title": "Find the lowest common ancestor of two existing values",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q271.Q271LowestCommonAncestor",
+    "source": "src/questions/q271/Q271LowestCommonAncestor.java",
+    "lesson": "docs/questions/q271.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 272,
+    "title": "Search a value in a binary search tree",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q272.Q272BstSearch",
+    "source": "src/questions/q272/Q272BstSearch.java",
+    "lesson": "docs/questions/q272.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 273,
+    "title": "Validate BST ordering against every ancestor",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q273.Q273ValidateBst",
+    "source": "src/questions/q273/Q273ValidateBst.java",
+    "lesson": "docs/questions/q273.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 274,
+    "title": "Find the kth smallest BST key",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q274.Q274KthSmallest",
+    "source": "src/questions/q274/Q274KthSmallest.java",
+    "lesson": "docs/questions/q274.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 275,
+    "title": "Find the greatest BST key not exceeding a target",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q275.Q275BstFloor",
+    "source": "src/questions/q275/Q275BstFloor.java",
+    "lesson": "docs/questions/q275.md",
+    "expectedOutput": "5\n"
+  },
+  {
+    "id": 276,
+    "title": "Find the smallest BST key at least a target",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q276.Q276BstCeiling",
+    "source": "src/questions/q276/Q276BstCeiling.java",
+    "lesson": "docs/questions/q276.md",
+    "expectedOutput": "5\n"
+  },
+  {
+    "id": 277,
+    "title": "Sum BST keys in an inclusive interval",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q277.Q277BstRangeSum",
+    "source": "src/questions/q277/Q277BstRangeSum.java",
+    "lesson": "docs/questions/q277.md",
+    "expectedOutput": "18\n"
+  },
+  {
+    "id": 278,
+    "title": "Insert a missing BST key and show sorted contents",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q278.Q278BstInsert",
+    "source": "src/questions/q278/Q278BstInsert.java",
+    "lesson": "docs/questions/q278.md",
+    "expectedOutput": "[1, 2, 3, 4, 5, 6, 7, 8]\n"
+  },
+  {
+    "id": 279,
+    "title": "Delete a BST key while preserving ordering",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q279.Q279BstDelete",
+    "source": "src/questions/q279/Q279BstDelete.java",
+    "lesson": "docs/questions/q279.md",
+    "expectedOutput": "[1, 2, 3, 5, 6, 7]\n"
+  },
+  {
+    "id": 280,
+    "title": "Check mirror symmetry around the root",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q280.Q280SymmetricTree",
+    "source": "src/questions/q280/Q280SymmetricTree.java",
+    "lesson": "docs/questions/q280.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 281,
+    "title": "Check whether a binary tree is complete",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q281.Q281CompleteTree",
+    "source": "src/questions/q281/Q281CompleteTree.java",
+    "lesson": "docs/questions/q281.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 282,
+    "title": "Find minimum root-to-leaf depth in nodes",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q282.Q282MinimumDepth",
+    "source": "src/questions/q282/Q282MinimumDepth.java",
+    "lesson": "docs/questions/q282.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 283,
+    "title": "List nodes at a given depth from the root",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q283.Q283NodesAtDistance",
+    "source": "src/questions/q283/Q283NodesAtDistance.java",
+    "lesson": "docs/questions/q283.md",
+    "expectedOutput": "[1, 3, 5, 7]\n"
+  },
+  {
+    "id": 284,
+    "title": "Serialize a tree with null markers",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q284.Q284SerializeTree",
+    "source": "src/questions/q284/Q284SerializeTree.java",
+    "lesson": "docs/questions/q284.md",
+    "expectedOutput": "4,2,1,#,#,3,#,#,6,5,#,#,7,#,#,\n"
+  },
+  {
+    "id": 285,
+    "title": "Flatten a tree into a preorder right-child chain",
+    "topic": "Trees and BST",
+    "difficulty": "Intermediate",
+    "className": "questions.q285.Q285FlattenPreorder",
+    "source": "src/questions/q285/Q285FlattenPreorder.java",
+    "lesson": "docs/questions/q285.md",
+    "expectedOutput": "[4, 2, 1, 3, 6, 5, 7]\n"
+  },
+  {
+    "id": 286,
+    "title": "Find the kth largest array element",
+    "topic": "Heaps",
+    "difficulty": "Medium",
+    "className": "questions.q286.Q286KthLargest",
+    "source": "src/questions/q286/Q286KthLargest.java",
+    "lesson": "docs/questions/q286.md",
+    "expectedOutput": "5\n"
+  },
+  {
+    "id": 287,
+    "title": "Find the kth smallest array element",
+    "topic": "Heaps",
+    "difficulty": "Medium",
+    "className": "questions.q287.Q287KthSmallest",
+    "source": "src/questions/q287/Q287KthSmallest.java",
+    "lesson": "docs/questions/q287.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 288,
+    "title": "Return the k largest values in descending order",
+    "topic": "Heaps",
+    "difficulty": "Medium",
+    "className": "questions.q288.Q288LargestK",
+    "source": "src/questions/q288/Q288LargestK.java",
+    "lesson": "docs/questions/q288.md",
+    "expectedOutput": "[9, 9, 4]\n"
+  },
+  {
+    "id": 289,
+    "title": "Merge k sorted integer feeds",
+    "topic": "Heaps",
+    "difficulty": "Hard",
+    "className": "questions.q289.Q289MergeSortedFeeds",
+    "source": "src/questions/q289/Q289MergeSortedFeeds.java",
+    "lesson": "docs/questions/q289.md",
+    "expectedOutput": "[1, 2, 3, 4]\n"
+  },
+  {
+    "id": 290,
+    "title": "Minimize the cost of connecting ropes",
+    "topic": "Heaps and greedy",
+    "difficulty": "Medium",
+    "className": "questions.q290.Q290ConnectRopes",
+    "source": "src/questions/q290/Q290ConnectRopes.java",
+    "lesson": "docs/questions/q290.md",
+    "expectedOutput": "29\n"
+  },
+  {
+    "id": 291,
+    "title": "Report the median after each stream value",
+    "topic": "Two heaps",
+    "difficulty": "Hard",
+    "className": "questions.q291.Q291RunningMedian",
+    "source": "src/questions/q291/Q291RunningMedian.java",
+    "lesson": "docs/questions/q291.md",
+    "expectedOutput": "[5.0, 3.0, 5.0, 3.5]\n"
+  },
+  {
+    "id": 292,
+    "title": "Report the kth largest after every eligible prefix",
+    "topic": "Heaps",
+    "difficulty": "Medium",
+    "className": "questions.q292.Q292StreamingKth",
+    "source": "src/questions/q292/Q292StreamingKth.java",
+    "lesson": "docs/questions/q292.md",
+    "expectedOutput": "[1, 4, 4, 7]\n"
+  },
+  {
+    "id": 293,
+    "title": "Select the k most frequent integers",
+    "topic": "Hashing and heaps",
+    "difficulty": "Medium",
+    "className": "questions.q293.Q293FrequentValues",
+    "source": "src/questions/q293/Q293FrequentValues.java",
+    "lesson": "docs/questions/q293.md",
+    "expectedOutput": "[1, 3]\n"
+  },
+  {
+    "id": 294,
+    "title": "Select the most frequent words with lexical ties",
+    "topic": "Maps and priority queues",
+    "difficulty": "Medium",
+    "className": "questions.q294.Q294FrequentWords",
+    "source": "src/questions/q294/Q294FrequentWords.java",
+    "lesson": "docs/questions/q294.md",
+    "expectedOutput": "[dsa, java]\n"
+  },
+  {
+    "id": 295,
+    "title": "Return k points nearest the origin",
+    "topic": "Heaps and geometry",
+    "difficulty": "Medium",
+    "className": "questions.q295.Q295ClosestPoints",
+    "source": "src/questions/q295/Q295ClosestPoints.java",
+    "lesson": "docs/questions/q295.md",
+    "expectedOutput": "[[-1, 0], [1, 1]]\n"
+  }
+]

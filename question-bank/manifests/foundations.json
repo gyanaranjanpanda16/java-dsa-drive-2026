@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "title": "Print every array element in order",
+    "topic": "Arrays — first steps",
+    "difficulty": "Beginner",
+    "className": "questions.q001.Q001PrintElements",
+    "source": "src/questions/q001/Q001PrintElements.java",
+    "lesson": "docs/questions/q001.md",
+    "expectedOutput": "10 20 30\n"
+  },
+  {
+    "id": 2,
+    "title": "Print array indices beside values",
+    "topic": "Arrays — first steps",
+    "difficulty": "Beginner",
+    "className": "questions.q002.Q002PrintIndices",
+    "source": "src/questions/q002/Q002PrintIndices.java",
+    "lesson": "docs/questions/q002.md",
+    "expectedOutput": "0:4, 1:8\n"
+  },
+  {
+    "id": 3,
+    "title": "Print an array backwards without changing it",
+    "topic": "Arrays — first steps",
+    "difficulty": "Beginner",
+    "className": "questions.q003.Q003ReversePrint",
+    "source": "src/questions/q003/Q003ReversePrint.java",
+    "lesson": "docs/questions/q003.md",
+    "expectedOutput": "3 2 1\n"
+  },
+  {
+    "id": 4,
+    "title": "Select elements at even indices",
+    "topic": "Arrays — first steps",
+    "difficulty": "Beginner",
+    "className": "questions.q004.Q004EvenPositions",
+    "source": "src/questions/q004/Q004EvenPositions.java",
+    "lesson": "docs/questions/q004.md",
+    "expectedOutput": "[9, 7, 5]\n"
+  },
+  {
+    "id": 5,
+    "title": "Count elements with a loop",
+    "topic": "Java loops",
+    "difficulty": "Beginner",
+    "className": "questions.q005.Q005CountElements",
+    "source": "src/questions/q005/Q005CountElements.java",
+    "lesson": "docs/questions/q005.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 6,
+    "title": "Sum array values safely in long",
+    "topic": "Java arithmetic",
+    "difficulty": "Beginner",
+    "className": "questions.q006.Q006SumElements",
+    "source": "src/questions/q006/Q006SumElements.java",
+    "lesson": "docs/questions/q006.md",
+    "expectedOutput": "12\n"
+  },
+  {
+    "id": 7,
+    "title": "Count even values",
+    "topic": "Java conditionals",
+    "difficulty": "Beginner",
+    "className": "questions.q007.Q007CountEven",
+    "source": "src/questions/q007/Q007CountEven.java",
+    "lesson": "docs/questions/q007.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 8,
+    "title": "Count positive negative and zero values",
+    "topic": "Java conditionals",
+    "difficulty": "Beginner",
+    "className": "questions.q008.Q008SignCounts",
+    "source": "src/questions/q008/Q008SignCounts.java",
+    "lesson": "docs/questions/q008.md",
+    "expectedOutput": "[2, 1, 1]\n"
+  },
+  {
+    "id": 9,
+    "title": "Find the maximum without sorting",
+    "topic": "Array scans",
+    "difficulty": "Beginner",
+    "className": "questions.q009.Q009Maximum",
+    "source": "src/questions/q009/Q009Maximum.java",
+    "lesson": "docs/questions/q009.md",
+    "expectedOutput": "9\n"
+  },
+  {
+    "id": 10,
+    "title": "Find the minimum without sorting",
+    "topic": "Array scans",
+    "difficulty": "Beginner",
+    "className": "questions.q010.Q010Minimum",
+    "source": "src/questions/q010/Q010Minimum.java",
+    "lesson": "docs/questions/q010.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 11,
+    "title": "Compute an array average",
+    "topic": "Java numeric types",
+    "difficulty": "Beginner",
+    "className": "questions.q011.Q011Average",
+    "source": "src/questions/q011/Q011Average.java",
+    "lesson": "docs/questions/q011.md",
+    "expectedOutput": "1.5\n"
+  },
+  {
+    "id": 12,
+    "title": "Count decimal digits of an integer",
+    "topic": "Java arithmetic",
+    "difficulty": "Beginner",
+    "className": "questions.q012.Q012DigitCount",
+    "source": "src/questions/q012/Q012DigitCount.java",
+    "lesson": "docs/questions/q012.md",
+    "expectedOutput": "5\n"
+  },
+  {
+    "id": 13,
+    "title": "Sum decimal digits",
+    "topic": "Java arithmetic",
+    "difficulty": "Beginner",
+    "className": "questions.q013.Q013DigitSum",
+    "source": "src/questions/q013/Q013DigitSum.java",
+    "lesson": "docs/questions/q013.md",
+    "expectedOutput": "10\n"
+  },
+  {
+    "id": 14,
+    "title": "Reverse decimal digits into a long",
+    "topic": "Java arithmetic",
+    "difficulty": "Beginner",
+    "className": "questions.q014.Q014ReverseInteger",
+    "source": "src/questions/q014/Q014ReverseInteger.java",
+    "lesson": "docs/questions/q014.md",
+    "expectedOutput": "21\n"
+  },
+  {
+    "id": 15,
+    "title": "Check whether an integer is a palindrome",
+    "topic": "Java arithmetic",
+    "difficulty": "Beginner",
+    "className": "questions.q015.Q015IntegerPalindrome",
+    "source": "src/questions/q015/Q015IntegerPalindrome.java",
+    "lesson": "docs/questions/q015.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 16,
+    "title": "Calculate a bounded factorial",
+    "topic": "Java loops",
+    "difficulty": "Beginner",
+    "className": "questions.q016.Q016Factorial",
+    "source": "src/questions/q016/Q016Factorial.java",
+    "lesson": "docs/questions/q016.md",
+    "expectedOutput": "120\n"
+  },
+  {
+    "id": 17,
+    "title": "Find a Fibonacci number iteratively",
+    "topic": "Java state updates",
+    "difficulty": "Beginner",
+    "className": "questions.q017.Q017Fibonacci",
+    "source": "src/questions/q017/Q017Fibonacci.java",
+    "lesson": "docs/questions/q017.md",
+    "expectedOutput": "55\n"
+  },
+  {
+    "id": 18,
+    "title": "Check whether an integer is prime",
+    "topic": "Number theory basics",
+    "difficulty": "Beginner",
+    "className": "questions.q018.Q018PrimeCheck",
+    "source": "src/questions/q018/Q018PrimeCheck.java",
+    "lesson": "docs/questions/q018.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 19,
+    "title": "Compute the greatest common divisor",
+    "topic": "Number theory basics",
+    "difficulty": "Beginner",
+    "className": "questions.q019.Q019GreatestCommonDivisor",
+    "source": "src/questions/q019/Q019GreatestCommonDivisor.java",
+    "lesson": "docs/questions/q019.md",
+    "expectedOutput": "6\n"
+  },
+  {
+    "id": 20,
+    "title": "Compute the least common multiple",
+    "topic": "Number theory basics",
+    "difficulty": "Beginner",
+    "className": "questions.q020.Q020LeastCommonMultiple",
+    "source": "src/questions/q020/Q020LeastCommonMultiple.java",
+    "lesson": "docs/questions/q020.md",
+    "expectedOutput": "36\n"
+  },
+  {
+    "id": 21,
+    "title": "Compute a nonnegative integer power",
+    "topic": "Java arithmetic",
+    "difficulty": "Beginner",
+    "className": "questions.q021.Q021Power",
+    "source": "src/questions/q021/Q021Power.java",
+    "lesson": "docs/questions/q021.md",
+    "expectedOutput": "1024\n"
+  },
+  {
+    "id": 22,
+    "title": "Build a multiplication table",
+    "topic": "Java loops",
+    "difficulty": "Beginner",
+    "className": "questions.q022.Q022MultiplicationTable",
+    "source": "src/questions/q022/Q022MultiplicationTable.java",
+    "lesson": "docs/questions/q022.md",
+    "expectedOutput": "[3, 6, 9, 12]\n"
+  },
+  {
+    "id": 23,
+    "title": "Print a growing star triangle",
+    "topic": "Nested loops",
+    "difficulty": "Beginner",
+    "className": "questions.q023.Q023Triangle",
+    "source": "src/questions/q023/Q023Triangle.java",
+    "lesson": "docs/questions/q023.md",
+    "expectedOutput": "*\n**\n***\n"
+  },
+  {
+    "id": 24,
+    "title": "Print a rectangular matrix row by row",
+    "topic": "Matrices — first steps",
+    "difficulty": "Beginner",
+    "className": "questions.q024.Q024MatrixRows",
+    "source": "src/questions/q024/Q024MatrixRows.java",
+    "lesson": "docs/questions/q024.md",
+    "expectedOutput": "1 2\n3 4\n"
+  },
+  {
+    "id": 25,
+    "title": "Copy an array without aliasing",
+    "topic": "Java references",
+    "difficulty": "Beginner",
+    "className": "questions.q025.Q025ArrayCopy",
+    "source": "src/questions/q025/Q025ArrayCopy.java",
+    "lesson": "docs/questions/q025.md",
+    "expectedOutput": "[1, 2]\n"
+  },
+  {
+    "id": 26,
+    "title": "Find the first occurrence of a value",
+    "topic": "Array search",
+    "difficulty": "Beginner",
+    "className": "questions.q026.Q026FirstOccurrence",
+    "source": "src/questions/q026/Q026FirstOccurrence.java",
+    "lesson": "docs/questions/q026.md",
+    "expectedOutput": "0\n"
+  },
+  {
+    "id": 27,
+    "title": "Find the last occurrence of a value",
+    "topic": "Array search",
+    "difficulty": "Beginner",
+    "className": "questions.q027.Q027LastOccurrence",
+    "source": "src/questions/q027/Q027LastOccurrence.java",
+    "lesson": "docs/questions/q027.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 28,
+    "title": "Count occurrences of one target",
+    "topic": "Array counting",
+    "difficulty": "Beginner",
+    "className": "questions.q028.Q028TargetFrequency",
+    "source": "src/questions/q028/Q028TargetFrequency.java",
+    "lesson": "docs/questions/q028.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 29,
+    "title": "Find the second distinct maximum",
+    "topic": "Array extrema",
+    "difficulty": "Beginner",
+    "className": "questions.q029.Q029SecondDistinctMaximum",
+    "source": "src/questions/q029/Q029SecondDistinctMaximum.java",
+    "lesson": "docs/questions/q029.md",
+    "expectedOutput": "OptionalInt[7]\n"
+  },
+  {
+    "id": 30,
+    "title": "Count distinct values",
+    "topic": "Arrays and sets",
+    "difficulty": "Beginner",
+    "className": "questions.q030.Q030DistinctCount",
+    "source": "src/questions/q030/Q030DistinctCount.java",
+    "lesson": "docs/questions/q030.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 31,
+    "title": "Reverse an array by swapping endpoints",
+    "topic": "Two pointers",
+    "difficulty": "Beginner",
+    "className": "questions.q031.Q031ReverseArray",
+    "source": "src/questions/q031/Q031ReverseArray.java",
+    "lesson": "docs/questions/q031.md",
+    "expectedOutput": "[3, 2, 1]\n"
+  },
+  {
+    "id": 32,
+    "title": "Check nondecreasing array order",
+    "topic": "Array invariants",
+    "difficulty": "Beginner",
+    "className": "questions.q032.Q032SortedCheck",
+    "source": "src/questions/q032/Q032SortedCheck.java",
+    "lesson": "docs/questions/q032.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 33,
+    "title": "Rotate an array left by one",
+    "topic": "Array transformations",
+    "difficulty": "Beginner",
+    "className": "questions.q033.Q033RotateOne",
+    "source": "src/questions/q033/Q033RotateOne.java",
+    "lesson": "docs/questions/q033.md",
+    "expectedOutput": "[2, 3, 1]\n"
+  },
+  {
+    "id": 34,
+    "title": "Rotate right by any signed distance",
+    "topic": "Modular indexing",
+    "difficulty": "Beginner",
+    "className": "questions.q034.Q034RotateByK",
+    "source": "src/questions/q034/Q034RotateByK.java",
+    "lesson": "docs/questions/q034.md",
+    "expectedOutput": "[3, 4, 1, 2]\n"
+  },
+  {
+    "id": 35,
+    "title": "Move zeros to the end stably",
+    "topic": "Two pointers",
+    "difficulty": "Beginner",
+    "className": "questions.q035.Q035MoveZeros",
+    "source": "src/questions/q035/Q035MoveZeros.java",
+    "lesson": "docs/questions/q035.md",
+    "expectedOutput": "[1, 3, 0, 0]\n"
+  },
+  {
+    "id": 36,
+    "title": "Remove all occurrences while preserving order",
+    "topic": "Array compaction",
+    "difficulty": "Beginner",
+    "className": "questions.q036.Q036RemoveValue",
+    "source": "src/questions/q036/Q036RemoveValue.java",
+    "lesson": "docs/questions/q036.md",
+    "expectedOutput": "[1, 3]\n"
+  },
+  {
+    "id": 37,
+    "title": "Remove duplicates from sorted input",
+    "topic": "Sorted arrays",
+    "difficulty": "Beginner",
+    "className": "questions.q037.Q037SortedDeduplication",
+    "source": "src/questions/q037/Q037SortedDeduplication.java",
+    "lesson": "docs/questions/q037.md",
+    "expectedOutput": "[1, 2, 3]\n"
+  },
+  {
+    "id": 38,
+    "title": "Merge two sorted arrays",
+    "topic": "Two-pointer merging",
+    "difficulty": "Beginner",
+    "className": "questions.q038.Q038MergeSortedArrays",
+    "source": "src/questions/q038/Q038MergeSortedArrays.java",
+    "lesson": "docs/questions/q038.md",
+    "expectedOutput": "[1, 2, 3, 4]\n"
+  },
+  {
+    "id": 39,
+    "title": "Find the sorted distinct intersection",
+    "topic": "Sets and arrays",
+    "difficulty": "Beginner",
+    "className": "questions.q039.Q039DistinctIntersection",
+    "source": "src/questions/q039/Q039DistinctIntersection.java",
+    "lesson": "docs/questions/q039.md",
+    "expectedOutput": "[2, 3]\n"
+  },
+  {
+    "id": 40,
+    "title": "Find the sorted distinct union",
+    "topic": "Sets and arrays",
+    "difficulty": "Beginner",
+    "className": "questions.q040.Q040DistinctUnion",
+    "source": "src/questions/q040/Q040DistinctUnion.java",
+    "lesson": "docs/questions/q040.md",
+    "expectedOutput": "[1, 2, 3]\n"
+  },
+  {
+    "id": 41,
+    "title": "Find the missing value in zero through n",
+    "topic": "XOR invariants",
+    "difficulty": "Beginner",
+    "className": "questions.q041.Q041MissingNumber",
+    "source": "src/questions/q041/Q041MissingNumber.java",
+    "lesson": "docs/questions/q041.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 42,
+    "title": "Find the first value repeated during a scan",
+    "topic": "Hashing",
+    "difficulty": "Beginner",
+    "className": "questions.q042.Q042FirstRepeated",
+    "source": "src/questions/q042/Q042FirstRepeated.java",
+    "lesson": "docs/questions/q042.md",
+    "expectedOutput": "OptionalInt[1]\n"
+  },
+  {
+    "id": 43,
+    "title": "Find distinct indices adding to a target",
+    "topic": "Hash maps",
+    "difficulty": "Beginner",
+    "className": "questions.q043.Q043TwoSumIndices",
+    "source": "src/questions/q043/Q043TwoSumIndices.java",
+    "lesson": "docs/questions/q043.md",
+    "expectedOutput": "[0, 1]\n"
+  },
+  {
+    "id": 44,
+    "title": "Count index pairs with a target sum",
+    "topic": "Hash frequencies",
+    "difficulty": "Beginner",
+    "className": "questions.q044.Q044PairCount",
+    "source": "src/questions/q044/Q044PairCount.java",
+    "lesson": "docs/questions/q044.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 45,
+    "title": "Build a prefix-sum array",
+    "topic": "Prefix sums",
+    "difficulty": "Beginner",
+    "className": "questions.q045.Q045PrefixTotals",
+    "source": "src/questions/q045/Q045PrefixTotals.java",
+    "lesson": "docs/questions/q045.md",
+    "expectedOutput": "[0, 2, 1, 5]\n"
+  },
+  {
+    "id": 46,
+    "title": "Answer multiple half-open range-sum queries",
+    "topic": "Prefix sums",
+    "difficulty": "Beginner",
+    "className": "questions.q046.Q046BatchRangeSums",
+    "source": "src/questions/q046/Q046BatchRangeSums.java",
+    "lesson": "docs/questions/q046.md",
+    "expectedOutput": "[6, 5]\n"
+  },
+  {
+    "id": 47,
+    "title": "Find an equilibrium index",
+    "topic": "Prefix balance",
+    "difficulty": "Beginner",
+    "className": "questions.q047.Q047EquilibriumIndex",
+    "source": "src/questions/q047/Q047EquilibriumIndex.java",
+    "lesson": "docs/questions/q047.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 48,
+    "title": "Find values greater than all values to their right",
+    "topic": "Reverse scans",
+    "difficulty": "Beginner",
+    "className": "questions.q048.Q048Leaders",
+    "source": "src/questions/q048/Q048Leaders.java",
+    "lesson": "docs/questions/q048.md",
+    "expectedOutput": "[17, 5, 2]\n"
+  },
+  {
+    "id": 49,
+    "title": "Find a maximum nonempty contiguous sum",
+    "topic": "Kadane algorithm",
+    "difficulty": "Beginner",
+    "className": "questions.q049.Q049MaximumSubarray",
+    "source": "src/questions/q049/Q049MaximumSubarray.java",
+    "lesson": "docs/questions/q049.md",
+    "expectedOutput": "6\n"
+  },
+  {
+    "id": 50,
+    "title": "Find a minimum nonempty contiguous sum",
+    "topic": "Kadane variant",
+    "difficulty": "Beginner",
+    "className": "questions.q050.Q050MinimumSubarray",
+    "source": "src/questions/q050/Q050MinimumSubarray.java",
+    "lesson": "docs/questions/q050.md",
+    "expectedOutput": "-5\n"
+  },
+  {
+    "id": 51,
+    "title": "Find a maximum-product contiguous subarray",
+    "topic": "Array dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q051.Q051MaximumProduct",
+    "source": "src/questions/q051/Q051MaximumProduct.java",
+    "lesson": "docs/questions/q051.md",
+    "expectedOutput": "6\n"
+  },
+  {
+    "id": 52,
+    "title": "Compute products excluding each position",
+    "topic": "Prefix and suffix products",
+    "difficulty": "Medium",
+    "className": "questions.q052.Q052ProductExceptSelf",
+    "source": "src/questions/q052/Q052ProductExceptSelf.java",
+    "lesson": "docs/questions/q052.md",
+    "expectedOutput": "[24, 12, 8, 6]\n"
+  },
+  {
+    "id": 53,
+    "title": "Maximize profit from one buy and sell",
+    "topic": "Greedy array scan",
+    "difficulty": "Easy",
+    "className": "questions.q053.Q053SingleTradeProfit",
+    "source": "src/questions/q053/Q053SingleTradeProfit.java",
+    "lesson": "docs/questions/q053.md",
+    "expectedOutput": "5\n"
+  },
+  {
+    "id": 54,
+    "title": "Maximize profit with unlimited transactions",
+    "topic": "Greedy differences",
+    "difficulty": "Medium",
+    "className": "questions.q054.Q054UnlimitedTradeProfit",
+    "source": "src/questions/q054/Q054UnlimitedTradeProfit.java",
+    "lesson": "docs/questions/q054.md",
+    "expectedOutput": "7\n"
+  },
+  {
+    "id": 55,
+    "title": "Calculate water trapped between bars",
+    "topic": "Two pointers",
+    "difficulty": "Hard",
+    "className": "questions.q055.Q055TrappedRainwater",
+    "source": "src/questions/q055/Q055TrappedRainwater.java",
+    "lesson": "docs/questions/q055.md",
+    "expectedOutput": "6\n"
+  },
+  {
+    "id": 56,
+    "title": "Find the maximum water-container area",
+    "topic": "Two pointers",
+    "difficulty": "Medium",
+    "className": "questions.q056.Q056ContainerArea",
+    "source": "src/questions/q056/Q056ContainerArea.java",
+    "lesson": "docs/questions/q056.md",
+    "expectedOutput": "49\n"
+  },
+  {
+    "id": 57,
+    "title": "Find the largest sum of exactly k consecutive values",
+    "topic": "Sliding windows",
+    "difficulty": "Easy",
+    "className": "questions.q057.Q057FixedWindowSum",
+    "source": "src/questions/q057/Q057FixedWindowSum.java",
+    "lesson": "docs/questions/q057.md",
+    "expectedOutput": "9\n"
+  },
+  {
+    "id": 58,
+    "title": "Find a shortest positive-sum threshold window",
+    "topic": "Sliding windows",
+    "difficulty": "Medium",
+    "className": "questions.q058.Q058MinimumPositiveWindow",
+    "source": "src/questions/q058/Q058MinimumPositiveWindow.java",
+    "lesson": "docs/questions/q058.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 59,
+    "title": "Sort an array containing only zero one and two",
+    "topic": "Dutch national flag",
+    "difficulty": "Medium",
+    "className": "questions.q059.Q059SortThreeValues",
+    "source": "src/questions/q059/Q059SortThreeValues.java",
+    "lesson": "docs/questions/q059.md",
+    "expectedOutput": "[0, 0, 1, 1, 2, 2]\n"
+  },
+  {
+    "id": 60,
+    "title": "Place even values before odd values stably",
+    "topic": "Array partitioning",
+    "difficulty": "Beginner",
+    "className": "questions.q060.Q060StableParityPartition",
+    "source": "src/questions/q060/Q060StableParityPartition.java",
+    "lesson": "docs/questions/q060.md",
+    "expectedOutput": "[2, 4, 3, 1]\n"
+  },
+  {
+    "id": 61,
+    "title": "Find a value occurring more than half the time",
+    "topic": "Boyer Moore voting",
+    "difficulty": "Easy",
+    "className": "questions.q061.Q061MajorityElement",
+    "source": "src/questions/q061/Q061MajorityElement.java",
+    "lesson": "docs/questions/q061.md",
+    "expectedOutput": "OptionalInt[2]\n"
+  },
+  {
+    "id": 62,
+    "title": "Count all values in first-appearance order",
+    "topic": "Ordered hash maps",
+    "difficulty": "Beginner",
+    "className": "questions.q062.Q062FrequencyTable",
+    "source": "src/questions/q062/Q062FrequencyTable.java",
+    "lesson": "docs/questions/q062.md",
+    "expectedOutput": "{3=2, 1=1}\n"
+  },
+  {
+    "id": 63,
+    "title": "Find the longest run of ones",
+    "topic": "Array runs",
+    "difficulty": "Beginner",
+    "className": "questions.q063.Q063ConsecutiveOnes",
+    "source": "src/questions/q063/Q063ConsecutiveOnes.java",
+    "lesson": "docs/questions/q063.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 64,
+    "title": "Find the longest binary window after at most k zero flips",
+    "topic": "Sliding windows",
+    "difficulty": "Medium",
+    "className": "questions.q064.Q064OnesAfterFlips",
+    "source": "src/questions/q064/Q064OnesAfterFlips.java",
+    "lesson": "docs/questions/q064.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 65,
+    "title": "Count contiguous subarrays with an integer target sum",
+    "topic": "Prefix frequency maps",
+    "difficulty": "Medium",
+    "className": "questions.q065.Q065CountTargetSubarrays",
+    "source": "src/questions/q065/Q065CountTargetSubarrays.java",
+    "lesson": "docs/questions/q065.md",
+    "expectedOutput": "3\n"
+  }
+]
