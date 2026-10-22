@@ -1,83 +1,83 @@
 [
   {
     "id": 376,
-    "title": "Recursive Factorial",
-    "topic": "Recursion and backtracking",
+    "title": "Flatten nested integer lists in order",
+    "topic": "Recursive decomposition",
     "difficulty": "Easy",
-    "className": "questions.q376.Q376RecursiveFactorial",
-    "source": "src/questions/q376/Q376RecursiveFactorial.java",
+    "className": "questions.q376.Q376FlattenNestedLists",
+    "source": "src/questions/q376/Q376FlattenNestedLists.java",
     "lesson": "docs/questions/q376.md",
-    "expectedOutput": "120\n"
+    "expectedOutput": "[1, 2, 3, 4]\n"
   },
   {
     "id": 377,
-    "title": "Recursive Digit Sum",
-    "topic": "Recursion and backtracking",
-    "difficulty": "Easy",
-    "className": "questions.q377.Q377RecursiveDigitSum",
-    "source": "src/questions/q377/Q377RecursiveDigitSum.java",
+    "title": "Generate subsets without duplicate combinations",
+    "topic": "Backtracking with duplicate skipping",
+    "difficulty": "Medium",
+    "className": "questions.q377.Q377UniqueSubsets",
+    "source": "src/questions/q377/Q377UniqueSubsets.java",
     "lesson": "docs/questions/q377.md",
-    "expectedOutput": "14\n"
+    "expectedOutput": "[[], [1], [1, 2], [1, 2, 2], [2], [2, 2]]\n"
   },
   {
     "id": 378,
-    "title": "Recursive Array Total",
-    "topic": "Recursion and backtracking",
-    "difficulty": "Easy",
-    "className": "questions.q378.Q378RecursiveArrayTotal",
-    "source": "src/questions/q378/Q378RecursiveArrayTotal.java",
+    "title": "Insert arithmetic operators to reach a target",
+    "topic": "Backtracking with expression state",
+    "difficulty": "Hard",
+    "className": "questions.q378.Q378ExpressionOperators",
+    "source": "src/questions/q378/Q378ExpressionOperators.java",
     "lesson": "docs/questions/q378.md",
-    "expectedOutput": "9\n"
+    "expectedOutput": "[1*2*3, 1+2+3]\n"
   },
   {
     "id": 379,
-    "title": "Recursive String Reversal",
-    "topic": "Recursion and backtracking",
-    "difficulty": "Easy",
-    "className": "questions.q379.Q379RecursiveStringReversal",
-    "source": "src/questions/q379/Q379RecursiveStringReversal.java",
+    "title": "Partition values into k equal-sum subsets",
+    "topic": "Backtracking with symmetry pruning",
+    "difficulty": "Medium",
+    "className": "questions.q379.Q379EqualSumPartitions",
+    "source": "src/questions/q379/Q379EqualSumPartitions.java",
     "lesson": "docs/questions/q379.md",
-    "expectedOutput": "avaj\n"
-  },
-  {
-    "id": 380,
-    "title": "Recursive Palindrome Test",
-    "topic": "Recursion and backtracking",
-    "difficulty": "Easy",
-    "className": "questions.q380.Q380RecursivePalindromeTest",
-    "source": "src/questions/q380/Q380RecursivePalindromeTest.java",
-    "lesson": "docs/questions/q380.md",
     "expectedOutput": "true\n"
   },
   {
+    "id": 380,
+    "title": "Solve a Sudoku board using constraints and backtracking",
+    "topic": "Constraint search",
+    "difficulty": "Hard",
+    "className": "questions.q380.Q380SolveSudoku",
+    "source": "src/questions/q380/Q380SolveSudoku.java",
+    "lesson": "docs/questions/q380.md",
+    "expectedOutput": "[534678912, 672195348, 198342567, 859761423, 426853791, 713924856, 961537284, 287419635, 345286179]\n"
+  },
+  {
     "id": 381,
-    "title": "Fast Recursive Power",
-    "topic": "Recursion and backtracking",
+    "title": "Select the kth lexicographic permutation",
+    "topic": "Factorial blocks",
     "difficulty": "Medium",
-    "className": "questions.q381.Q381FastRecursivePower",
-    "source": "src/questions/q381/Q381FastRecursivePower.java",
+    "className": "questions.q381.Q381KthPermutation",
+    "source": "src/questions/q381/Q381KthPermutation.java",
     "lesson": "docs/questions/q381.md",
-    "expectedOutput": "1024.0\n"
+    "expectedOutput": "231\n"
   },
   {
     "id": 382,
-    "title": "Recursive Euclidean GCD",
-    "topic": "Recursion and backtracking",
-    "difficulty": "Easy",
-    "className": "questions.q382.Q382RecursiveEuclideanGCD",
-    "source": "src/questions/q382/Q382RecursiveEuclideanGCD.java",
+    "title": "Count pairs with left value greater than twice the right",
+    "topic": "Merge-sort counting",
+    "difficulty": "Hard",
+    "className": "questions.q382.Q382ReversePairs",
+    "source": "src/questions/q382/Q382ReversePairs.java",
     "lesson": "docs/questions/q382.md",
-    "expectedOutput": "6\n"
+    "expectedOutput": "2\n"
   },
   {
     "id": 383,
-    "title": "Recursive Binary Search",
-    "topic": "Recursion and backtracking",
-    "difficulty": "Easy",
-    "className": "questions.q383.Q383RecursiveBinarySearch",
-    "source": "src/questions/q383/Q383RecursiveBinarySearch.java",
+    "title": "Match a pattern to distinct variable-length substrings",
+    "topic": "Backtracking and bijections",
+    "difficulty": "Hard",
+    "className": "questions.q383.Q383SubstringPattern",
+    "source": "src/questions/q383/Q383SubstringPattern.java",
     "lesson": "docs/questions/q383.md",
-    "expectedOutput": "3\n"
+    "expectedOutput": "true\n"
   },
   {
     "id": 384,
@@ -151,13 +151,13 @@
   },
   {
     "id": 391,
-    "title": "Count Blocked Grid Paths Recursively",
-    "topic": "Recursion and backtracking",
+    "title": "Enumerate all simple paths through a maze",
+    "topic": "Backtracking on a grid",
     "difficulty": "Medium",
-    "className": "questions.q391.Q391CountBlockedGridPathsRecursively",
-    "source": "src/questions/q391/Q391CountBlockedGridPathsRecursively.java",
+    "className": "questions.q391.Q391SimpleMazePaths",
+    "source": "src/questions/q391/Q391SimpleMazePaths.java",
     "lesson": "docs/questions/q391.md",
-    "expectedOutput": "2\n"
+    "expectedOutput": "[DR, RD]\n"
   },
   {
     "id": 392,
@@ -811,13 +811,13 @@
   },
   {
     "id": 457,
-    "title": "Gas Station Circuit",
-    "topic": "Greedy and search on answer",
+    "title": "Minimum swaps to group all ones in a circular array",
+    "topic": "Circular sliding window",
     "difficulty": "Medium",
-    "className": "questions.q457.Q457GasStationCircuit",
-    "source": "src/questions/q457/Q457GasStationCircuit.java",
+    "className": "questions.q457.Q457CircularOnesSwaps",
+    "source": "src/questions/q457/Q457CircularOnesSwaps.java",
     "lesson": "docs/questions/q457.md",
-    "expectedOutput": "3\n"
+    "expectedOutput": "1\n"
   },
   {
     "id": 458,
@@ -831,13 +831,13 @@
   },
   {
     "id": 459,
-    "title": "Task Scheduler With Cooldown",
-    "topic": "Greedy and search on answer",
+    "title": "Rearrange a string so equal letters are never adjacent",
+    "topic": "Greedy max heap",
     "difficulty": "Medium",
-    "className": "questions.q459.Q459TaskSchedulerWithCooldown",
-    "source": "src/questions/q459/Q459TaskSchedulerWithCooldown.java",
+    "className": "questions.q459.Q459ReorganizeString",
+    "source": "src/questions/q459/Q459ReorganizeString.java",
     "lesson": "docs/questions/q459.md",
-    "expectedOutput": "8\n"
+    "expectedOutput": "aba\n"
   },
   {
     "id": 460,
@@ -861,13 +861,13 @@
   },
   {
     "id": 462,
-    "title": "Huffman Weighted Encoding Cost",
-    "topic": "Greedy and search on answer",
-    "difficulty": "Medium",
-    "className": "questions.q462.Q462HuffmanWeightedEncodingCost",
-    "source": "src/questions/q462/Q462HuffmanWeightedEncodingCost.java",
+    "title": "Maximize capital with at most k affordable projects",
+    "topic": "Greedy selection with two orderings",
+    "difficulty": "Hard",
+    "className": "questions.q462.Q462MaximizeCapital",
+    "source": "src/questions/q462/Q462MaximizeCapital.java",
     "lesson": "docs/questions/q462.md",
-    "expectedOutput": "224\n"
+    "expectedOutput": "4\n"
   },
   {
     "id": 463,
@@ -901,13 +901,13 @@
   },
   {
     "id": 466,
-    "title": "Minimum Simultaneous Platforms",
-    "topic": "Greedy and search on answer",
-    "difficulty": "Medium",
-    "className": "questions.q466.Q466MinimumSimultaneousPlatforms",
-    "source": "src/questions/q466/Q466MinimumSimultaneousPlatforms.java",
+    "title": "Find the shortest interval covering each query",
+    "topic": "Offline sorting and a min heap",
+    "difficulty": "Hard",
+    "className": "questions.q466.Q466MinimumCoveringInterval",
+    "source": "src/questions/q466/Q466MinimumCoveringInterval.java",
     "lesson": "docs/questions/q466.md",
-    "expectedOutput": "3\n"
+    "expectedOutput": "[3, 3, 1, 4]\n"
   },
   {
     "id": 467,
@@ -921,13 +921,13 @@
   },
   {
     "id": 468,
-    "title": "Minimum Refueling Stops",
-    "topic": "Greedy and search on answer",
-    "difficulty": "Hard",
-    "className": "questions.q468.Q468MinimumRefuelingStops",
-    "source": "src/questions/q468/Q468MinimumRefuelingStops.java",
+    "title": "Reach the furthest building with bricks and ladders",
+    "topic": "Greedy resource allocation",
+    "difficulty": "Medium",
+    "className": "questions.q468.Q468FurthestBuilding",
+    "source": "src/questions/q468/Q468FurthestBuilding.java",
     "lesson": "docs/questions/q468.md",
-    "expectedOutput": "2\n"
+    "expectedOutput": "4\n"
   },
   {
     "id": 469,

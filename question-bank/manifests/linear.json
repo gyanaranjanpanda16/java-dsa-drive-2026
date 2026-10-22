@@ -151,13 +151,13 @@
   },
   {
     "id": 141,
-    "title": "Count characters in sorted order",
-    "topic": "Strings",
-    "difficulty": "Easy",
-    "className": "questions.q141.Q141CharacterFrequencies",
-    "source": "src/questions/q141/Q141CharacterFrequencies.java",
+    "title": "Longest repeating-character window after replacements",
+    "topic": "Sliding window",
+    "difficulty": "Medium",
+    "className": "questions.q141.Q141CharacterReplacement",
+    "source": "src/questions/q141/Q141CharacterReplacement.java",
     "lesson": "docs/questions/q141.md",
-    "expectedOutput": "{a=3, b=1, n=2}\n"
+    "expectedOutput": "4\n"
   },
   {
     "id": 142,
@@ -171,13 +171,13 @@
   },
   {
     "id": 143,
-    "title": "Find the longest common prefix of strings",
-    "topic": "Strings",
+    "title": "Palindrome after at most one deletion",
+    "topic": "Two pointers",
     "difficulty": "Easy",
-    "className": "questions.q143.Q143CommonPrefix",
-    "source": "src/questions/q143/Q143CommonPrefix.java",
+    "className": "questions.q143.Q143OneDeletionPalindrome",
+    "source": "src/questions/q143/Q143OneDeletionPalindrome.java",
     "lesson": "docs/questions/q143.md",
-    "expectedOutput": "fl\n"
+    "expectedOutput": "true\n"
   },
   {
     "id": 144,

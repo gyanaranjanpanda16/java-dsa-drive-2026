@@ -178,9 +178,9 @@ The JSON manifests store exact sample outputs; the TSV index drives the Java tes
 | Q138 | [Find the longest common prefix](../docs/questions/q138.md) | Strings | Easy | [Code](../src/questions/q138/Q138CommonPrefix.java) |
 | Q139 | [Reverse word order and normalize spaces](../docs/questions/q139.md) | Strings | Easy | [Code](../src/questions/q139/Q139ReverseWords.java) |
 | Q140 | [Recognize a rotation of a string](../docs/questions/q140.md) | Strings | Easy | [Code](../src/questions/q140/Q140Rotation.java) |
-| Q141 | [Count characters in sorted order](../docs/questions/q141.md) | Strings | Easy | [Code](../src/questions/q141/Q141CharacterFrequencies.java) |
+| Q141 | [Longest repeating-character window after replacements](../docs/questions/q141.md) | Sliding window | Medium | [Code](../src/questions/q141/Q141CharacterReplacement.java) |
 | Q142 | [Find the longest substring without repeated chars](../docs/questions/q142.md) | Strings | Medium | [Code](../src/questions/q142/Q142LongestUnique.java) |
-| Q143 | [Find the longest common prefix of strings](../docs/questions/q143.md) | Strings | Easy | [Code](../src/questions/q143/Q143CommonPrefix.java) |
+| Q143 | [Palindrome after at most one deletion](../docs/questions/q143.md) | Two pointers | Easy | [Code](../src/questions/q143/Q143OneDeletionPalindrome.java) |
 | Q144 | [Find the first exact substring match](../docs/questions/q144.md) | Strings | Easy | [Code](../src/questions/q144/Q144NaiveSubstring.java) |
 | Q145 | [Find a substring using KMP failure links](../docs/questions/q145.md) | Strings | Medium | [Code](../src/questions/q145/Q145KmpSubstring.java) |
 | Q146 | [Encode runs as character-count pairs](../docs/questions/q146.md) | Strings | Easy | [Code](../src/questions/q146/Q146RunLength.java) |
@@ -373,7 +373,7 @@ The JSON manifests store exact sample outputs; the TSV index drives the Java tes
 | Q333 | [Find a minimum spanning-tree weight using sorted edges](../docs/questions/q333.md) | Graphs | Medium | [Code](../src/questions/q333/Q333KruskalMst.java) |
 | Q334 | [Process union and connectivity queries online](../docs/questions/q334.md) | Graphs | Medium | [Code](../src/questions/q334/Q334OnlineConnectivity.java) |
 | Q335 | [Return the last edge that closes an undirected cycle](../docs/questions/q335.md) | Graphs | Medium | [Code](../src/questions/q335/Q335RedundantEdge.java) |
-| Q336 | [Count provinces from a symmetric connection matrix](../docs/questions/q336.md) | Graphs | Medium | [Code](../src/questions/q336/Q336MatrixComponents.java) |
+| Q336 | [Merge accounts connected by shared email addresses](../docs/questions/q336.md) | Union-find and hashing | Medium | [Code](../src/questions/q336/Q336MergeAccounts.java) |
 | Q337 | [Count strongly connected components with Kosaraju](../docs/questions/q337.md) | Graphs | Medium | [Code](../src/questions/q337/Q337StrongComponents.java) |
 | Q338 | [Find edges whose removal disconnects an undirected graph](../docs/questions/q338.md) | Graphs | Medium | [Code](../src/questions/q338/Q338Bridges.java) |
 | Q339 | [Find vertices whose removal increases component count](../docs/questions/q339.md) | Graphs | Medium | [Code](../src/questions/q339/Q339ArticulationPoints.java) |
@@ -387,7 +387,7 @@ The JSON manifests store exact sample outputs; the TSV index drives the Java tes
 | Q347 | [Check whether dictionary words share a requested prefix](../docs/questions/q347.md) | Tries | Beginner | [Code](../src/questions/q347/Q347TriePrefixExists.java) |
 | Q348 | [Count dictionary occurrences under each prefix](../docs/questions/q348.md) | Tries | Beginner | [Code](../src/questions/q348/Q348TriePrefixCounts.java) |
 | Q349 | [Return the first k lexicographic completions of a prefix](../docs/questions/q349.md) | Tries | Medium | [Code](../src/questions/q349/Q349TrieAutocomplete.java) |
-| Q350 | [Find the longest prefix shared by all dictionary words](../docs/questions/q350.md) | Tries | Beginner | [Code](../src/questions/q350/Q350TrieCommonPrefix.java) |
+| Q350 | [Find all dictionary words on a letter board](../docs/questions/q350.md) | Trie and backtracking | Hard | [Code](../src/questions/q350/Q350BoardDictionarySearch.java) |
 | Q351 | [Delete exact words without damaging shared trie prefixes](../docs/questions/q351.md) | Tries | Medium | [Code](../src/questions/q351/Q351TrieDeletion.java) |
 | Q352 | [Find the shortest distinguishing prefix of each word](../docs/questions/q352.md) | Tries | Medium | [Code](../src/questions/q352/Q352UniqueWordPrefixes.java) |
 | Q353 | [Search dictionary patterns with single-character wildcards](../docs/questions/q353.md) | Trie backtracking | Medium | [Code](../src/questions/q353/Q353WildcardDictionary.java) |
@@ -413,14 +413,14 @@ The JSON manifests store exact sample outputs; the TSV index drives the Java tes
 | Q373 | [Answer static range minima in constant query time](../docs/questions/q373.md) | Sparse tables | Medium | [Code](../src/questions/q373/Q373SparseTableMinimum.java) |
 | Q374 | [Maintain range totals with square-root-sized blocks](../docs/questions/q374.md) | Square-root decomposition | Medium | [Code](../src/questions/q374/Q374SqrtDecomposition.java) |
 | Q375 | [Find kth-smallest values in static subarrays using persistent trees](../docs/questions/q375.md) | Persistent segment trees | Hard | [Code](../src/questions/q375/Q375PersistentRangeKth.java) |
-| Q376 | [Recursive Factorial](../docs/questions/q376.md) | Recursion and backtracking | Easy | [Code](../src/questions/q376/Q376RecursiveFactorial.java) |
-| Q377 | [Recursive Digit Sum](../docs/questions/q377.md) | Recursion and backtracking | Easy | [Code](../src/questions/q377/Q377RecursiveDigitSum.java) |
-| Q378 | [Recursive Array Total](../docs/questions/q378.md) | Recursion and backtracking | Easy | [Code](../src/questions/q378/Q378RecursiveArrayTotal.java) |
-| Q379 | [Recursive String Reversal](../docs/questions/q379.md) | Recursion and backtracking | Easy | [Code](../src/questions/q379/Q379RecursiveStringReversal.java) |
-| Q380 | [Recursive Palindrome Test](../docs/questions/q380.md) | Recursion and backtracking | Easy | [Code](../src/questions/q380/Q380RecursivePalindromeTest.java) |
-| Q381 | [Fast Recursive Power](../docs/questions/q381.md) | Recursion and backtracking | Medium | [Code](../src/questions/q381/Q381FastRecursivePower.java) |
-| Q382 | [Recursive Euclidean GCD](../docs/questions/q382.md) | Recursion and backtracking | Easy | [Code](../src/questions/q382/Q382RecursiveEuclideanGCD.java) |
-| Q383 | [Recursive Binary Search](../docs/questions/q383.md) | Recursion and backtracking | Easy | [Code](../src/questions/q383/Q383RecursiveBinarySearch.java) |
+| Q376 | [Flatten nested integer lists in order](../docs/questions/q376.md) | Recursive decomposition | Easy | [Code](../src/questions/q376/Q376FlattenNestedLists.java) |
+| Q377 | [Generate subsets without duplicate combinations](../docs/questions/q377.md) | Backtracking with duplicate skipping | Medium | [Code](../src/questions/q377/Q377UniqueSubsets.java) |
+| Q378 | [Insert arithmetic operators to reach a target](../docs/questions/q378.md) | Backtracking with expression state | Hard | [Code](../src/questions/q378/Q378ExpressionOperators.java) |
+| Q379 | [Partition values into k equal-sum subsets](../docs/questions/q379.md) | Backtracking with symmetry pruning | Medium | [Code](../src/questions/q379/Q379EqualSumPartitions.java) |
+| Q380 | [Solve a Sudoku board using constraints and backtracking](../docs/questions/q380.md) | Constraint search | Hard | [Code](../src/questions/q380/Q380SolveSudoku.java) |
+| Q381 | [Select the kth lexicographic permutation](../docs/questions/q381.md) | Factorial blocks | Medium | [Code](../src/questions/q381/Q381KthPermutation.java) |
+| Q382 | [Count pairs with left value greater than twice the right](../docs/questions/q382.md) | Merge-sort counting | Hard | [Code](../src/questions/q382/Q382ReversePairs.java) |
+| Q383 | [Match a pattern to distinct variable-length substrings](../docs/questions/q383.md) | Backtracking and bijections | Hard | [Code](../src/questions/q383/Q383SubstringPattern.java) |
 | Q384 | [Tower Of Hanoi Moves](../docs/questions/q384.md) | Recursion and backtracking | Medium | [Code](../src/questions/q384/Q384TowerOfHanoiMoves.java) |
 | Q385 | [Generate String Subsequences](../docs/questions/q385.md) | Recursion and backtracking | Medium | [Code](../src/questions/q385/Q385GenerateStringSubsequences.java) |
 | Q386 | [Generate Distinct Permutations](../docs/questions/q386.md) | Recursion and backtracking | Medium | [Code](../src/questions/q386/Q386GenerateDistinctPermutations.java) |
@@ -428,7 +428,7 @@ The JSON manifests store exact sample outputs; the TSV index drives the Java tes
 | Q388 | [Phone Keypad Combinations](../docs/questions/q388.md) | Recursion and backtracking | Medium | [Code](../src/questions/q388/Q388PhoneKeypadCombinations.java) |
 | Q389 | [Generate Balanced Parentheses](../docs/questions/q389.md) | Recursion and backtracking | Medium | [Code](../src/questions/q389/Q389GenerateBalancedParentheses.java) |
 | Q390 | [Count N Queens Placements](../docs/questions/q390.md) | Recursion and backtracking | Hard | [Code](../src/questions/q390/Q390CountNQueensPlacements.java) |
-| Q391 | [Count Blocked Grid Paths Recursively](../docs/questions/q391.md) | Recursion and backtracking | Medium | [Code](../src/questions/q391/Q391CountBlockedGridPathsRecursively.java) |
+| Q391 | [Enumerate all simple paths through a maze](../docs/questions/q391.md) | Backtracking on a grid | Medium | [Code](../src/questions/q391/Q391SimpleMazePaths.java) |
 | Q392 | [Word Search Backtracking](../docs/questions/q392.md) | Recursion and backtracking | Medium | [Code](../src/questions/q392/Q392WordSearchBacktracking.java) |
 | Q393 | [Combination Sum Unlimited](../docs/questions/q393.md) | Recursion and backtracking | Medium | [Code](../src/questions/q393/Q393CombinationSumUnlimited.java) |
 | Q394 | [Combination Sum Single Use](../docs/questions/q394.md) | Recursion and backtracking | Medium | [Code](../src/questions/q394/Q394CombinationSumSingleUse.java) |
@@ -494,18 +494,18 @@ The JSON manifests store exact sample outputs; the TSV index drives the Java tes
 | Q454 | [Lemonade Change](../docs/questions/q454.md) | Greedy and search on answer | Easy | [Code](../src/questions/q454/Q454LemonadeChange.java) |
 | Q455 | [Jump Game Reachability](../docs/questions/q455.md) | Greedy and search on answer | Medium | [Code](../src/questions/q455/Q455JumpGameReachability.java) |
 | Q456 | [Minimum Forward Jumps](../docs/questions/q456.md) | Greedy and search on answer | Medium | [Code](../src/questions/q456/Q456MinimumForwardJumps.java) |
-| Q457 | [Gas Station Circuit](../docs/questions/q457.md) | Greedy and search on answer | Medium | [Code](../src/questions/q457/Q457GasStationCircuit.java) |
+| Q457 | [Minimum swaps to group all ones in a circular array](../docs/questions/q457.md) | Circular sliding window | Medium | [Code](../src/questions/q457/Q457CircularOnesSwaps.java) |
 | Q458 | [Minimum Candy Allocation](../docs/questions/q458.md) | Greedy and search on answer | Hard | [Code](../src/questions/q458/Q458MinimumCandyAllocation.java) |
-| Q459 | [Task Scheduler With Cooldown](../docs/questions/q459.md) | Greedy and search on answer | Medium | [Code](../src/questions/q459/Q459TaskSchedulerWithCooldown.java) |
+| Q459 | [Rearrange a string so equal letters are never adjacent](../docs/questions/q459.md) | Greedy max heap | Medium | [Code](../src/questions/q459/Q459ReorganizeString.java) |
 | Q460 | [Partition Labels](../docs/questions/q460.md) | Greedy and search on answer | Medium | [Code](../src/questions/q460/Q460PartitionLabels.java) |
 | Q461 | [Queue Reconstruction By Height](../docs/questions/q461.md) | Greedy and search on answer | Medium | [Code](../src/questions/q461/Q461QueueReconstructionByHeight.java) |
-| Q462 | [Huffman Weighted Encoding Cost](../docs/questions/q462.md) | Greedy and search on answer | Medium | [Code](../src/questions/q462/Q462HuffmanWeightedEncodingCost.java) |
+| Q462 | [Maximize capital with at most k affordable projects](../docs/questions/q462.md) | Greedy selection with two orderings | Hard | [Code](../src/questions/q462/Q462MaximizeCapital.java) |
 | Q463 | [Maximum Units On A Truck](../docs/questions/q463.md) | Greedy and search on answer | Easy | [Code](../src/questions/q463/Q463MaximumUnitsOnATruck.java) |
 | Q464 | [Fractional Knapsack](../docs/questions/q464.md) | Greedy and search on answer | Medium | [Code](../src/questions/q464/Q464FractionalKnapsack.java) |
 | Q465 | [Deadline Job Sequencing Profit](../docs/questions/q465.md) | Greedy and search on answer | Medium | [Code](../src/questions/q465/Q465DeadlineJobSequencingProfit.java) |
-| Q466 | [Minimum Simultaneous Platforms](../docs/questions/q466.md) | Greedy and search on answer | Medium | [Code](../src/questions/q466/Q466MinimumSimultaneousPlatforms.java) |
+| Q466 | [Find the shortest interval covering each query](../docs/questions/q466.md) | Offline sorting and a min heap | Hard | [Code](../src/questions/q466/Q466MinimumCoveringInterval.java) |
 | Q467 | [Minimum Rescue Boats](../docs/questions/q467.md) | Greedy and search on answer | Medium | [Code](../src/questions/q467/Q467MinimumRescueBoats.java) |
-| Q468 | [Minimum Refueling Stops](../docs/questions/q468.md) | Greedy and search on answer | Hard | [Code](../src/questions/q468/Q468MinimumRefuelingStops.java) |
+| Q468 | [Reach the furthest building with bricks and ladders](../docs/questions/q468.md) | Greedy resource allocation | Medium | [Code](../src/questions/q468/Q468FurthestBuilding.java) |
 | Q469 | [Minimum Banana Eating Speed](../docs/questions/q469.md) | Greedy and search on answer | Medium | [Code](../src/questions/q469/Q469MinimumBananaEatingSpeed.java) |
 | Q470 | [Ship Packages Within Days](../docs/questions/q470.md) | Greedy and search on answer | Medium | [Code](../src/questions/q470/Q470ShipPackagesWithinDays.java) |
 | Q471 | [Minimize the largest sum among k contiguous groups](../docs/questions/q471.md) | Binary search on answer | Hard | [Code](../src/questions/q471/Q471SplitArrayMinimax.java) |

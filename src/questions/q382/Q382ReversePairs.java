@@ -1,0 +1,43 @@
+package questions.q382; // Isolate the numbered answer so it can be studied and run independently.
+
+import java.util.*;
+import java.math.BigInteger;
+import questions.support.Check;
+import questions.support.Display;
+
+/**
+ * Count pairs with left value greater than twice the right.
+ * Contract: Count pairs i<j satisfying values[i] > 2*values[j], allowing any int values. Return long and preserve the input array. The comparison is strict.
+ * Why: A baseline examines all n(n-1)/2 pairs. Split by original position: recursion counts pairs within each half; the merge stage counts cross-half pairs. Once both halves are sorted, right-side values satisfying left>2*right form a prefix. A moving pointer counts that prefix for each left value. Sorting is safe inside each half because every original left-half position still precedes every original right-half position. Ordinary inversion counting has a different inequality and cannot be copied unchanged.
+ * Cost: O(n log n) time, O(n) merge-buffer and copied-input space, plus O(log n) recursion. Counting and merging each level both scan linearly.
+ */
+public final class Q382ReversePairs { // Keep the algorithm, demonstration, and boundary checks together.
+    private Q382ReversePairs() { } // Only static entry points are needed for this exercise.
+    public static long solve(int[] values) { // Preserve the user's original positional data.
+        int[] copy=values.clone(); // Merge sort is allowed to reorder only this private copy.
+        return count(copy,new int[copy.length],0,copy.length); // Use half-open ranges consistently.
+    }
+    private static long count(int[] a,int[] work,int low,int high) { // Return pair count while sorting this range.
+        if(high-low<2) return 0; // Fewer than two positions cannot make a pair.
+        int middle=low+(high-low)/2; // Split without adding two potentially large indices.
+        long answer=count(a,work,low,middle)+count(a,work,middle,high); // Count pairs wholly inside each half first.
+        int right=middle; // Matching right values form a growing prefix of the sorted right half.
+        for(int left=low;left<middle;left++) { // Increasing left values cannot shorten that matching prefix.
+            while(right<high&&(long)a[left]>2L*a[right]) right++; // Widen before multiplication to support both int extremes.
+            answer+=right-middle; // Every consumed right-half value forms one cross pair with this left value.
+        }
+        int left=low; right=middle; int out=low; // Reset pointers for the ordinary sorted merge.
+        while(left<middle||right<high) work[out++]=right==high||(left<middle&&a[left]<=a[right])?a[left++]:a[right++]; // Take the smaller available head.
+        System.arraycopy(work,low,a,low,high-low); // Make this entire range sorted for its parent's counting step.
+        return answer; // Each pair belongs to exactly one within-half or cross-half category.
+    }
+    public static void main(String[] args) { // Run the example explained in the matching lesson.
+        System.out.println(Display.of(solve(new int[]{1,3,2,3,1}))); // Format arrays and scalar results as readable values.
+    }
+    public static void selfTest() { // Check independently expected results, not just successful execution.
+        Check.equal(solve(new int[]{1,3,2,3,1}), 2L); // Strict twice-value comparison.
+        Check.equal(solve(new int[]{-5,-5}), 1L); // Equal negative numbers can qualify.
+        Check.equal(solve(new int[]{Integer.MAX_VALUE,Integer.MIN_VALUE}), 1L); // Doubling must use long.
+        Check.equal(solve(new int[]{}), 0L); // No pairs.
+    }
+}

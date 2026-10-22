@@ -851,13 +851,13 @@
   },
   {
     "id": 336,
-    "title": "Count provinces from a symmetric connection matrix",
-    "topic": "Graphs",
+    "title": "Merge accounts connected by shared email addresses",
+    "topic": "Union-find and hashing",
     "difficulty": "Medium",
-    "className": "questions.q336.Q336MatrixComponents",
-    "source": "src/questions/q336/Q336MatrixComponents.java",
+    "className": "questions.q336.Q336MergeAccounts",
+    "source": "src/questions/q336/Q336MergeAccounts.java",
     "lesson": "docs/questions/q336.md",
-    "expectedOutput": "2\n"
+    "expectedOutput": "[[Ada, a@x, b@x, c@x], [Lin, z@x]]\n"
   },
   {
     "id": 337,
@@ -991,13 +991,13 @@
   },
   {
     "id": 350,
-    "title": "Find the longest prefix shared by all dictionary words",
-    "topic": "Tries",
-    "difficulty": "Beginner",
-    "className": "questions.q350.Q350TrieCommonPrefix",
-    "source": "src/questions/q350/Q350TrieCommonPrefix.java",
+    "title": "Find all dictionary words on a letter board",
+    "topic": "Trie and backtracking",
+    "difficulty": "Hard",
+    "className": "questions.q350.Q350BoardDictionarySearch",
+    "source": "src/questions/q350/Q350BoardDictionarySearch.java",
     "lesson": "docs/questions/q350.md",
-    "expectedOutput": "fl\n"
+    "expectedOutput": "[ab, abdc, ac]\n"
   },
   {
     "id": 351,
