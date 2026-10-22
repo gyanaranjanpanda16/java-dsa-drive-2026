@@ -948,5 +948,305 @@
     "source": "src/questions/q470/Q470ShipPackagesWithinDays.java",
     "lesson": "docs/questions/q470.md",
     "expectedOutput": "15\n"
+  },
+  {
+    "id": 471,
+    "title": "Minimize the largest sum among k contiguous groups",
+    "topic": "Binary search on answer",
+    "difficulty": "Hard",
+    "className": "questions.q471.Q471SplitArrayMinimax",
+    "source": "src/questions/q471/Q471SplitArrayMinimax.java",
+    "lesson": "docs/questions/q471.md",
+    "expectedOutput": "18\n"
+  },
+  {
+    "id": 472,
+    "title": "Place k items to maximize their minimum separation",
+    "topic": "Binary search and greedy placement",
+    "difficulty": "Medium",
+    "className": "questions.q472.Q472MaximizeSeparation",
+    "source": "src/questions/q472/Q472MaximizeSeparation.java",
+    "lesson": "docs/questions/q472.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 473,
+    "title": "Find the kth entry in a multiplication table",
+    "topic": "Value-domain binary search",
+    "difficulty": "Hard",
+    "className": "questions.q473.Q473MultiplicationTableKth",
+    "source": "src/questions/q473/Q473MultiplicationTableKth.java",
+    "lesson": "docs/questions/q473.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 474,
+    "title": "Find the earliest time machines finish a target workload",
+    "topic": "Monotone production counts",
+    "difficulty": "Medium",
+    "className": "questions.q474.Q474ParallelProductionTime",
+    "source": "src/questions/q474/Q474ParallelProductionTime.java",
+    "lesson": "docs/questions/q474.md",
+    "expectedOutput": "6\n"
+  },
+  {
+    "id": 475,
+    "title": "Find the median of a matrix with sorted rows",
+    "topic": "Binary search over values",
+    "difficulty": "Hard",
+    "className": "questions.q475.Q475RowSortedMedian",
+    "source": "src/questions/q475/Q475RowSortedMedian.java",
+    "lesson": "docs/questions/q475.md",
+    "expectedOutput": "5\n"
+  },
+  {
+    "id": 476,
+    "title": "Count one bits by clearing the lowest set bit",
+    "topic": "Bit manipulation",
+    "difficulty": "Easy",
+    "className": "questions.q476.Q476SetBitCount",
+    "source": "src/questions/q476/Q476SetBitCount.java",
+    "lesson": "docs/questions/q476.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 477,
+    "title": "Recognize a positive power of two",
+    "topic": "Bit manipulation",
+    "difficulty": "Easy",
+    "className": "questions.q477.Q477PowerOfTwo",
+    "source": "src/questions/q477/Q477PowerOfTwo.java",
+    "lesson": "docs/questions/q477.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 478,
+    "title": "Recover one unpaired value with XOR",
+    "topic": "XOR cancellation",
+    "difficulty": "Easy",
+    "className": "questions.q478.Q478SingleAmongPairs",
+    "source": "src/questions/q478/Q478SingleAmongPairs.java",
+    "lesson": "docs/questions/q478.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 479,
+    "title": "Recover two distinct unpaired values with XOR partitioning",
+    "topic": "Bit partitions",
+    "difficulty": "Medium",
+    "className": "questions.q479.Q479TwoSingles",
+    "source": "src/questions/q479/Q479TwoSingles.java",
+    "lesson": "docs/questions/q479.md",
+    "expectedOutput": "[3, 5]\n"
+  },
+  {
+    "id": 480,
+    "title": "Recover a singleton when every other value occurs three times",
+    "topic": "Bit-state counters",
+    "difficulty": "Medium",
+    "className": "questions.q480.Q480SingleAmongTriples",
+    "source": "src/questions/q480/Q480SingleAmongTriples.java",
+    "lesson": "docs/questions/q480.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 481,
+    "title": "Compute the bitwise AND of an inclusive integer range",
+    "topic": "Common binary prefixes",
+    "difficulty": "Medium",
+    "className": "questions.q481.Q481RangeBitwiseAnd",
+    "source": "src/questions/q481/Q481RangeBitwiseAnd.java",
+    "lesson": "docs/questions/q481.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 482,
+    "title": "Reverse all32 bits and return their unsigned value",
+    "topic": "Bit manipulation",
+    "difficulty": "Easy",
+    "className": "questions.q482.Q482ReverseBits",
+    "source": "src/questions/q482/Q482ReverseBits.java",
+    "lesson": "docs/questions/q482.md",
+    "expectedOutput": "2147483648\n"
+  },
+  {
+    "id": 483,
+    "title": "Generate a sequence whose adjacent bitmasks differ by one bit",
+    "topic": "Gray-code construction",
+    "difficulty": "Medium",
+    "className": "questions.q483.Q483GrayCode",
+    "source": "src/questions/q483/Q483GrayCode.java",
+    "lesson": "docs/questions/q483.md",
+    "expectedOutput": "[0, 1, 3, 2]\n"
+  },
+  {
+    "id": 484,
+    "title": "Enumerate every submask of a bitmask exactly once",
+    "topic": "Subset bit operations",
+    "difficulty": "Medium",
+    "className": "questions.q484.Q484EnumerateSubmasks",
+    "source": "src/questions/q484/Q484EnumerateSubmasks.java",
+    "lesson": "docs/questions/q484.md",
+    "expectedOutput": "[5, 4, 1, 0]\n"
+  },
+  {
+    "id": 485,
+    "title": "Find a minimum round trip with subset dynamic programming",
+    "topic": "Bitmask dynamic programming",
+    "difficulty": "Hard",
+    "className": "questions.q485.Q485TravelingSalesperson",
+    "source": "src/questions/q485/Q485TravelingSalesperson.java",
+    "lesson": "docs/questions/q485.md",
+    "expectedOutput": "45\n"
+  },
+  {
+    "id": 486,
+    "title": "Generate every prime up to a limit",
+    "topic": "Sieve of Eratosthenes",
+    "difficulty": "Easy",
+    "className": "questions.q486.Q486PrimeSieve",
+    "source": "src/questions/q486/Q486PrimeSieve.java",
+    "lesson": "docs/questions/q486.md",
+    "expectedOutput": "[2, 3, 5, 7]\n"
+  },
+  {
+    "id": 487,
+    "title": "Factor a positive integer into prime factors",
+    "topic": "Trial division",
+    "difficulty": "Easy",
+    "className": "questions.q487.Q487PrimeFactorization",
+    "source": "src/questions/q487/Q487PrimeFactorization.java",
+    "lesson": "docs/questions/q487.md",
+    "expectedOutput": "[2, 2, 2, 3, 3]\n"
+  },
+  {
+    "id": 488,
+    "title": "Raise a value to a large power modulo m",
+    "topic": "Exponentiation by squaring",
+    "difficulty": "Medium",
+    "className": "questions.q488.Q488ModularExponentiation",
+    "source": "src/questions/q488/Q488ModularExponentiation.java",
+    "lesson": "docs/questions/q488.md",
+    "expectedOutput": "24\n"
+  },
+  {
+    "id": 489,
+    "title": "Find a modular inverse using extended Euclid",
+    "topic": "Number theory",
+    "difficulty": "Medium",
+    "className": "questions.q489.Q489ModularInverse",
+    "source": "src/questions/q489/Q489ModularInverse.java",
+    "lesson": "docs/questions/q489.md",
+    "expectedOutput": "OptionalLong[4]\n"
+  },
+  {
+    "id": 490,
+    "title": "Compute an exact combination count without factorial overflow",
+    "topic": "BigInteger arithmetic",
+    "difficulty": "Medium",
+    "className": "questions.q490.Q490BinomialCoefficient",
+    "source": "src/questions/q490/Q490BinomialCoefficient.java",
+    "lesson": "docs/questions/q490.md",
+    "expectedOutput": "2598960\n"
+  },
+  {
+    "id": 491,
+    "title": "Count binary-tree shapes with exact Catalan numbers",
+    "topic": "Combinatorial dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q491.Q491CatalanNumbers",
+    "source": "src/questions/q491/Q491CatalanNumbers.java",
+    "lesson": "docs/questions/q491.md",
+    "expectedOutput": "5\n"
+  },
+  {
+    "id": 492,
+    "title": "Compute a huge-index Fibonacci residue with matrix powers",
+    "topic": "Matrix exponentiation",
+    "difficulty": "Medium",
+    "className": "questions.q492.Q492MatrixFibonacci",
+    "source": "src/questions/q492/Q492MatrixFibonacci.java",
+    "lesson": "docs/questions/q492.md",
+    "expectedOutput": "55\n"
+  },
+  {
+    "id": 493,
+    "title": "Sample k stream values uniformly with bounded storage",
+    "topic": "Randomized streaming",
+    "difficulty": "Medium",
+    "className": "questions.q493.Q493ReservoirSample",
+    "source": "src/questions/q493/Q493ReservoirSample.java",
+    "lesson": "docs/questions/q493.md",
+    "expectedOutput": "[3, 2]\n"
+  },
+  {
+    "id": 494,
+    "title": "Support insert remove and uniform random lookup",
+    "topic": "Array plus hash index",
+    "difficulty": "Medium",
+    "className": "questions.q494.Q494RandomizedSet",
+    "source": "src/questions/q494/Q494RandomizedSet.java",
+    "lesson": "docs/questions/q494.md",
+    "expectedOutput": "[true, false, true, true, 9]\n"
+  },
+  {
+    "id": 495,
+    "title": "Implement an LRU cache with a hash map and linked nodes",
+    "topic": "Cache design",
+    "difficulty": "Hard",
+    "className": "questions.q495.Q495ManualLruCache",
+    "source": "src/questions/q495/Q495ManualLruCache.java",
+    "lesson": "docs/questions/q495.md",
+    "expectedOutput": "[10, null, 30]\n"
+  },
+  {
+    "id": 496,
+    "title": "Evict the least frequently used cache entry with LRU ties",
+    "topic": "Cache frequency buckets",
+    "difficulty": "Hard",
+    "className": "questions.q496.Q496LfuCache",
+    "source": "src/questions/q496/Q496LfuCache.java",
+    "lesson": "docs/questions/q496.md",
+    "expectedOutput": "[10, null, 30, null, 30, 40]\n"
+  },
+  {
+    "id": 497,
+    "title": "Expire cache entries without deleting newer replacements",
+    "topic": "Hash map and expiration heap",
+    "difficulty": "Hard",
+    "className": "questions.q497.Q497ExpiringCache",
+    "source": "src/questions/q497/Q497ExpiringCache.java",
+    "lesson": "docs/questions/q497.md",
+    "expectedOutput": "[20, null]\n"
+  },
+  {
+    "id": 498,
+    "title": "Limit arrivals with a periodically refilled token bucket",
+    "topic": "Rate-limiter simulation",
+    "difficulty": "Medium",
+    "className": "questions.q498.Q498TokenBucket",
+    "source": "src/questions/q498/Q498TokenBucket.java",
+    "lesson": "docs/questions/q498.md",
+    "expectedOutput": "[true, true, false, false, true, true]\n"
+  },
+  {
+    "id": 499,
+    "title": "Build an approximate membership filter with no false negatives",
+    "topic": "Bloom filters",
+    "difficulty": "Medium",
+    "className": "questions.q499.Q499BloomMembership",
+    "source": "src/questions/q499/Q499BloomMembership.java",
+    "lesson": "docs/questions/q499.md",
+    "expectedOutput": "[true, true]\n"
+  },
+  {
+    "id": 500,
+    "title": "Read historical array values without copying every snapshot",
+    "topic": "Versioned histories and binary search",
+    "difficulty": "Hard",
+    "className": "questions.q500.Q500SnapshotArray",
+    "source": "src/questions/q500/Q500SnapshotArray.java",
+    "lesson": "docs/questions/q500.md",
+    "expectedOutput": "[0, 5]\n"
   }
 ]

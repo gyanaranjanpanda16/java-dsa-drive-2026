@@ -1,0 +1,54 @@
+package questions.q375; // Isolate the numbered answer so it can be studied and run independently.
+
+import java.util.*;
+import java.math.BigInteger;
+import questions.support.Check;
+import questions.support.Display;
+
+/**
+ * Find kth-smallest values in static subarrays using persistent trees.
+ * Contract: For a static int array, answer valid queries[left,right,k] for the one-based kth-smallest value in nonempty half-open subarray[left,right). Duplicates count separately.
+ * Why: Build one frequency-tree version per input prefix, copying only the root-to-leaf path of each insertion. Subtract node counts in versions right and left to obtain the subarray frequency distribution. Descend left if its count covers k, otherwise skip it. This combines versioned data with efficient range order statistics.
+ * Cost: O(n log(n+1)+q log(u+1)) time and O(n log(u+1)) persistent nodes, where u is the number of distinct values.
+ */
+public final class Q375PersistentRangeKth { // Keep the algorithm, demonstration, and boundary checks together.
+    private Q375PersistentRangeKth() { } // Only static entry points are needed for this exercise.
+    private static final class Node { // An immutable node can safely be shared by many prefix versions.
+        final Node left,right; final int count; // Counts represent occurrences, including duplicates.
+        Node(Node left,Node right,int count) { this.left=left; this.right=right; this.count=count; } // Initialize one permanent version node.
+    }
+    private static int count(Node node) { return node==null?0:node.count; } // Null represents an all-zero frequency subtree.
+    private static Node insert(Node old,int low,int high,int rank) { // Copy only the path changed by one inserted occurrence.
+        if(high-low==1) return new Node(null,null,count(old)+1); // A leaf gains one occurrence without modifying its predecessor.
+        int middle=low+(high-low)/2; Node left=old==null?null:old.left,right=old==null?null:old.right; // Reuse untouched old children by reference.
+        if(rank<middle) left=insert(left,low,middle,rank); else right=insert(right,middle,high,rank); // Only one child path needs fresh nodes.
+        return new Node(left,right,count(left)+count(right)); // The new parent connects one changed child and one shared child.
+    }
+    private static int kth(Node before,Node after,int low,int high,int k) { // Query the frequency difference between two prefix versions.
+        if(high-low==1) return low; // The remaining rank leaf contains the requested occurrence.
+        Node bl=before==null?null:before.left,al=after==null?null:after.left; // Missing version nodes contribute zero counts.
+        int leftCount=count(al)-count(bl),middle=low+(high-low)/2; // Prefix cancellation isolates subarray occurrences in the lower half.
+        if(k<=leftCount) return kth(bl,al,low,middle,k); // The desired rank lies inside the lower values.
+        return kth(before==null?null:before.right,after==null?null:after.right,middle,high,k-leftCount); // Skip all lower occurrences before descending right.
+    }
+    public static int[] solve(int[] a,int[][] queries) { // Compress values so tree depth depends on distinct ranks, not numeric magnitude.
+        int[] sorted=a.clone(); Arrays.sort(sorted); int unique=0; // Sorting establishes the rank-to-original-value mapping.
+        for(int value:sorted) if(unique==0||value!=sorted[unique-1]) sorted[unique++]=value; // Merge equal values into one frequency leaf.
+        Node[] versions=new Node[a.length+1]; // Version zero is the empty prefix, represented by null.
+        for(int i=0;i<a.length;i++) versions[i+1]=insert(versions[i],0,unique,Arrays.binarySearch(sorted,0,unique,a[i])); // Append one immutable prefix version per input occurrence.
+        int[] result=new int[queries.length]; // Queries can arrive in any order because versions never change.
+        for(int i=0;i<queries.length;i++) { // Each valid rank is resolved by two roots and one logarithmic descent.
+            int[] q=queries[i]; if(q[0]<0||q[1]>a.length||q[0]>=q[1]||q[2]<1||q[2]>q[1]-q[0]) throw new IllegalArgumentException("invalid range or rank"); // Reject undefined order statistics.
+            result[i]=sorted[kth(versions[q[0]],versions[q[1]],0,unique,q[2])]; // Convert the selected compressed rank back to its original integer.
+        }
+        return result; // Earlier prefix versions remain unchanged after every later insertion.
+    }
+    public static void main(String[] args) { // Run the example explained in the matching lesson.
+        System.out.println(Display.of(solve(new int[]{5,1,4,1},new int[][]{{1,4,2},{0,4,4}}))); // Format arrays and scalar results as readable values.
+    }
+    public static void selfTest() { // Check independently expected results, not just successful execution.
+        Check.equal(solve(new int[]{5,1,4,1},new int[][]{{1,4,2},{0,4,4}}), new int[]{1,5}); // Repeated values and maximum rank.
+        Check.equal(solve(new int[]{-3,7},new int[][]{{0,1,1},{1,2,1}}), new int[]{-3,7}); // Single-element ranges use separate versions.
+        Check.equal(solve(new int[]{},new int[][]{}), new int[]{}); // No order-statistic query on empty input.
+    }
+}

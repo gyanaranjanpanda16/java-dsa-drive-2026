@@ -8,9 +8,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = [
     ("foundations", "Java basics, arrays, matrices, and Java collection APIs"),
-    ("linear", "Strings, linked lists, stacks, queues, and initial hashing problems"),
-    ("structures", "Trees, BSTs, heaps, graphs, and initial tries"),
-    ("algorithms", "Recursion, backtracking, dynamic programming, greedy algorithms, and binary search"),
+    ("linear", "Strings, linked lists, stacks, queues, hashing, searching, and sorting"),
+    ("structures", "Trees, BSTs, heaps, graphs, tries, Fenwick trees, and segment trees"),
+    ("algorithms", "Recursion, backtracking, DP, greedy algorithms, binary search, bits, mathematics, and design"),
 ]
 
 
@@ -47,6 +47,7 @@ for row in rows:
     marker = 'The exact printed output is recorded in the [question-bank index](../../question-bank/README.md) and checked automatically.'
     if marker in text:
         text = text.replace(marker, 'Expected printed output (verified):\n\n```text\n' + row['expectedOutput'].rstrip('\n') + '\n```')
+    text = text.replace('<!-- VERIFIED_OUTPUT -->', 'Expected printed output (verified):\n\n```text\n' + row['expectedOutput'].rstrip('\n') + '\n```')
     output = re.search(r'```text\n(.*?)\n```', text, re.S)
     assert output and output.group(1) == row['expectedOutput'].rstrip('\n'), f"Lesson sample differs: {lesson}"
     lesson.write_text(text)
