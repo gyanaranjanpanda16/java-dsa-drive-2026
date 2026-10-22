@@ -1,0 +1,46 @@
+package questions.q362; // Isolate the numbered answer so it can be studied and run independently.
+
+import java.util.*;
+import java.math.BigInteger;
+import questions.support.Check;
+import questions.support.Display;
+
+/**
+ * Answer range totals while assigning individual values.
+ * Contract: Operations[0,index,newValue] assign an int value;[1,left,right] query half-open sum[left,right). All bounds are valid; intermediate totals fit long.
+ * Why: A Fenwick update is additive, so assignment must propagate newValue-oldValue. Any range total is prefix(right)-prefix(left), cancelling the unwanted beginning. Useful for dashboards with corrections to individual records.
+ * Cost: O((n+q) log(n+1)) time and O(n) working space.
+ */
+public final class Q362FenwickRangeAssignments { // Keep the algorithm, demonstration, and boundary checks together.
+    private Q362FenwickRangeAssignments() { } // Only static entry points are needed for this exercise.
+    private static final class Fenwick { // tree[i] stores the sum of a lowbit-sized block ending at one-based index i.
+        final long[] tree; // Wider storage protects ordinary int-input aggregates.
+        Fenwick(int size) { tree=new long[size+1]; } // Index zero stays unused to simplify parent jumps.
+        void add(int index,long delta) { // Change a zero-based position by an additive difference.
+            for(int i=index+1;i<tree.length;i+=i&-i) tree[i]+=delta; // Every containing block is reached by adding the lowest set bit.
+        }
+        long prefix(int end) { // Sum the half-open original range [0,end).
+            long sum=0; for(int i=end;i>0;i-=i&-i) sum+=tree[i]; // Remove the final covered block until no prefix remains.
+            return sum; // The visited blocks are disjoint and exactly cover the prefix.
+        }
+    }
+    public static List<Long> solve(int[] initial,int[][] operations) { // Track actual values to translate assignment into a difference.
+        long[] values=new long[initial.length]; Fenwick bit=new Fenwick(initial.length); // Keep both raw values and cached aggregate blocks.
+        for(int i=0;i<initial.length;i++) { values[i]=initial[i]; bit.add(i,initial[i]); } // Initialize the two representations consistently.
+        List<Long> result=new ArrayList<>(); // Range queries return current totals in order.
+        for(int[] op:operations) { // Bounds are assumed valid by this exercise's contract.
+            if(op[0]==0) { long delta=(long)op[2]-values[op[1]]; values[op[1]]=op[2]; bit.add(op[1],delta); } // Only the change belongs in containing Fenwick blocks.
+            else if(op[0]==1) result.add(bit.prefix(op[2])-bit.prefix(op[1])); // Prefix cancellation isolates the requested interval.
+            else throw new IllegalArgumentException("unknown operation"); // Do not silently reinterpret malformed commands.
+        }
+        return result; // Equal left/right endpoints naturally produce zero.
+    }
+    public static void main(String[] args) { // Run the example explained in the matching lesson.
+        System.out.println(Display.of(solve(new int[]{2,4,6},new int[][]{{0,1,1},{1,1,3}}))); // Format arrays and scalar results as readable values.
+    }
+    public static void selfTest() { // Check independently expected results, not just successful execution.
+        Check.equal(solve(new int[]{2,4,6},new int[][]{{0,1,1},{1,1,3}}), List.of(7L)); // Assignment replaces rather than increments.
+        Check.equal(solve(new int[]{5},new int[][]{{0,0,5},{1,0,1},{1,0,0}}), List.of(5L,0L)); // Repeated assignment and empty range.
+        Check.equal(solve(new int[]{Integer.MIN_VALUE},new int[][]{{0,0,Integer.MAX_VALUE},{1,0,1}}), List.of(2147483647L)); // Assignment difference is computed in long.
+    }
+}

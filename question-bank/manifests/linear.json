@@ -151,13 +151,13 @@
   },
   {
     "id": 141,
-    "title": "Count characters in sorted order",
-    "topic": "Strings",
-    "difficulty": "Easy",
-    "className": "questions.q141.Q141CharacterFrequencies",
-    "source": "src/questions/q141/Q141CharacterFrequencies.java",
+    "title": "Longest repeating-character window after replacements",
+    "topic": "Sliding window",
+    "difficulty": "Medium",
+    "className": "questions.q141.Q141CharacterReplacement",
+    "source": "src/questions/q141/Q141CharacterReplacement.java",
     "lesson": "docs/questions/q141.md",
-    "expectedOutput": "{a=3, b=1, n=2}\n"
+    "expectedOutput": "4\n"
   },
   {
     "id": 142,
@@ -171,13 +171,13 @@
   },
   {
     "id": 143,
-    "title": "Find the longest common prefix of strings",
-    "topic": "Strings",
+    "title": "Palindrome after at most one deletion",
+    "topic": "Two pointers",
     "difficulty": "Easy",
-    "className": "questions.q143.Q143CommonPrefix",
-    "source": "src/questions/q143/Q143CommonPrefix.java",
+    "className": "questions.q143.Q143OneDeletionPalindrome",
+    "source": "src/questions/q143/Q143OneDeletionPalindrome.java",
     "lesson": "docs/questions/q143.md",
-    "expectedOutput": "fl\n"
+    "expectedOutput": "true\n"
   },
   {
     "id": 144,
@@ -898,5 +898,355 @@
     "source": "src/questions/q215/Q215MultisetIntersection.java",
     "lesson": "docs/questions/q215.md",
     "expectedOutput": "[2, 2]\n"
+  },
+  {
+    "id": 216,
+    "title": "Detect equal values within an index distance",
+    "topic": "Hash maps",
+    "difficulty": "Easy",
+    "className": "questions.q216.Q216NearbyDuplicate",
+    "source": "src/questions/q216/Q216NearbyDuplicate.java",
+    "lesson": "docs/questions/q216.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 217,
+    "title": "Detect nearby values with a bounded numeric difference",
+    "topic": "Ordered sliding window",
+    "difficulty": "Medium",
+    "className": "questions.q217.Q217NearbyAlmostDuplicate",
+    "source": "src/questions/q217/Q217NearbyAlmostDuplicate.java",
+    "lesson": "docs/questions/q217.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 218,
+    "title": "Count subarrays whose sum is divisible by k",
+    "topic": "Prefix residues",
+    "difficulty": "Medium",
+    "className": "questions.q218.Q218DivisibleSubarrays",
+    "source": "src/questions/q218/Q218DivisibleSubarrays.java",
+    "lesson": "docs/questions/q218.md",
+    "expectedOutput": "7\n"
+  },
+  {
+    "id": 219,
+    "title": "Find the longest interval with equal zeros and ones",
+    "topic": "Prefix balance",
+    "difficulty": "Medium",
+    "className": "questions.q219.Q219BalancedBinaryInterval",
+    "source": "src/questions/q219/Q219BalancedBinaryInterval.java",
+    "lesson": "docs/questions/q219.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 220,
+    "title": "Find a longest consecutive integer set run",
+    "topic": "Hash sets",
+    "difficulty": "Medium",
+    "className": "questions.q220.Q220LongestConsecutive",
+    "source": "src/questions/q220/Q220LongestConsecutive.java",
+    "lesson": "docs/questions/q220.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 221,
+    "title": "Count distinct values in every fixed-size window",
+    "topic": "Sliding hash frequencies",
+    "difficulty": "Medium",
+    "className": "questions.q221.Q221DistinctWindowCounts",
+    "source": "src/questions/q221/Q221DistinctWindowCounts.java",
+    "lesson": "docs/questions/q221.md",
+    "expectedOutput": "[2, 3]\n"
+  },
+  {
+    "id": 222,
+    "title": "Count subarrays containing exactly k distinct values",
+    "topic": "Two sliding windows",
+    "difficulty": "Medium",
+    "className": "questions.q222.Q222ExactlyKDistinct",
+    "source": "src/questions/q222/Q222ExactlyKDistinct.java",
+    "lesson": "docs/questions/q222.md",
+    "expectedOutput": "7\n"
+  },
+  {
+    "id": 223,
+    "title": "Validate partial Sudoku constraints",
+    "topic": "Hash-set constraint keys",
+    "difficulty": "Easy",
+    "className": "questions.q223.Q223SudokuValidity",
+    "source": "src/questions/q223/Q223SudokuValidity.java",
+    "lesson": "docs/questions/q223.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 224,
+    "title": "Detect whether repeated digit-square sums reach one",
+    "topic": "Cycle detection with a set",
+    "difficulty": "Easy",
+    "className": "questions.q224.Q224HappyNumber",
+    "source": "src/questions/q224/Q224HappyNumber.java",
+    "lesson": "docs/questions/q224.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 225,
+    "title": "Group words equal under one cyclic alphabet shift",
+    "topic": "Hashing normalized signatures",
+    "difficulty": "Medium",
+    "className": "questions.q225.Q225ShiftedWordGroups",
+    "source": "src/questions/q225/Q225ShiftedWordGroups.java",
+    "lesson": "docs/questions/q225.md",
+    "expectedOutput": "[[abc, bcd], [az, ba]]\n"
+  },
+  {
+    "id": 226,
+    "title": "Count ordered equal-distance point triples",
+    "topic": "Distance frequency maps",
+    "difficulty": "Medium",
+    "className": "questions.q226.Q226Boomerangs",
+    "source": "src/questions/q226/Q226Boomerangs.java",
+    "lesson": "docs/questions/q226.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 227,
+    "title": "Count zero-sum tuples from four arrays",
+    "topic": "Pair-sum hashing",
+    "difficulty": "Medium",
+    "className": "questions.q227.Q227FourArrayZeroSum",
+    "source": "src/questions/q227/Q227FourArrayZeroSum.java",
+    "lesson": "docs/questions/q227.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 228,
+    "title": "Find the maximum number of collinear points",
+    "topic": "Normalized slope keys",
+    "difficulty": "Hard",
+    "className": "questions.q228.Q228CollinearPoints",
+    "source": "src/questions/q228/Q228CollinearPoints.java",
+    "lesson": "docs/questions/q228.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 229,
+    "title": "Use every ticket in lexical itinerary order",
+    "topic": "Maps of priority queues",
+    "difficulty": "Hard",
+    "className": "questions.q229.Q229TicketItinerary",
+    "source": "src/questions/q229/Q229TicketItinerary.java",
+    "lesson": "docs/questions/q229.md",
+    "expectedOutput": "[JFK, NRT, JFK, KUL]\n"
+  },
+  {
+    "id": 230,
+    "title": "Implement an integer map with collision chains",
+    "topic": "Hash-table implementation",
+    "difficulty": "Medium",
+    "className": "questions.q230.Q230ChainedHashMap",
+    "source": "src/questions/q230/Q230ChainedHashMap.java",
+    "lesson": "docs/questions/q230.md",
+    "expectedOutput": "[20, null]\n"
+  },
+  {
+    "id": 231,
+    "title": "Implement a hash set with linear probing and tombstones",
+    "topic": "Hash-table implementation",
+    "difficulty": "Medium",
+    "className": "questions.q231.Q231OpenAddressSet",
+    "source": "src/questions/q231/Q231OpenAddressSet.java",
+    "lesson": "docs/questions/q231.md",
+    "expectedOutput": "[true, false, true]\n"
+  },
+  {
+    "id": 232,
+    "title": "Pop the most frequent value with recency ties",
+    "topic": "Frequency buckets and stacks",
+    "difficulty": "Hard",
+    "className": "questions.q232.Q232FrequencyStack",
+    "source": "src/questions/q232/Q232FrequencyStack.java",
+    "lesson": "docs/questions/q232.md",
+    "expectedOutput": "[5, 7, 5, 4]\n"
+  },
+  {
+    "id": 233,
+    "title": "Answer whether any value has an exact frequency",
+    "topic": "Two-level hash counts",
+    "difficulty": "Medium",
+    "className": "questions.q233.Q233FrequencyQueries",
+    "source": "src/questions/q233/Q233FrequencyQueries.java",
+    "lesson": "docs/questions/q233.md",
+    "expectedOutput": "[true, false, true]\n"
+  },
+  {
+    "id": 234,
+    "title": "Find shared preferences with minimum combined rank",
+    "topic": "Hash lookup and ranking",
+    "difficulty": "Easy",
+    "className": "questions.q234.Q234MinimumIndexSum",
+    "source": "src/questions/q234/Q234MinimumIndexSum.java",
+    "lesson": "docs/questions/q234.md",
+    "expectedOutput": "[a, b, c]\n"
+  },
+  {
+    "id": 235,
+    "title": "Format a rational number with a repeating decimal cycle",
+    "topic": "Remainder-position map",
+    "difficulty": "Medium",
+    "className": "questions.q235.Q235RepeatingDecimal",
+    "source": "src/questions/q235/Q235RepeatingDecimal.java",
+    "lesson": "docs/questions/q235.md",
+    "expectedOutput": "0.1(6)\n"
+  },
+  {
+    "id": 236,
+    "title": "Search a sorted array by halving the candidate interval",
+    "topic": "Binary search",
+    "difficulty": "Easy",
+    "className": "questions.q236.Q236IterativeBinarySearch",
+    "source": "src/questions/q236/Q236IterativeBinarySearch.java",
+    "lesson": "docs/questions/q236.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 237,
+    "title": "Find the first sorted value at least a target",
+    "topic": "Binary-search boundaries",
+    "difficulty": "Easy",
+    "className": "questions.q237.Q237LowerBound",
+    "source": "src/questions/q237/Q237LowerBound.java",
+    "lesson": "docs/questions/q237.md",
+    "expectedOutput": "1\n"
+  },
+  {
+    "id": 238,
+    "title": "Find the first sorted value strictly greater than a target",
+    "topic": "Binary-search boundaries",
+    "difficulty": "Easy",
+    "className": "questions.q238.Q238UpperBound",
+    "source": "src/questions/q238/Q238UpperBound.java",
+    "lesson": "docs/questions/q238.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 239,
+    "title": "Search a rotated sorted array with distinct values",
+    "topic": "Modified binary search",
+    "difficulty": "Medium",
+    "className": "questions.q239.Q239RotatedSearch",
+    "source": "src/questions/q239/Q239RotatedSearch.java",
+    "lesson": "docs/questions/q239.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 240,
+    "title": "Find the minimum in a rotated array with duplicates",
+    "topic": "Ambiguous binary search",
+    "difficulty": "Medium",
+    "className": "questions.q240.Q240RotatedMinimum",
+    "source": "src/questions/q240/Q240RotatedMinimum.java",
+    "lesson": "docs/questions/q240.md",
+    "expectedOutput": "OptionalInt[0]\n"
+  },
+  {
+    "id": 241,
+    "title": "Find a strict local peak without scanning the whole array",
+    "topic": "Binary search on slope",
+    "difficulty": "Medium",
+    "className": "questions.q241.Q241PeakElement",
+    "source": "src/questions/q241/Q241PeakElement.java",
+    "lesson": "docs/questions/q241.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 242,
+    "title": "Compute the floor square root without floating point",
+    "topic": "Integer binary search",
+    "difficulty": "Easy",
+    "className": "questions.q242.Q242IntegerSquareRoot",
+    "source": "src/questions/q242/Q242IntegerSquareRoot.java",
+    "lesson": "docs/questions/q242.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 243,
+    "title": "Find the median of two sorted arrays by partitioning",
+    "topic": "Binary-search partitions",
+    "difficulty": "Hard",
+    "className": "questions.q243.Q243MedianSortedArrays",
+    "source": "src/questions/q243/Q243MedianSortedArrays.java",
+    "lesson": "docs/questions/q243.md",
+    "expectedOutput": "2.0\n"
+  },
+  {
+    "id": 244,
+    "title": "Sort with adjacent exchanges and an early-stop check",
+    "topic": "Elementary sorting",
+    "difficulty": "Easy",
+    "className": "questions.q244.Q244BubbleSort",
+    "source": "src/questions/q244/Q244BubbleSort.java",
+    "lesson": "docs/questions/q244.md",
+    "expectedOutput": "[1, 2, 3]\n"
+  },
+  {
+    "id": 245,
+    "title": "Sort by repeatedly selecting the smallest remaining value",
+    "topic": "Elementary sorting",
+    "difficulty": "Easy",
+    "className": "questions.q245.Q245SelectionSort",
+    "source": "src/questions/q245/Q245SelectionSort.java",
+    "lesson": "docs/questions/q245.md",
+    "expectedOutput": "[1, 2, 3]\n"
+  },
+  {
+    "id": 246,
+    "title": "Sort by inserting each value into a sorted prefix",
+    "topic": "Elementary sorting",
+    "difficulty": "Easy",
+    "className": "questions.q246.Q246InsertionSort",
+    "source": "src/questions/q246/Q246InsertionSort.java",
+    "lesson": "docs/questions/q246.md",
+    "expectedOutput": "[1, 2, 3]\n"
+  },
+  {
+    "id": 247,
+    "title": "Sort by dividing and stably merging halves",
+    "topic": "Divide-and-conquer sorting",
+    "difficulty": "Medium",
+    "className": "questions.q247.Q247MergeSort",
+    "source": "src/questions/q247/Q247MergeSort.java",
+    "lesson": "docs/questions/q247.md",
+    "expectedOutput": "[1, 2, 3, 4]\n"
+  },
+  {
+    "id": 248,
+    "title": "Sort with three-way quicksort partitions",
+    "topic": "Partition sorting",
+    "difficulty": "Medium",
+    "className": "questions.q248.Q248ThreeWayQuickSort",
+    "source": "src/questions/q248/Q248ThreeWayQuickSort.java",
+    "lesson": "docs/questions/q248.md",
+    "expectedOutput": "[1, 2, 3, 3, 3]\n"
+  },
+  {
+    "id": 249,
+    "title": "Sort a bounded integer range with occurrence counts",
+    "topic": "Non-comparison sorting",
+    "difficulty": "Medium",
+    "className": "questions.q249.Q249CountingSort",
+    "source": "src/questions/q249/Q249CountingSort.java",
+    "lesson": "docs/questions/q249.md",
+    "expectedOutput": "[-2, -2, 0, 1]\n"
+  },
+  {
+    "id": 250,
+    "title": "Sort signed ints using four stable byte passes",
+    "topic": "Radix sorting",
+    "difficulty": "Medium",
+    "className": "questions.q250.Q250SignedRadixSort",
+    "source": "src/questions/q250/Q250SignedRadixSort.java",
+    "lesson": "docs/questions/q250.md",
+    "expectedOutput": "[-2147483648, -1, 0, 3, 2147483647]\n"
   }
 ]

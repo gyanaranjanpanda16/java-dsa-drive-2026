@@ -851,13 +851,13 @@
   },
   {
     "id": 336,
-    "title": "Count provinces from a symmetric connection matrix",
-    "topic": "Graphs",
+    "title": "Merge accounts connected by shared email addresses",
+    "topic": "Union-find and hashing",
     "difficulty": "Medium",
-    "className": "questions.q336.Q336MatrixComponents",
-    "source": "src/questions/q336/Q336MatrixComponents.java",
+    "className": "questions.q336.Q336MergeAccounts",
+    "source": "src/questions/q336/Q336MergeAccounts.java",
     "lesson": "docs/questions/q336.md",
-    "expectedOutput": "2\n"
+    "expectedOutput": "[[Ada, a@x, b@x, c@x], [Lin, z@x]]\n"
   },
   {
     "id": 337,
@@ -991,12 +991,262 @@
   },
   {
     "id": 350,
-    "title": "Find the longest prefix shared by all dictionary words",
-    "topic": "Tries",
-    "difficulty": "Beginner",
-    "className": "questions.q350.Q350TrieCommonPrefix",
-    "source": "src/questions/q350/Q350TrieCommonPrefix.java",
+    "title": "Find all dictionary words on a letter board",
+    "topic": "Trie and backtracking",
+    "difficulty": "Hard",
+    "className": "questions.q350.Q350BoardDictionarySearch",
+    "source": "src/questions/q350/Q350BoardDictionarySearch.java",
     "lesson": "docs/questions/q350.md",
-    "expectedOutput": "fl\n"
+    "expectedOutput": "[ab, abdc, ac]\n"
+  },
+  {
+    "id": 351,
+    "title": "Delete exact words without damaging shared trie prefixes",
+    "topic": "Tries",
+    "difficulty": "Medium",
+    "className": "questions.q351.Q351TrieDeletion",
+    "source": "src/questions/q351/Q351TrieDeletion.java",
+    "lesson": "docs/questions/q351.md",
+    "expectedOutput": "[cart, dog]\n"
+  },
+  {
+    "id": 352,
+    "title": "Find the shortest distinguishing prefix of each word",
+    "topic": "Tries",
+    "difficulty": "Medium",
+    "className": "questions.q352.Q352UniqueWordPrefixes",
+    "source": "src/questions/q352/Q352UniqueWordPrefixes.java",
+    "lesson": "docs/questions/q352.md",
+    "expectedOutput": "[dog, dov, du]\n"
+  },
+  {
+    "id": 353,
+    "title": "Search dictionary patterns with single-character wildcards",
+    "topic": "Trie backtracking",
+    "difficulty": "Medium",
+    "className": "questions.q353.Q353WildcardDictionary",
+    "source": "src/questions/q353/Q353WildcardDictionary.java",
+    "lesson": "docs/questions/q353.md",
+    "expectedOutput": "[true, true, false]\n"
+  },
+  {
+    "id": 354,
+    "title": "Replace words by their shortest stored root",
+    "topic": "Prefix dictionaries",
+    "difficulty": "Medium",
+    "className": "questions.q354.Q354ReplaceRoots",
+    "source": "src/questions/q354/Q354ReplaceRoots.java",
+    "lesson": "docs/questions/q354.md",
+    "expectedOutput": "[cat, bat, rat]\n"
+  },
+  {
+    "id": 355,
+    "title": "Find the fewest dictionary pieces forming a string",
+    "topic": "Trie-guided dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q355.Q355MinimumWordSegments",
+    "source": "src/questions/q355/Q355MinimumWordSegments.java",
+    "lesson": "docs/questions/q355.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 356,
+    "title": "Maximize the unsigned XOR of two array values",
+    "topic": "Binary tries",
+    "difficulty": "Medium",
+    "className": "questions.q356.Q356MaximumPairXor",
+    "source": "src/questions/q356/Q356MaximumPairXor.java",
+    "lesson": "docs/questions/q356.md",
+    "expectedOutput": "28\n"
+  },
+  {
+    "id": 357,
+    "title": "Find the latest word matching both prefix and suffix",
+    "topic": "Combined-key trie",
+    "difficulty": "Hard",
+    "className": "questions.q357.Q357PrefixSuffixFilter",
+    "source": "src/questions/q357/Q357PrefixSuffixFilter.java",
+    "lesson": "docs/questions/q357.md",
+    "expectedOutput": "[0, 2, -1]\n"
+  },
+  {
+    "id": 358,
+    "title": "Find a longest word whose every prefix is a word",
+    "topic": "Trie terminal chains",
+    "difficulty": "Medium",
+    "className": "questions.q358.Q358BuildableWord",
+    "source": "src/questions/q358/Q358BuildableWord.java",
+    "lesson": "docs/questions/q358.md",
+    "expectedOutput": "world\n"
+  },
+  {
+    "id": 359,
+    "title": "Count distinct nonempty substrings with a suffix trie",
+    "topic": "Suffix tries",
+    "difficulty": "Medium",
+    "className": "questions.q359.Q359DistinctSubstrings",
+    "source": "src/questions/q359/Q359DistinctSubstrings.java",
+    "lesson": "docs/questions/q359.md",
+    "expectedOutput": "9\n"
+  },
+  {
+    "id": 360,
+    "title": "Check whether each stream prefix ends in a dictionary word",
+    "topic": "Reversed trie and bounded history",
+    "difficulty": "Medium",
+    "className": "questions.q360.Q360StreamSuffixMatches",
+    "source": "src/questions/q360/Q360StreamSuffixMatches.java",
+    "lesson": "docs/questions/q360.md",
+    "expectedOutput": "[false, true, true]\n"
+  },
+  {
+    "id": 361,
+    "title": "Maintain prefix totals under point additions",
+    "topic": "Fenwick trees",
+    "difficulty": "Medium",
+    "className": "questions.q361.Q361FenwickPrefixUpdates",
+    "source": "src/questions/q361/Q361FenwickPrefixUpdates.java",
+    "lesson": "docs/questions/q361.md",
+    "expectedOutput": "[6, 8]\n"
+  },
+  {
+    "id": 362,
+    "title": "Answer range totals while assigning individual values",
+    "topic": "Fenwick trees",
+    "difficulty": "Medium",
+    "className": "questions.q362.Q362FenwickRangeAssignments",
+    "source": "src/questions/q362/Q362FenwickRangeAssignments.java",
+    "lesson": "docs/questions/q362.md",
+    "expectedOutput": "[7]\n"
+  },
+  {
+    "id": 363,
+    "title": "Add to whole intervals and query individual values",
+    "topic": "Difference arrays with Fenwick trees",
+    "difficulty": "Medium",
+    "className": "questions.q363.Q363FenwickRangeAddPoint",
+    "source": "src/questions/q363/Q363FenwickRangeAddPoint.java",
+    "lesson": "docs/questions/q363.md",
+    "expectedOutput": "[0, 5, 3]\n"
+  },
+  {
+    "id": 364,
+    "title": "Support range additions and range totals with two Fenwick trees",
+    "topic": "Weighted difference prefixes",
+    "difficulty": "Hard",
+    "className": "questions.q364.Q364FenwickRangeAddSum",
+    "source": "src/questions/q364/Q364FenwickRangeAddSum.java",
+    "lesson": "docs/questions/q364.md",
+    "expectedOutput": "[12]\n"
+  },
+  {
+    "id": 365,
+    "title": "Locate a cumulative rank in changing frequencies",
+    "topic": "Fenwick binary lifting",
+    "difficulty": "Hard",
+    "className": "questions.q365.Q365FenwickOrderStatistic",
+    "source": "src/questions/q365/Q365FenwickOrderStatistic.java",
+    "lesson": "docs/questions/q365.md",
+    "expectedOutput": "[2, 2]\n"
+  },
+  {
+    "id": 366,
+    "title": "Count out-of-order index pairs with compressed ranks",
+    "topic": "Fenwick trees and compression",
+    "difficulty": "Medium",
+    "className": "questions.q366.Q366InversionCount",
+    "source": "src/questions/q366/Q366InversionCount.java",
+    "lesson": "docs/questions/q366.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 367,
+    "title": "Count strictly smaller later values for every position",
+    "topic": "Fenwick rank frequencies",
+    "difficulty": "Medium",
+    "className": "questions.q367.Q367SmallerToRight",
+    "source": "src/questions/q367/Q367SmallerToRight.java",
+    "lesson": "docs/questions/q367.md",
+    "expectedOutput": "[2, 1, 1, 0]\n"
+  },
+  {
+    "id": 368,
+    "title": "Count range values above independent thresholds",
+    "topic": "Offline sweep with Fenwick tree",
+    "difficulty": "Hard",
+    "className": "questions.q368.Q368OfflineThresholdQueries",
+    "source": "src/questions/q368/Q368OfflineThresholdQueries.java",
+    "lesson": "docs/questions/q368.md",
+    "expectedOutput": "[2, 1]\n"
+  },
+  {
+    "id": 369,
+    "title": "Maintain range minima under point assignment",
+    "topic": "Iterative segment trees",
+    "difficulty": "Medium",
+    "className": "questions.q369.Q369SegmentMinimum",
+    "source": "src/questions/q369/Q369SegmentMinimum.java",
+    "lesson": "docs/questions/q369.md",
+    "expectedOutput": "[2, 5]\n"
+  },
+  {
+    "id": 370,
+    "title": "Maintain range greatest common divisors under assignments",
+    "topic": "Associative segment aggregates",
+    "difficulty": "Medium",
+    "className": "questions.q370.Q370SegmentGcd",
+    "source": "src/questions/q370/Q370SegmentGcd.java",
+    "lesson": "docs/questions/q370.md",
+    "expectedOutput": "[6, 3]\n"
+  },
+  {
+    "id": 371,
+    "title": "Add to intervals and query totals with lazy propagation",
+    "topic": "Lazy segment trees",
+    "difficulty": "Hard",
+    "className": "questions.q371.Q371LazyRangeSum",
+    "source": "src/questions/q371/Q371LazyRangeSum.java",
+    "lesson": "docs/questions/q371.md",
+    "expectedOutput": "[14, 10]\n"
+  },
+  {
+    "id": 372,
+    "title": "Maintain interval minima under interval increments",
+    "topic": "Lazy segment trees",
+    "difficulty": "Hard",
+    "className": "questions.q372.Q372LazyRangeMinimum",
+    "source": "src/questions/q372/Q372LazyRangeMinimum.java",
+    "lesson": "docs/questions/q372.md",
+    "expectedOutput": "[2, 5]\n"
+  },
+  {
+    "id": 373,
+    "title": "Answer static range minima in constant query time",
+    "topic": "Sparse tables",
+    "difficulty": "Medium",
+    "className": "questions.q373.Q373SparseTableMinimum",
+    "source": "src/questions/q373/Q373SparseTableMinimum.java",
+    "lesson": "docs/questions/q373.md",
+    "expectedOutput": "[1, 2]\n"
+  },
+  {
+    "id": 374,
+    "title": "Maintain range totals with square-root-sized blocks",
+    "topic": "Square-root decomposition",
+    "difficulty": "Medium",
+    "className": "questions.q374.Q374SqrtDecomposition",
+    "source": "src/questions/q374/Q374SqrtDecomposition.java",
+    "lesson": "docs/questions/q374.md",
+    "expectedOutput": "[14, 22]\n"
+  },
+  {
+    "id": 375,
+    "title": "Find kth-smallest values in static subarrays using persistent trees",
+    "topic": "Persistent segment trees",
+    "difficulty": "Hard",
+    "className": "questions.q375.Q375PersistentRangeKth",
+    "source": "src/questions/q375/Q375PersistentRangeKth.java",
+    "lesson": "docs/questions/q375.md",
+    "expectedOutput": "[1, 5]\n"
   }
 ]

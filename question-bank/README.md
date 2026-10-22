@@ -1,6 +1,6 @@
 # Solved Java question bank
 
-**410 completed and tested questions out of the requested 500.** This is a partial publication; **90 questions remain unfinished** (Q216–Q250, Q351–Q375, Q471–Q500).
+**500 completed and tested questions out of the requested 500.** All IDs Q001–Q500 are included.
 
 Every listed question has its own runnable Java file, explanatory comments, a lesson page, sample output, and at least three self-test checks. These are educational exercises covering common techniques, not verified records of questions asked by a particular employer. Programs use Java 17-compatible standard-library APIs.
 
@@ -9,10 +9,10 @@ Every listed question has its own runnable Java file, explanatory comments, a le
 | Number range | Completed | Coverage |
 | --- | ---: | --- |
 | Q001–Q125 | 125 | Java basics, arrays, matrices, and Java collection APIs |
-| Q126–Q215 | 90 | Strings, linked lists, stacks, queues, and initial hashing problems |
-| Q251–Q350 | 100 | Trees, BSTs, heaps, graphs, and initial tries |
-| Q376–Q470 | 95 | Recursion, backtracking, dynamic programming, greedy algorithms, and binary search |
-| **Total** | **410** | **Only completed programs appear below.** |
+| Q126–Q250 | 125 | Strings, linked lists, stacks, queues, hashing, searching, and sorting |
+| Q251–Q375 | 125 | Trees, BSTs, heaps, graphs, tries, Fenwick trees, and segment trees |
+| Q376–Q500 | 125 | Recursion, backtracking, DP, greedy algorithms, binary search, bits, mathematics, and design |
+| **Total** | **500** | **Only completed programs appear below.** |
 
 For the underlying concepts and real-world tradeoffs, read the [topic-based curriculum](../README.md), [Java collections guide](../docs/17-java-collections.md), and [real-world case studies](../docs/14-real-world-scenarios.md).
 
@@ -28,7 +28,7 @@ bash scripts/run.sh questions.q001.Q001PrintElements
 bash scripts/test.sh
 ```
 
-The first command prints `10 20 30`. The second compiles everything, runs the curriculum tests, and verifies all 410 question self-tests and demonstration outputs. No external Java library is required.
+The first command prints `10 20 30`. The second compiles everything, runs the curriculum tests, and verifies all 500 question self-tests and demonstration outputs. No external Java library is required.
 
 Read the question before opening its answer. Write a small example, attempt a baseline, identify the invariant, then compare the commented implementation. Revisit questions independently instead of counting a copied solution as learned. The stated input contracts and complexity limits matter.
 
@@ -178,9 +178,9 @@ The JSON manifests store exact sample outputs; the TSV index drives the Java tes
 | Q138 | [Find the longest common prefix](../docs/questions/q138.md) | Strings | Easy | [Code](../src/questions/q138/Q138CommonPrefix.java) |
 | Q139 | [Reverse word order and normalize spaces](../docs/questions/q139.md) | Strings | Easy | [Code](../src/questions/q139/Q139ReverseWords.java) |
 | Q140 | [Recognize a rotation of a string](../docs/questions/q140.md) | Strings | Easy | [Code](../src/questions/q140/Q140Rotation.java) |
-| Q141 | [Count characters in sorted order](../docs/questions/q141.md) | Strings | Easy | [Code](../src/questions/q141/Q141CharacterFrequencies.java) |
+| Q141 | [Longest repeating-character window after replacements](../docs/questions/q141.md) | Sliding window | Medium | [Code](../src/questions/q141/Q141CharacterReplacement.java) |
 | Q142 | [Find the longest substring without repeated chars](../docs/questions/q142.md) | Strings | Medium | [Code](../src/questions/q142/Q142LongestUnique.java) |
-| Q143 | [Find the longest common prefix of strings](../docs/questions/q143.md) | Strings | Easy | [Code](../src/questions/q143/Q143CommonPrefix.java) |
+| Q143 | [Palindrome after at most one deletion](../docs/questions/q143.md) | Two pointers | Easy | [Code](../src/questions/q143/Q143OneDeletionPalindrome.java) |
 | Q144 | [Find the first exact substring match](../docs/questions/q144.md) | Strings | Easy | [Code](../src/questions/q144/Q144NaiveSubstring.java) |
 | Q145 | [Find a substring using KMP failure links](../docs/questions/q145.md) | Strings | Medium | [Code](../src/questions/q145/Q145KmpSubstring.java) |
 | Q146 | [Encode runs as character-count pairs](../docs/questions/q146.md) | Strings | Easy | [Code](../src/questions/q146/Q146RunLength.java) |
@@ -253,6 +253,41 @@ The JSON manifests store exact sample outputs; the TSV index drives the Java tes
 | Q213 | [Compare arrays while preserving duplicate multiplicities](../docs/questions/q213.md) | Hash maps and sets | Easy | [Code](../src/questions/q213/Q213EqualMultisets.java) |
 | Q214 | [Return the distinct intersection in first-array order](../docs/questions/q214.md) | Hash maps and sets | Easy | [Code](../src/questions/q214/Q214DistinctIntersection.java) |
 | Q215 | [Intersect arrays including matched duplicate occurrences](../docs/questions/q215.md) | Hash maps and sets | Easy | [Code](../src/questions/q215/Q215MultisetIntersection.java) |
+| Q216 | [Detect equal values within an index distance](../docs/questions/q216.md) | Hash maps | Easy | [Code](../src/questions/q216/Q216NearbyDuplicate.java) |
+| Q217 | [Detect nearby values with a bounded numeric difference](../docs/questions/q217.md) | Ordered sliding window | Medium | [Code](../src/questions/q217/Q217NearbyAlmostDuplicate.java) |
+| Q218 | [Count subarrays whose sum is divisible by k](../docs/questions/q218.md) | Prefix residues | Medium | [Code](../src/questions/q218/Q218DivisibleSubarrays.java) |
+| Q219 | [Find the longest interval with equal zeros and ones](../docs/questions/q219.md) | Prefix balance | Medium | [Code](../src/questions/q219/Q219BalancedBinaryInterval.java) |
+| Q220 | [Find a longest consecutive integer set run](../docs/questions/q220.md) | Hash sets | Medium | [Code](../src/questions/q220/Q220LongestConsecutive.java) |
+| Q221 | [Count distinct values in every fixed-size window](../docs/questions/q221.md) | Sliding hash frequencies | Medium | [Code](../src/questions/q221/Q221DistinctWindowCounts.java) |
+| Q222 | [Count subarrays containing exactly k distinct values](../docs/questions/q222.md) | Two sliding windows | Medium | [Code](../src/questions/q222/Q222ExactlyKDistinct.java) |
+| Q223 | [Validate partial Sudoku constraints](../docs/questions/q223.md) | Hash-set constraint keys | Easy | [Code](../src/questions/q223/Q223SudokuValidity.java) |
+| Q224 | [Detect whether repeated digit-square sums reach one](../docs/questions/q224.md) | Cycle detection with a set | Easy | [Code](../src/questions/q224/Q224HappyNumber.java) |
+| Q225 | [Group words equal under one cyclic alphabet shift](../docs/questions/q225.md) | Hashing normalized signatures | Medium | [Code](../src/questions/q225/Q225ShiftedWordGroups.java) |
+| Q226 | [Count ordered equal-distance point triples](../docs/questions/q226.md) | Distance frequency maps | Medium | [Code](../src/questions/q226/Q226Boomerangs.java) |
+| Q227 | [Count zero-sum tuples from four arrays](../docs/questions/q227.md) | Pair-sum hashing | Medium | [Code](../src/questions/q227/Q227FourArrayZeroSum.java) |
+| Q228 | [Find the maximum number of collinear points](../docs/questions/q228.md) | Normalized slope keys | Hard | [Code](../src/questions/q228/Q228CollinearPoints.java) |
+| Q229 | [Use every ticket in lexical itinerary order](../docs/questions/q229.md) | Maps of priority queues | Hard | [Code](../src/questions/q229/Q229TicketItinerary.java) |
+| Q230 | [Implement an integer map with collision chains](../docs/questions/q230.md) | Hash-table implementation | Medium | [Code](../src/questions/q230/Q230ChainedHashMap.java) |
+| Q231 | [Implement a hash set with linear probing and tombstones](../docs/questions/q231.md) | Hash-table implementation | Medium | [Code](../src/questions/q231/Q231OpenAddressSet.java) |
+| Q232 | [Pop the most frequent value with recency ties](../docs/questions/q232.md) | Frequency buckets and stacks | Hard | [Code](../src/questions/q232/Q232FrequencyStack.java) |
+| Q233 | [Answer whether any value has an exact frequency](../docs/questions/q233.md) | Two-level hash counts | Medium | [Code](../src/questions/q233/Q233FrequencyQueries.java) |
+| Q234 | [Find shared preferences with minimum combined rank](../docs/questions/q234.md) | Hash lookup and ranking | Easy | [Code](../src/questions/q234/Q234MinimumIndexSum.java) |
+| Q235 | [Format a rational number with a repeating decimal cycle](../docs/questions/q235.md) | Remainder-position map | Medium | [Code](../src/questions/q235/Q235RepeatingDecimal.java) |
+| Q236 | [Search a sorted array by halving the candidate interval](../docs/questions/q236.md) | Binary search | Easy | [Code](../src/questions/q236/Q236IterativeBinarySearch.java) |
+| Q237 | [Find the first sorted value at least a target](../docs/questions/q237.md) | Binary-search boundaries | Easy | [Code](../src/questions/q237/Q237LowerBound.java) |
+| Q238 | [Find the first sorted value strictly greater than a target](../docs/questions/q238.md) | Binary-search boundaries | Easy | [Code](../src/questions/q238/Q238UpperBound.java) |
+| Q239 | [Search a rotated sorted array with distinct values](../docs/questions/q239.md) | Modified binary search | Medium | [Code](../src/questions/q239/Q239RotatedSearch.java) |
+| Q240 | [Find the minimum in a rotated array with duplicates](../docs/questions/q240.md) | Ambiguous binary search | Medium | [Code](../src/questions/q240/Q240RotatedMinimum.java) |
+| Q241 | [Find a strict local peak without scanning the whole array](../docs/questions/q241.md) | Binary search on slope | Medium | [Code](../src/questions/q241/Q241PeakElement.java) |
+| Q242 | [Compute the floor square root without floating point](../docs/questions/q242.md) | Integer binary search | Easy | [Code](../src/questions/q242/Q242IntegerSquareRoot.java) |
+| Q243 | [Find the median of two sorted arrays by partitioning](../docs/questions/q243.md) | Binary-search partitions | Hard | [Code](../src/questions/q243/Q243MedianSortedArrays.java) |
+| Q244 | [Sort with adjacent exchanges and an early-stop check](../docs/questions/q244.md) | Elementary sorting | Easy | [Code](../src/questions/q244/Q244BubbleSort.java) |
+| Q245 | [Sort by repeatedly selecting the smallest remaining value](../docs/questions/q245.md) | Elementary sorting | Easy | [Code](../src/questions/q245/Q245SelectionSort.java) |
+| Q246 | [Sort by inserting each value into a sorted prefix](../docs/questions/q246.md) | Elementary sorting | Easy | [Code](../src/questions/q246/Q246InsertionSort.java) |
+| Q247 | [Sort by dividing and stably merging halves](../docs/questions/q247.md) | Divide-and-conquer sorting | Medium | [Code](../src/questions/q247/Q247MergeSort.java) |
+| Q248 | [Sort with three-way quicksort partitions](../docs/questions/q248.md) | Partition sorting | Medium | [Code](../src/questions/q248/Q248ThreeWayQuickSort.java) |
+| Q249 | [Sort a bounded integer range with occurrence counts](../docs/questions/q249.md) | Non-comparison sorting | Medium | [Code](../src/questions/q249/Q249CountingSort.java) |
+| Q250 | [Sort signed ints using four stable byte passes](../docs/questions/q250.md) | Radix sorting | Medium | [Code](../src/questions/q250/Q250SignedRadixSort.java) |
 | Q251 | [List tree values in inorder](../docs/questions/q251.md) | Trees and BST | Beginner | [Code](../src/questions/q251/Q251Inorder.java) |
 | Q252 | [List tree values in preorder](../docs/questions/q252.md) | Trees and BST | Beginner | [Code](../src/questions/q252/Q252Preorder.java) |
 | Q253 | [List tree values in postorder](../docs/questions/q253.md) | Trees and BST | Beginner | [Code](../src/questions/q253/Q253Postorder.java) |
@@ -338,7 +373,7 @@ The JSON manifests store exact sample outputs; the TSV index drives the Java tes
 | Q333 | [Find a minimum spanning-tree weight using sorted edges](../docs/questions/q333.md) | Graphs | Medium | [Code](../src/questions/q333/Q333KruskalMst.java) |
 | Q334 | [Process union and connectivity queries online](../docs/questions/q334.md) | Graphs | Medium | [Code](../src/questions/q334/Q334OnlineConnectivity.java) |
 | Q335 | [Return the last edge that closes an undirected cycle](../docs/questions/q335.md) | Graphs | Medium | [Code](../src/questions/q335/Q335RedundantEdge.java) |
-| Q336 | [Count provinces from a symmetric connection matrix](../docs/questions/q336.md) | Graphs | Medium | [Code](../src/questions/q336/Q336MatrixComponents.java) |
+| Q336 | [Merge accounts connected by shared email addresses](../docs/questions/q336.md) | Union-find and hashing | Medium | [Code](../src/questions/q336/Q336MergeAccounts.java) |
 | Q337 | [Count strongly connected components with Kosaraju](../docs/questions/q337.md) | Graphs | Medium | [Code](../src/questions/q337/Q337StrongComponents.java) |
 | Q338 | [Find edges whose removal disconnects an undirected graph](../docs/questions/q338.md) | Graphs | Medium | [Code](../src/questions/q338/Q338Bridges.java) |
 | Q339 | [Find vertices whose removal increases component count](../docs/questions/q339.md) | Graphs | Medium | [Code](../src/questions/q339/Q339ArticulationPoints.java) |
@@ -352,15 +387,40 @@ The JSON manifests store exact sample outputs; the TSV index drives the Java tes
 | Q347 | [Check whether dictionary words share a requested prefix](../docs/questions/q347.md) | Tries | Beginner | [Code](../src/questions/q347/Q347TriePrefixExists.java) |
 | Q348 | [Count dictionary occurrences under each prefix](../docs/questions/q348.md) | Tries | Beginner | [Code](../src/questions/q348/Q348TriePrefixCounts.java) |
 | Q349 | [Return the first k lexicographic completions of a prefix](../docs/questions/q349.md) | Tries | Medium | [Code](../src/questions/q349/Q349TrieAutocomplete.java) |
-| Q350 | [Find the longest prefix shared by all dictionary words](../docs/questions/q350.md) | Tries | Beginner | [Code](../src/questions/q350/Q350TrieCommonPrefix.java) |
-| Q376 | [Recursive Factorial](../docs/questions/q376.md) | Recursion and backtracking | Easy | [Code](../src/questions/q376/Q376RecursiveFactorial.java) |
-| Q377 | [Recursive Digit Sum](../docs/questions/q377.md) | Recursion and backtracking | Easy | [Code](../src/questions/q377/Q377RecursiveDigitSum.java) |
-| Q378 | [Recursive Array Total](../docs/questions/q378.md) | Recursion and backtracking | Easy | [Code](../src/questions/q378/Q378RecursiveArrayTotal.java) |
-| Q379 | [Recursive String Reversal](../docs/questions/q379.md) | Recursion and backtracking | Easy | [Code](../src/questions/q379/Q379RecursiveStringReversal.java) |
-| Q380 | [Recursive Palindrome Test](../docs/questions/q380.md) | Recursion and backtracking | Easy | [Code](../src/questions/q380/Q380RecursivePalindromeTest.java) |
-| Q381 | [Fast Recursive Power](../docs/questions/q381.md) | Recursion and backtracking | Medium | [Code](../src/questions/q381/Q381FastRecursivePower.java) |
-| Q382 | [Recursive Euclidean GCD](../docs/questions/q382.md) | Recursion and backtracking | Easy | [Code](../src/questions/q382/Q382RecursiveEuclideanGCD.java) |
-| Q383 | [Recursive Binary Search](../docs/questions/q383.md) | Recursion and backtracking | Easy | [Code](../src/questions/q383/Q383RecursiveBinarySearch.java) |
+| Q350 | [Find all dictionary words on a letter board](../docs/questions/q350.md) | Trie and backtracking | Hard | [Code](../src/questions/q350/Q350BoardDictionarySearch.java) |
+| Q351 | [Delete exact words without damaging shared trie prefixes](../docs/questions/q351.md) | Tries | Medium | [Code](../src/questions/q351/Q351TrieDeletion.java) |
+| Q352 | [Find the shortest distinguishing prefix of each word](../docs/questions/q352.md) | Tries | Medium | [Code](../src/questions/q352/Q352UniqueWordPrefixes.java) |
+| Q353 | [Search dictionary patterns with single-character wildcards](../docs/questions/q353.md) | Trie backtracking | Medium | [Code](../src/questions/q353/Q353WildcardDictionary.java) |
+| Q354 | [Replace words by their shortest stored root](../docs/questions/q354.md) | Prefix dictionaries | Medium | [Code](../src/questions/q354/Q354ReplaceRoots.java) |
+| Q355 | [Find the fewest dictionary pieces forming a string](../docs/questions/q355.md) | Trie-guided dynamic programming | Medium | [Code](../src/questions/q355/Q355MinimumWordSegments.java) |
+| Q356 | [Maximize the unsigned XOR of two array values](../docs/questions/q356.md) | Binary tries | Medium | [Code](../src/questions/q356/Q356MaximumPairXor.java) |
+| Q357 | [Find the latest word matching both prefix and suffix](../docs/questions/q357.md) | Combined-key trie | Hard | [Code](../src/questions/q357/Q357PrefixSuffixFilter.java) |
+| Q358 | [Find a longest word whose every prefix is a word](../docs/questions/q358.md) | Trie terminal chains | Medium | [Code](../src/questions/q358/Q358BuildableWord.java) |
+| Q359 | [Count distinct nonempty substrings with a suffix trie](../docs/questions/q359.md) | Suffix tries | Medium | [Code](../src/questions/q359/Q359DistinctSubstrings.java) |
+| Q360 | [Check whether each stream prefix ends in a dictionary word](../docs/questions/q360.md) | Reversed trie and bounded history | Medium | [Code](../src/questions/q360/Q360StreamSuffixMatches.java) |
+| Q361 | [Maintain prefix totals under point additions](../docs/questions/q361.md) | Fenwick trees | Medium | [Code](../src/questions/q361/Q361FenwickPrefixUpdates.java) |
+| Q362 | [Answer range totals while assigning individual values](../docs/questions/q362.md) | Fenwick trees | Medium | [Code](../src/questions/q362/Q362FenwickRangeAssignments.java) |
+| Q363 | [Add to whole intervals and query individual values](../docs/questions/q363.md) | Difference arrays with Fenwick trees | Medium | [Code](../src/questions/q363/Q363FenwickRangeAddPoint.java) |
+| Q364 | [Support range additions and range totals with two Fenwick trees](../docs/questions/q364.md) | Weighted difference prefixes | Hard | [Code](../src/questions/q364/Q364FenwickRangeAddSum.java) |
+| Q365 | [Locate a cumulative rank in changing frequencies](../docs/questions/q365.md) | Fenwick binary lifting | Hard | [Code](../src/questions/q365/Q365FenwickOrderStatistic.java) |
+| Q366 | [Count out-of-order index pairs with compressed ranks](../docs/questions/q366.md) | Fenwick trees and compression | Medium | [Code](../src/questions/q366/Q366InversionCount.java) |
+| Q367 | [Count strictly smaller later values for every position](../docs/questions/q367.md) | Fenwick rank frequencies | Medium | [Code](../src/questions/q367/Q367SmallerToRight.java) |
+| Q368 | [Count range values above independent thresholds](../docs/questions/q368.md) | Offline sweep with Fenwick tree | Hard | [Code](../src/questions/q368/Q368OfflineThresholdQueries.java) |
+| Q369 | [Maintain range minima under point assignment](../docs/questions/q369.md) | Iterative segment trees | Medium | [Code](../src/questions/q369/Q369SegmentMinimum.java) |
+| Q370 | [Maintain range greatest common divisors under assignments](../docs/questions/q370.md) | Associative segment aggregates | Medium | [Code](../src/questions/q370/Q370SegmentGcd.java) |
+| Q371 | [Add to intervals and query totals with lazy propagation](../docs/questions/q371.md) | Lazy segment trees | Hard | [Code](../src/questions/q371/Q371LazyRangeSum.java) |
+| Q372 | [Maintain interval minima under interval increments](../docs/questions/q372.md) | Lazy segment trees | Hard | [Code](../src/questions/q372/Q372LazyRangeMinimum.java) |
+| Q373 | [Answer static range minima in constant query time](../docs/questions/q373.md) | Sparse tables | Medium | [Code](../src/questions/q373/Q373SparseTableMinimum.java) |
+| Q374 | [Maintain range totals with square-root-sized blocks](../docs/questions/q374.md) | Square-root decomposition | Medium | [Code](../src/questions/q374/Q374SqrtDecomposition.java) |
+| Q375 | [Find kth-smallest values in static subarrays using persistent trees](../docs/questions/q375.md) | Persistent segment trees | Hard | [Code](../src/questions/q375/Q375PersistentRangeKth.java) |
+| Q376 | [Flatten nested integer lists in order](../docs/questions/q376.md) | Recursive decomposition | Easy | [Code](../src/questions/q376/Q376FlattenNestedLists.java) |
+| Q377 | [Generate subsets without duplicate combinations](../docs/questions/q377.md) | Backtracking with duplicate skipping | Medium | [Code](../src/questions/q377/Q377UniqueSubsets.java) |
+| Q378 | [Insert arithmetic operators to reach a target](../docs/questions/q378.md) | Backtracking with expression state | Hard | [Code](../src/questions/q378/Q378ExpressionOperators.java) |
+| Q379 | [Partition values into k equal-sum subsets](../docs/questions/q379.md) | Backtracking with symmetry pruning | Medium | [Code](../src/questions/q379/Q379EqualSumPartitions.java) |
+| Q380 | [Solve a Sudoku board using constraints and backtracking](../docs/questions/q380.md) | Constraint search | Hard | [Code](../src/questions/q380/Q380SolveSudoku.java) |
+| Q381 | [Select the kth lexicographic permutation](../docs/questions/q381.md) | Factorial blocks | Medium | [Code](../src/questions/q381/Q381KthPermutation.java) |
+| Q382 | [Count pairs with left value greater than twice the right](../docs/questions/q382.md) | Merge-sort counting | Hard | [Code](../src/questions/q382/Q382ReversePairs.java) |
+| Q383 | [Match a pattern to distinct variable-length substrings](../docs/questions/q383.md) | Backtracking and bijections | Hard | [Code](../src/questions/q383/Q383SubstringPattern.java) |
 | Q384 | [Tower Of Hanoi Moves](../docs/questions/q384.md) | Recursion and backtracking | Medium | [Code](../src/questions/q384/Q384TowerOfHanoiMoves.java) |
 | Q385 | [Generate String Subsequences](../docs/questions/q385.md) | Recursion and backtracking | Medium | [Code](../src/questions/q385/Q385GenerateStringSubsequences.java) |
 | Q386 | [Generate Distinct Permutations](../docs/questions/q386.md) | Recursion and backtracking | Medium | [Code](../src/questions/q386/Q386GenerateDistinctPermutations.java) |
@@ -368,7 +428,7 @@ The JSON manifests store exact sample outputs; the TSV index drives the Java tes
 | Q388 | [Phone Keypad Combinations](../docs/questions/q388.md) | Recursion and backtracking | Medium | [Code](../src/questions/q388/Q388PhoneKeypadCombinations.java) |
 | Q389 | [Generate Balanced Parentheses](../docs/questions/q389.md) | Recursion and backtracking | Medium | [Code](../src/questions/q389/Q389GenerateBalancedParentheses.java) |
 | Q390 | [Count N Queens Placements](../docs/questions/q390.md) | Recursion and backtracking | Hard | [Code](../src/questions/q390/Q390CountNQueensPlacements.java) |
-| Q391 | [Count Blocked Grid Paths Recursively](../docs/questions/q391.md) | Recursion and backtracking | Medium | [Code](../src/questions/q391/Q391CountBlockedGridPathsRecursively.java) |
+| Q391 | [Enumerate all simple paths through a maze](../docs/questions/q391.md) | Backtracking on a grid | Medium | [Code](../src/questions/q391/Q391SimpleMazePaths.java) |
 | Q392 | [Word Search Backtracking](../docs/questions/q392.md) | Recursion and backtracking | Medium | [Code](../src/questions/q392/Q392WordSearchBacktracking.java) |
 | Q393 | [Combination Sum Unlimited](../docs/questions/q393.md) | Recursion and backtracking | Medium | [Code](../src/questions/q393/Q393CombinationSumUnlimited.java) |
 | Q394 | [Combination Sum Single Use](../docs/questions/q394.md) | Recursion and backtracking | Medium | [Code](../src/questions/q394/Q394CombinationSumSingleUse.java) |
@@ -434,17 +494,47 @@ The JSON manifests store exact sample outputs; the TSV index drives the Java tes
 | Q454 | [Lemonade Change](../docs/questions/q454.md) | Greedy and search on answer | Easy | [Code](../src/questions/q454/Q454LemonadeChange.java) |
 | Q455 | [Jump Game Reachability](../docs/questions/q455.md) | Greedy and search on answer | Medium | [Code](../src/questions/q455/Q455JumpGameReachability.java) |
 | Q456 | [Minimum Forward Jumps](../docs/questions/q456.md) | Greedy and search on answer | Medium | [Code](../src/questions/q456/Q456MinimumForwardJumps.java) |
-| Q457 | [Gas Station Circuit](../docs/questions/q457.md) | Greedy and search on answer | Medium | [Code](../src/questions/q457/Q457GasStationCircuit.java) |
+| Q457 | [Minimum swaps to group all ones in a circular array](../docs/questions/q457.md) | Circular sliding window | Medium | [Code](../src/questions/q457/Q457CircularOnesSwaps.java) |
 | Q458 | [Minimum Candy Allocation](../docs/questions/q458.md) | Greedy and search on answer | Hard | [Code](../src/questions/q458/Q458MinimumCandyAllocation.java) |
-| Q459 | [Task Scheduler With Cooldown](../docs/questions/q459.md) | Greedy and search on answer | Medium | [Code](../src/questions/q459/Q459TaskSchedulerWithCooldown.java) |
+| Q459 | [Rearrange a string so equal letters are never adjacent](../docs/questions/q459.md) | Greedy max heap | Medium | [Code](../src/questions/q459/Q459ReorganizeString.java) |
 | Q460 | [Partition Labels](../docs/questions/q460.md) | Greedy and search on answer | Medium | [Code](../src/questions/q460/Q460PartitionLabels.java) |
 | Q461 | [Queue Reconstruction By Height](../docs/questions/q461.md) | Greedy and search on answer | Medium | [Code](../src/questions/q461/Q461QueueReconstructionByHeight.java) |
-| Q462 | [Huffman Weighted Encoding Cost](../docs/questions/q462.md) | Greedy and search on answer | Medium | [Code](../src/questions/q462/Q462HuffmanWeightedEncodingCost.java) |
+| Q462 | [Maximize capital with at most k affordable projects](../docs/questions/q462.md) | Greedy selection with two orderings | Hard | [Code](../src/questions/q462/Q462MaximizeCapital.java) |
 | Q463 | [Maximum Units On A Truck](../docs/questions/q463.md) | Greedy and search on answer | Easy | [Code](../src/questions/q463/Q463MaximumUnitsOnATruck.java) |
 | Q464 | [Fractional Knapsack](../docs/questions/q464.md) | Greedy and search on answer | Medium | [Code](../src/questions/q464/Q464FractionalKnapsack.java) |
 | Q465 | [Deadline Job Sequencing Profit](../docs/questions/q465.md) | Greedy and search on answer | Medium | [Code](../src/questions/q465/Q465DeadlineJobSequencingProfit.java) |
-| Q466 | [Minimum Simultaneous Platforms](../docs/questions/q466.md) | Greedy and search on answer | Medium | [Code](../src/questions/q466/Q466MinimumSimultaneousPlatforms.java) |
+| Q466 | [Find the shortest interval covering each query](../docs/questions/q466.md) | Offline sorting and a min heap | Hard | [Code](../src/questions/q466/Q466MinimumCoveringInterval.java) |
 | Q467 | [Minimum Rescue Boats](../docs/questions/q467.md) | Greedy and search on answer | Medium | [Code](../src/questions/q467/Q467MinimumRescueBoats.java) |
-| Q468 | [Minimum Refueling Stops](../docs/questions/q468.md) | Greedy and search on answer | Hard | [Code](../src/questions/q468/Q468MinimumRefuelingStops.java) |
+| Q468 | [Reach the furthest building with bricks and ladders](../docs/questions/q468.md) | Greedy resource allocation | Medium | [Code](../src/questions/q468/Q468FurthestBuilding.java) |
 | Q469 | [Minimum Banana Eating Speed](../docs/questions/q469.md) | Greedy and search on answer | Medium | [Code](../src/questions/q469/Q469MinimumBananaEatingSpeed.java) |
 | Q470 | [Ship Packages Within Days](../docs/questions/q470.md) | Greedy and search on answer | Medium | [Code](../src/questions/q470/Q470ShipPackagesWithinDays.java) |
+| Q471 | [Minimize the largest sum among k contiguous groups](../docs/questions/q471.md) | Binary search on answer | Hard | [Code](../src/questions/q471/Q471SplitArrayMinimax.java) |
+| Q472 | [Place k items to maximize their minimum separation](../docs/questions/q472.md) | Binary search and greedy placement | Medium | [Code](../src/questions/q472/Q472MaximizeSeparation.java) |
+| Q473 | [Find the kth entry in a multiplication table](../docs/questions/q473.md) | Value-domain binary search | Hard | [Code](../src/questions/q473/Q473MultiplicationTableKth.java) |
+| Q474 | [Find the earliest time machines finish a target workload](../docs/questions/q474.md) | Monotone production counts | Medium | [Code](../src/questions/q474/Q474ParallelProductionTime.java) |
+| Q475 | [Find the median of a matrix with sorted rows](../docs/questions/q475.md) | Binary search over values | Hard | [Code](../src/questions/q475/Q475RowSortedMedian.java) |
+| Q476 | [Count one bits by clearing the lowest set bit](../docs/questions/q476.md) | Bit manipulation | Easy | [Code](../src/questions/q476/Q476SetBitCount.java) |
+| Q477 | [Recognize a positive power of two](../docs/questions/q477.md) | Bit manipulation | Easy | [Code](../src/questions/q477/Q477PowerOfTwo.java) |
+| Q478 | [Recover one unpaired value with XOR](../docs/questions/q478.md) | XOR cancellation | Easy | [Code](../src/questions/q478/Q478SingleAmongPairs.java) |
+| Q479 | [Recover two distinct unpaired values with XOR partitioning](../docs/questions/q479.md) | Bit partitions | Medium | [Code](../src/questions/q479/Q479TwoSingles.java) |
+| Q480 | [Recover a singleton when every other value occurs three times](../docs/questions/q480.md) | Bit-state counters | Medium | [Code](../src/questions/q480/Q480SingleAmongTriples.java) |
+| Q481 | [Compute the bitwise AND of an inclusive integer range](../docs/questions/q481.md) | Common binary prefixes | Medium | [Code](../src/questions/q481/Q481RangeBitwiseAnd.java) |
+| Q482 | [Reverse all32 bits and return their unsigned value](../docs/questions/q482.md) | Bit manipulation | Easy | [Code](../src/questions/q482/Q482ReverseBits.java) |
+| Q483 | [Generate a sequence whose adjacent bitmasks differ by one bit](../docs/questions/q483.md) | Gray-code construction | Medium | [Code](../src/questions/q483/Q483GrayCode.java) |
+| Q484 | [Enumerate every submask of a bitmask exactly once](../docs/questions/q484.md) | Subset bit operations | Medium | [Code](../src/questions/q484/Q484EnumerateSubmasks.java) |
+| Q485 | [Find a minimum round trip with subset dynamic programming](../docs/questions/q485.md) | Bitmask dynamic programming | Hard | [Code](../src/questions/q485/Q485TravelingSalesperson.java) |
+| Q486 | [Generate every prime up to a limit](../docs/questions/q486.md) | Sieve of Eratosthenes | Easy | [Code](../src/questions/q486/Q486PrimeSieve.java) |
+| Q487 | [Factor a positive integer into prime factors](../docs/questions/q487.md) | Trial division | Easy | [Code](../src/questions/q487/Q487PrimeFactorization.java) |
+| Q488 | [Raise a value to a large power modulo m](../docs/questions/q488.md) | Exponentiation by squaring | Medium | [Code](../src/questions/q488/Q488ModularExponentiation.java) |
+| Q489 | [Find a modular inverse using extended Euclid](../docs/questions/q489.md) | Number theory | Medium | [Code](../src/questions/q489/Q489ModularInverse.java) |
+| Q490 | [Compute an exact combination count without factorial overflow](../docs/questions/q490.md) | BigInteger arithmetic | Medium | [Code](../src/questions/q490/Q490BinomialCoefficient.java) |
+| Q491 | [Count binary-tree shapes with exact Catalan numbers](../docs/questions/q491.md) | Combinatorial dynamic programming | Medium | [Code](../src/questions/q491/Q491CatalanNumbers.java) |
+| Q492 | [Compute a huge-index Fibonacci residue with matrix powers](../docs/questions/q492.md) | Matrix exponentiation | Medium | [Code](../src/questions/q492/Q492MatrixFibonacci.java) |
+| Q493 | [Sample k stream values uniformly with bounded storage](../docs/questions/q493.md) | Randomized streaming | Medium | [Code](../src/questions/q493/Q493ReservoirSample.java) |
+| Q494 | [Support insert remove and uniform random lookup](../docs/questions/q494.md) | Array plus hash index | Medium | [Code](../src/questions/q494/Q494RandomizedSet.java) |
+| Q495 | [Implement an LRU cache with a hash map and linked nodes](../docs/questions/q495.md) | Cache design | Hard | [Code](../src/questions/q495/Q495ManualLruCache.java) |
+| Q496 | [Evict the least frequently used cache entry with LRU ties](../docs/questions/q496.md) | Cache frequency buckets | Hard | [Code](../src/questions/q496/Q496LfuCache.java) |
+| Q497 | [Expire cache entries without deleting newer replacements](../docs/questions/q497.md) | Hash map and expiration heap | Hard | [Code](../src/questions/q497/Q497ExpiringCache.java) |
+| Q498 | [Limit arrivals with a periodically refilled token bucket](../docs/questions/q498.md) | Rate-limiter simulation | Medium | [Code](../src/questions/q498/Q498TokenBucket.java) |
+| Q499 | [Build an approximate membership filter with no false negatives](../docs/questions/q499.md) | Bloom filters | Medium | [Code](../src/questions/q499/Q499BloomMembership.java) |
+| Q500 | [Read historical array values without copying every snapshot](../docs/questions/q500.md) | Versioned histories and binary search | Hard | [Code](../src/questions/q500/Q500SnapshotArray.java) |
