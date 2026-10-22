@@ -298,5 +298,655 @@
     "source": "src/questions/q405/Q405UniqueGridPaths.java",
     "lesson": "docs/questions/q405.md",
     "expectedOutput": "28\n"
+  },
+  {
+    "id": 406,
+    "title": "Grid Paths With Obstacles",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q406.Q406GridPathsWithObstacles",
+    "source": "src/questions/q406/Q406GridPathsWithObstacles.java",
+    "lesson": "docs/questions/q406.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 407,
+    "title": "Minimum Grid Path Sum",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q407.Q407MinimumGridPathSum",
+    "source": "src/questions/q407/Q407MinimumGridPathSum.java",
+    "lesson": "docs/questions/q407.md",
+    "expectedOutput": "7\n"
+  },
+  {
+    "id": 408,
+    "title": "Triangle Minimum Path",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q408.Q408TriangleMinimumPath",
+    "source": "src/questions/q408/Q408TriangleMinimumPath.java",
+    "lesson": "docs/questions/q408.md",
+    "expectedOutput": "11\n"
+  },
+  {
+    "id": 409,
+    "title": "Maximal Square Area",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q409.Q409MaximalSquareArea",
+    "source": "src/questions/q409/Q409MaximalSquareArea.java",
+    "lesson": "docs/questions/q409.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 410,
+    "title": "Count All One Squares",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q410.Q410CountAllOneSquares",
+    "source": "src/questions/q410/Q410CountAllOneSquares.java",
+    "lesson": "docs/questions/q410.md",
+    "expectedOutput": "5\n"
+  },
+  {
+    "id": 411,
+    "title": "Minimum Coin Count",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q411.Q411MinimumCoinCount",
+    "source": "src/questions/q411/Q411MinimumCoinCount.java",
+    "lesson": "docs/questions/q411.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 412,
+    "title": "Coin Combination Count",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q412.Q412CoinCombinationCount",
+    "source": "src/questions/q412/Q412CoinCombinationCount.java",
+    "lesson": "docs/questions/q412.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 413,
+    "title": "Ordered Sum Count",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q413.Q413OrderedSumCount",
+    "source": "src/questions/q413/Q413OrderedSumCount.java",
+    "lesson": "docs/questions/q413.md",
+    "expectedOutput": "7\n"
+  },
+  {
+    "id": 414,
+    "title": "Target Sum Sign Assignments",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q414.Q414TargetSumSignAssignments",
+    "source": "src/questions/q414/Q414TargetSumSignAssignments.java",
+    "lesson": "docs/questions/q414.md",
+    "expectedOutput": "5\n"
+  },
+  {
+    "id": 415,
+    "title": "Equal Sum Partition",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q415.Q415EqualSumPartition",
+    "source": "src/questions/q415/Q415EqualSumPartition.java",
+    "lesson": "docs/questions/q415.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 416,
+    "title": "Minimum Subset Sum Difference",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q416.Q416MinimumSubsetSumDifference",
+    "source": "src/questions/q416/Q416MinimumSubsetSumDifference.java",
+    "lesson": "docs/questions/q416.md",
+    "expectedOutput": "1\n"
+  },
+  {
+    "id": 417,
+    "title": "Zero One Knapsack",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q417.Q417ZeroOneKnapsack",
+    "source": "src/questions/q417/Q417ZeroOneKnapsack.java",
+    "lesson": "docs/questions/q417.md",
+    "expectedOutput": "9\n"
+  },
+  {
+    "id": 418,
+    "title": "Unbounded Knapsack",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q418.Q418UnboundedKnapsack",
+    "source": "src/questions/q418/Q418UnboundedKnapsack.java",
+    "lesson": "docs/questions/q418.md",
+    "expectedOutput": "12\n"
+  },
+  {
+    "id": 419,
+    "title": "Rod Cutting Revenue",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q419.Q419RodCuttingRevenue",
+    "source": "src/questions/q419/Q419RodCuttingRevenue.java",
+    "lesson": "docs/questions/q419.md",
+    "expectedOutput": "10\n"
+  },
+  {
+    "id": 420,
+    "title": "Count Subsets With Target Sum",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q420.Q420CountSubsetsWithTargetSum",
+    "source": "src/questions/q420/Q420CountSubsetsWithTargetSum.java",
+    "lesson": "docs/questions/q420.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 421,
+    "title": "Longest Common Subsequence Length",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q421.Q421LongestCommonSubsequenceLength",
+    "source": "src/questions/q421/Q421LongestCommonSubsequenceLength.java",
+    "lesson": "docs/questions/q421.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 422,
+    "title": "Longest Common Substring Length",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q422.Q422LongestCommonSubstringLength",
+    "source": "src/questions/q422/Q422LongestCommonSubstringLength.java",
+    "lesson": "docs/questions/q422.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 423,
+    "title": "Edit Distance",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q423.Q423EditDistance",
+    "source": "src/questions/q423/Q423EditDistance.java",
+    "lesson": "docs/questions/q423.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 424,
+    "title": "Minimum Deletions To Equal Strings",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q424.Q424MinimumDeletionsToEqualStrings",
+    "source": "src/questions/q424/Q424MinimumDeletionsToEqualStrings.java",
+    "lesson": "docs/questions/q424.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 425,
+    "title": "Distinct Target Subsequences",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q425.Q425DistinctTargetSubsequences",
+    "source": "src/questions/q425/Q425DistinctTargetSubsequences.java",
+    "lesson": "docs/questions/q425.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 426,
+    "title": "Count Palindromic Substrings",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q426.Q426CountPalindromicSubstrings",
+    "source": "src/questions/q426/Q426CountPalindromicSubstrings.java",
+    "lesson": "docs/questions/q426.md",
+    "expectedOutput": "6\n"
+  },
+  {
+    "id": 427,
+    "title": "Longest Palindromic Subsequence",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q427.Q427LongestPalindromicSubsequence",
+    "source": "src/questions/q427/Q427LongestPalindromicSubsequence.java",
+    "lesson": "docs/questions/q427.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 428,
+    "title": "Minimum Palindrome Partition Cuts",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q428.Q428MinimumPalindromePartitionCuts",
+    "source": "src/questions/q428/Q428MinimumPalindromePartitionCuts.java",
+    "lesson": "docs/questions/q428.md",
+    "expectedOutput": "1\n"
+  },
+  {
+    "id": 429,
+    "title": "Interleaving Strings",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q429.Q429InterleavingStrings",
+    "source": "src/questions/q429/Q429InterleavingStrings.java",
+    "lesson": "docs/questions/q429.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 430,
+    "title": "Wildcard Pattern Match",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q430.Q430WildcardPatternMatch",
+    "source": "src/questions/q430/Q430WildcardPatternMatch.java",
+    "lesson": "docs/questions/q430.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 431,
+    "title": "Longest Increasing Subsequence",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q431.Q431LongestIncreasingSubsequence",
+    "source": "src/questions/q431/Q431LongestIncreasingSubsequence.java",
+    "lesson": "docs/questions/q431.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 432,
+    "title": "Count Longest Increasing Subsequences",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q432.Q432CountLongestIncreasingSubsequences",
+    "source": "src/questions/q432/Q432CountLongestIncreasingSubsequences.java",
+    "lesson": "docs/questions/q432.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 433,
+    "title": "Longest Bitonic Subsequence",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q433.Q433LongestBitonicSubsequence",
+    "source": "src/questions/q433/Q433LongestBitonicSubsequence.java",
+    "lesson": "docs/questions/q433.md",
+    "expectedOutput": "6\n"
+  },
+  {
+    "id": 434,
+    "title": "Word Break Feasibility",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q434.Q434WordBreakFeasibility",
+    "source": "src/questions/q434/Q434WordBreakFeasibility.java",
+    "lesson": "docs/questions/q434.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 435,
+    "title": "Count Word Segmentations",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q435.Q435CountWordSegmentations",
+    "source": "src/questions/q435/Q435CountWordSegmentations.java",
+    "lesson": "docs/questions/q435.md",
+    "expectedOutput": "5\n"
+  },
+  {
+    "id": 436,
+    "title": "Decode Digit Strings",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q436.Q436DecodeDigitStrings",
+    "source": "src/questions/q436/Q436DecodeDigitStrings.java",
+    "lesson": "docs/questions/q436.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 437,
+    "title": "Maximal All One Rectangle",
+    "topic": "Dynamic programming",
+    "difficulty": "Hard",
+    "className": "questions.q437.Q437MaximalAllOneRectangle",
+    "source": "src/questions/q437/Q437MaximalAllOneRectangle.java",
+    "lesson": "docs/questions/q437.md",
+    "expectedOutput": "6\n"
+  },
+  {
+    "id": 438,
+    "title": "Matrix Chain Multiplication Cost",
+    "topic": "Dynamic programming",
+    "difficulty": "Hard",
+    "className": "questions.q438.Q438MatrixChainMultiplicationCost",
+    "source": "src/questions/q438/Q438MatrixChainMultiplicationCost.java",
+    "lesson": "docs/questions/q438.md",
+    "expectedOutput": "26000\n"
+  },
+  {
+    "id": 439,
+    "title": "Burst Balloons",
+    "topic": "Dynamic programming",
+    "difficulty": "Hard",
+    "className": "questions.q439.Q439BurstBalloons",
+    "source": "src/questions/q439/Q439BurstBalloons.java",
+    "lesson": "docs/questions/q439.md",
+    "expectedOutput": "167\n"
+  },
+  {
+    "id": 440,
+    "title": "Egg Drop Minimum Moves",
+    "topic": "Dynamic programming",
+    "difficulty": "Hard",
+    "className": "questions.q440.Q440EggDropMinimumMoves",
+    "source": "src/questions/q440/Q440EggDropMinimumMoves.java",
+    "lesson": "docs/questions/q440.md",
+    "expectedOutput": "14\n"
+  },
+  {
+    "id": 441,
+    "title": "Stock Profit With Cooldown",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q441.Q441StockProfitWithCooldown",
+    "source": "src/questions/q441/Q441StockProfitWithCooldown.java",
+    "lesson": "docs/questions/q441.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 442,
+    "title": "Stock Profit With Transaction Fee",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q442.Q442StockProfitWithTransactionFee",
+    "source": "src/questions/q442/Q442StockProfitWithTransactionFee.java",
+    "lesson": "docs/questions/q442.md",
+    "expectedOutput": "8\n"
+  },
+  {
+    "id": 443,
+    "title": "Stock Profit With At Most K Trades",
+    "topic": "Dynamic programming",
+    "difficulty": "Hard",
+    "className": "questions.q443.Q443StockProfitWithAtMostKTrades",
+    "source": "src/questions/q443/Q443StockProfitWithAtMostKTrades.java",
+    "lesson": "docs/questions/q443.md",
+    "expectedOutput": "7\n"
+  },
+  {
+    "id": 444,
+    "title": "Dungeon Minimum Initial Health",
+    "topic": "Dynamic programming",
+    "difficulty": "Hard",
+    "className": "questions.q444.Q444DungeonMinimumInitialHealth",
+    "source": "src/questions/q444/Q444DungeonMinimumInitialHealth.java",
+    "lesson": "docs/questions/q444.md",
+    "expectedOutput": "7\n"
+  },
+  {
+    "id": 445,
+    "title": "Minimum Falling Path Sum",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q445.Q445MinimumFallingPathSum",
+    "source": "src/questions/q445/Q445MinimumFallingPathSum.java",
+    "lesson": "docs/questions/q445.md",
+    "expectedOutput": "13\n"
+  },
+  {
+    "id": 446,
+    "title": "Regular Expression Full Match",
+    "topic": "Dynamic programming",
+    "difficulty": "Hard",
+    "className": "questions.q446.Q446RegularExpressionFullMatch",
+    "source": "src/questions/q446/Q446RegularExpressionFullMatch.java",
+    "lesson": "docs/questions/q446.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 447,
+    "title": "Boolean Parenthesization Count",
+    "topic": "Dynamic programming",
+    "difficulty": "Hard",
+    "className": "questions.q447.Q447BooleanParenthesizationCount",
+    "source": "src/questions/q447/Q447BooleanParenthesizationCount.java",
+    "lesson": "docs/questions/q447.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 448,
+    "title": "Optimal Search Tree Cost",
+    "topic": "Dynamic programming",
+    "difficulty": "Hard",
+    "className": "questions.q448.Q448OptimalSearchTreeCost",
+    "source": "src/questions/q448/Q448OptimalSearchTreeCost.java",
+    "lesson": "docs/questions/q448.md",
+    "expectedOutput": "142\n"
+  },
+  {
+    "id": 449,
+    "title": "Frog Jump Across Stones",
+    "topic": "Dynamic programming",
+    "difficulty": "Hard",
+    "className": "questions.q449.Q449FrogJumpAcrossStones",
+    "source": "src/questions/q449/Q449FrogJumpAcrossStones.java",
+    "lesson": "docs/questions/q449.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 450,
+    "title": "Longest Arithmetic Subsequence",
+    "topic": "Dynamic programming",
+    "difficulty": "Medium",
+    "className": "questions.q450.Q450LongestArithmeticSubsequence",
+    "source": "src/questions/q450/Q450LongestArithmeticSubsequence.java",
+    "lesson": "docs/questions/q450.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 451,
+    "title": "Maximum Compatible Meetings",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q451.Q451MaximumCompatibleMeetings",
+    "source": "src/questions/q451/Q451MaximumCompatibleMeetings.java",
+    "lesson": "docs/questions/q451.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 452,
+    "title": "Maximum Courses Before Deadlines",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Hard",
+    "className": "questions.q452.Q452MaximumCoursesBeforeDeadlines",
+    "source": "src/questions/q452/Q452MaximumCoursesBeforeDeadlines.java",
+    "lesson": "docs/questions/q452.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 453,
+    "title": "Assign Cookies",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Easy",
+    "className": "questions.q453.Q453AssignCookies",
+    "source": "src/questions/q453/Q453AssignCookies.java",
+    "lesson": "docs/questions/q453.md",
+    "expectedOutput": "1\n"
+  },
+  {
+    "id": 454,
+    "title": "Lemonade Change",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Easy",
+    "className": "questions.q454.Q454LemonadeChange",
+    "source": "src/questions/q454/Q454LemonadeChange.java",
+    "lesson": "docs/questions/q454.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 455,
+    "title": "Jump Game Reachability",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q455.Q455JumpGameReachability",
+    "source": "src/questions/q455/Q455JumpGameReachability.java",
+    "lesson": "docs/questions/q455.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 456,
+    "title": "Minimum Forward Jumps",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q456.Q456MinimumForwardJumps",
+    "source": "src/questions/q456/Q456MinimumForwardJumps.java",
+    "lesson": "docs/questions/q456.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 457,
+    "title": "Gas Station Circuit",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q457.Q457GasStationCircuit",
+    "source": "src/questions/q457/Q457GasStationCircuit.java",
+    "lesson": "docs/questions/q457.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 458,
+    "title": "Minimum Candy Allocation",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Hard",
+    "className": "questions.q458.Q458MinimumCandyAllocation",
+    "source": "src/questions/q458/Q458MinimumCandyAllocation.java",
+    "lesson": "docs/questions/q458.md",
+    "expectedOutput": "5\n"
+  },
+  {
+    "id": 459,
+    "title": "Task Scheduler With Cooldown",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q459.Q459TaskSchedulerWithCooldown",
+    "source": "src/questions/q459/Q459TaskSchedulerWithCooldown.java",
+    "lesson": "docs/questions/q459.md",
+    "expectedOutput": "8\n"
+  },
+  {
+    "id": 460,
+    "title": "Partition Labels",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q460.Q460PartitionLabels",
+    "source": "src/questions/q460/Q460PartitionLabels.java",
+    "lesson": "docs/questions/q460.md",
+    "expectedOutput": "[9, 7, 8]\n"
+  },
+  {
+    "id": 461,
+    "title": "Queue Reconstruction By Height",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q461.Q461QueueReconstructionByHeight",
+    "source": "src/questions/q461/Q461QueueReconstructionByHeight.java",
+    "lesson": "docs/questions/q461.md",
+    "expectedOutput": "[[5, 0], [7, 0], [5, 2], [6, 1], [4, 4], [7, 1]]\n"
+  },
+  {
+    "id": 462,
+    "title": "Huffman Weighted Encoding Cost",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q462.Q462HuffmanWeightedEncodingCost",
+    "source": "src/questions/q462/Q462HuffmanWeightedEncodingCost.java",
+    "lesson": "docs/questions/q462.md",
+    "expectedOutput": "224\n"
+  },
+  {
+    "id": 463,
+    "title": "Maximum Units On A Truck",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Easy",
+    "className": "questions.q463.Q463MaximumUnitsOnATruck",
+    "source": "src/questions/q463/Q463MaximumUnitsOnATruck.java",
+    "lesson": "docs/questions/q463.md",
+    "expectedOutput": "8\n"
+  },
+  {
+    "id": 464,
+    "title": "Fractional Knapsack",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q464.Q464FractionalKnapsack",
+    "source": "src/questions/q464/Q464FractionalKnapsack.java",
+    "lesson": "docs/questions/q464.md",
+    "expectedOutput": "240.0\n"
+  },
+  {
+    "id": 465,
+    "title": "Deadline Job Sequencing Profit",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q465.Q465DeadlineJobSequencingProfit",
+    "source": "src/questions/q465/Q465DeadlineJobSequencingProfit.java",
+    "lesson": "docs/questions/q465.md",
+    "expectedOutput": "142\n"
+  },
+  {
+    "id": 466,
+    "title": "Minimum Simultaneous Platforms",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q466.Q466MinimumSimultaneousPlatforms",
+    "source": "src/questions/q466/Q466MinimumSimultaneousPlatforms.java",
+    "lesson": "docs/questions/q466.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 467,
+    "title": "Minimum Rescue Boats",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q467.Q467MinimumRescueBoats",
+    "source": "src/questions/q467/Q467MinimumRescueBoats.java",
+    "lesson": "docs/questions/q467.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 468,
+    "title": "Minimum Refueling Stops",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Hard",
+    "className": "questions.q468.Q468MinimumRefuelingStops",
+    "source": "src/questions/q468/Q468MinimumRefuelingStops.java",
+    "lesson": "docs/questions/q468.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 469,
+    "title": "Minimum Banana Eating Speed",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q469.Q469MinimumBananaEatingSpeed",
+    "source": "src/questions/q469/Q469MinimumBananaEatingSpeed.java",
+    "lesson": "docs/questions/q469.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 470,
+    "title": "Ship Packages Within Days",
+    "topic": "Greedy and search on answer",
+    "difficulty": "Medium",
+    "className": "questions.q470.Q470ShipPackagesWithinDays",
+    "source": "src/questions/q470/Q470ShipPackagesWithinDays.java",
+    "lesson": "docs/questions/q470.md",
+    "expectedOutput": "15\n"
   }
 ]
