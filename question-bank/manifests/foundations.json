@@ -648,5 +648,605 @@
     "source": "src/questions/q065/Q065CountTargetSubarrays.java",
     "lesson": "docs/questions/q065.md",
     "expectedOutput": "3\n"
+  },
+  {
+    "id": 66,
+    "title": "Find a longest interval with a target sum",
+    "topic": "Prefix sums",
+    "difficulty": "Medium",
+    "className": "questions.q066.Q066LongestTargetSubarray",
+    "source": "src/questions/q066/Q066LongestTargetSubarray.java",
+    "lesson": "docs/questions/q066.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 67,
+    "title": "Rotate a square matrix clockwise",
+    "topic": "Matrix transformations",
+    "difficulty": "Medium",
+    "className": "questions.q067.Q067RotateSquare",
+    "source": "src/questions/q067/Q067RotateSquare.java",
+    "lesson": "docs/questions/q067.md",
+    "expectedOutput": "[[3, 1], [4, 2]]\n"
+  },
+  {
+    "id": 68,
+    "title": "Transpose a rectangular matrix",
+    "topic": "Matrix indexing",
+    "difficulty": "Beginner",
+    "className": "questions.q068.Q068Transpose",
+    "source": "src/questions/q068/Q068Transpose.java",
+    "lesson": "docs/questions/q068.md",
+    "expectedOutput": "[[1, 4], [2, 5], [3, 6]]\n"
+  },
+  {
+    "id": 69,
+    "title": "Sum both diagonals without double-counting the center",
+    "topic": "Matrix scans",
+    "difficulty": "Beginner",
+    "className": "questions.q069.Q069DiagonalTotal",
+    "source": "src/questions/q069/Q069DiagonalTotal.java",
+    "lesson": "docs/questions/q069.md",
+    "expectedOutput": "25\n"
+  },
+  {
+    "id": 70,
+    "title": "Read a rectangular matrix in clockwise spiral order",
+    "topic": "Matrix boundaries",
+    "difficulty": "Medium",
+    "className": "questions.q070.Q070SpiralTraversal",
+    "source": "src/questions/q070/Q070SpiralTraversal.java",
+    "lesson": "docs/questions/q070.md",
+    "expectedOutput": "[1, 2, 3, 6, 5, 4]\n"
+  },
+  {
+    "id": 71,
+    "title": "Search a matrix sorted by rows and columns",
+    "topic": "Staircase search",
+    "difficulty": "Medium",
+    "className": "questions.q071.Q071SortedMatrixSearch",
+    "source": "src/questions/q071/Q071SortedMatrixSearch.java",
+    "lesson": "docs/questions/q071.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 72,
+    "title": "Zero rows and columns containing an original zero",
+    "topic": "Matrix marking",
+    "difficulty": "Medium",
+    "className": "questions.q072.Q072ZeroMatrixRowsColumns",
+    "source": "src/questions/q072/Q072ZeroMatrixRowsColumns.java",
+    "lesson": "docs/questions/q072.md",
+    "expectedOutput": "[[1, 0, 3], [0, 0, 0], [7, 0, 9]]\n"
+  },
+  {
+    "id": 73,
+    "title": "Merge overlapping closed intervals",
+    "topic": "Sorting and intervals",
+    "difficulty": "Medium",
+    "className": "questions.q073.Q073MergeIntervals",
+    "source": "src/questions/q073/Q073MergeIntervals.java",
+    "lesson": "docs/questions/q073.md",
+    "expectedOutput": "[[1, 6], [8, 10]]\n"
+  },
+  {
+    "id": 74,
+    "title": "Insert one interval into a disjoint sorted interval list",
+    "topic": "Interval scans",
+    "difficulty": "Medium",
+    "className": "questions.q074.Q074InsertInterval",
+    "source": "src/questions/q074/Q074InsertInterval.java",
+    "lesson": "docs/questions/q074.md",
+    "expectedOutput": "[[1, 5], [6, 9]]\n"
+  },
+  {
+    "id": 75,
+    "title": "Find the next lexicographic permutation",
+    "topic": "Lexicographic ordering",
+    "difficulty": "Medium",
+    "className": "questions.q075.Q075NextPermutation",
+    "source": "src/questions/q075/Q075NextPermutation.java",
+    "lesson": "docs/questions/q075.md",
+    "expectedOutput": "[1, 3, 2]\n"
+  },
+  {
+    "id": 76,
+    "title": "Insert replace and remove ArrayList elements by position",
+    "topic": "Java Collections: ArrayList",
+    "difficulty": "Beginner",
+    "className": "questions.q076.Q076ArrayListEdits",
+    "source": "src/questions/q076/Q076ArrayListEdits.java",
+    "lesson": "docs/questions/q076.md",
+    "expectedOutput": "[a, X, c]\n"
+  },
+  {
+    "id": 77,
+    "title": "Remove even values safely while iterating a list",
+    "topic": "Java Collections: Iterator",
+    "difficulty": "Beginner",
+    "className": "questions.q077.Q077IteratorRemoval",
+    "source": "src/questions/q077/Q077IteratorRemoval.java",
+    "lesson": "docs/questions/q077.md",
+    "expectedOutput": "[1, 3]\n"
+  },
+  {
+    "id": 78,
+    "title": "Insert follow-up tasks during list traversal",
+    "topic": "Java Collections: ListIterator",
+    "difficulty": "Beginner",
+    "className": "questions.q078.Q078ListIteratorInsertion",
+    "source": "src/questions/q078/Q078ListIteratorInsertion.java",
+    "lesson": "docs/questions/q078.md",
+    "expectedOutput": "[build, check, test, build, check]\n"
+  },
+  {
+    "id": 79,
+    "title": "Delete a half-open range through a backed list view",
+    "topic": "Java Collections: subList",
+    "difficulty": "Beginner",
+    "className": "questions.q079.Q079SubListDeletion",
+    "source": "src/questions/q079/Q079SubListDeletion.java",
+    "lesson": "docs/questions/q079.md",
+    "expectedOutput": "[1, 4]\n"
+  },
+  {
+    "id": 80,
+    "title": "Filter a list using set membership while preserving duplicates",
+    "topic": "Java Collections: retainAll",
+    "difficulty": "Beginner",
+    "className": "questions.q080.Q080RetainAllowed",
+    "source": "src/questions/q080/Q080RetainAllowed.java",
+    "lesson": "docs/questions/q080.md",
+    "expectedOutput": "[a, a]\n"
+  },
+  {
+    "id": 81,
+    "title": "Rotate a list with the Collections utility",
+    "topic": "Java Collections: Collections.rotate",
+    "difficulty": "Beginner",
+    "className": "questions.q081.Q081RotateList",
+    "source": "src/questions/q081/Q081RotateList.java",
+    "lesson": "docs/questions/q081.md",
+    "expectedOutput": "[4, 1, 2, 3]\n"
+  },
+  {
+    "id": 82,
+    "title": "Sort integers by magnitude with numeric tie-breaking",
+    "topic": "Java Collections: Comparator",
+    "difficulty": "Beginner",
+    "className": "questions.q082.Q082AbsoluteComparator",
+    "source": "src/questions/q082/Q082AbsoluteComparator.java",
+    "lesson": "docs/questions/q082.md",
+    "expectedOutput": "[1, -2, 2, -3]\n"
+  },
+  {
+    "id": 83,
+    "title": "Sort words by length while preserving equal-length order",
+    "topic": "Java Collections: stable sorting",
+    "difficulty": "Beginner",
+    "className": "questions.q083.Q083StableLengthSort",
+    "source": "src/questions/q083/Q083StableLengthSort.java",
+    "lesson": "docs/questions/q083.md",
+    "expectedOutput": "[a, bb, cc, ddd]\n"
+  },
+  {
+    "id": 84,
+    "title": "Insert into a sorted ArrayList using binarySearch",
+    "topic": "Java Collections: binarySearch",
+    "difficulty": "Beginner",
+    "className": "questions.q084.Q084SortedListInsertion",
+    "source": "src/questions/q084/Q084SortedListInsertion.java",
+    "lesson": "docs/questions/q084.md",
+    "expectedOutput": "[1, 3, 4, 5]\n"
+  },
+  {
+    "id": 85,
+    "title": "Create a detached immutable List.copyOf snapshot",
+    "topic": "Java Collections: List.copyOf",
+    "difficulty": "Beginner",
+    "className": "questions.q085.Q085ImmutableSnapshot",
+    "source": "src/questions/q085/Q085ImmutableSnapshot.java",
+    "lesson": "docs/questions/q085.md",
+    "expectedOutput": "[[a, b, c], [a, b]]\n"
+  },
+  {
+    "id": 86,
+    "title": "Observe a fixed-size list backed by an array",
+    "topic": "Java Collections: Arrays.asList",
+    "difficulty": "Beginner",
+    "className": "questions.q086.Q086FixedSizeList",
+    "source": "src/questions/q086/Q086FixedSizeList.java",
+    "lesson": "docs/questions/q086.md",
+    "expectedOutput": "[[x, b], true]\n"
+  },
+  {
+    "id": 87,
+    "title": "Remove the first and last matching occurrences",
+    "topic": "Java Collections: LinkedList and Deque",
+    "difficulty": "Beginner",
+    "className": "questions.q087.Q087LinkedListOccurrences",
+    "source": "src/questions/q087/Q087LinkedListOccurrences.java",
+    "lesson": "docs/questions/q087.md",
+    "expectedOutput": "[a, x, b]\n"
+  },
+  {
+    "id": 88,
+    "title": "Retain only the most recent events",
+    "topic": "Java Collections: ArrayDeque",
+    "difficulty": "Beginner",
+    "className": "questions.q088.Q088RecentHistory",
+    "source": "src/questions/q088/Q088RecentHistory.java",
+    "lesson": "docs/questions/q088.md",
+    "expectedOutput": "[b, c]\n"
+  },
+  {
+    "id": 89,
+    "title": "Simulate fair round-robin task scheduling",
+    "topic": "Java Collections: queue scheduling",
+    "difficulty": "Easy",
+    "className": "questions.q089.Q089RoundRobin",
+    "source": "src/questions/q089/Q089RoundRobin.java",
+    "lesson": "docs/questions/q089.md",
+    "expectedOutput": "[1, 2, 0]\n"
+  },
+  {
+    "id": 90,
+    "title": "Implement text undo and redo with two stacks",
+    "topic": "Java Collections: two deques",
+    "difficulty": "Easy",
+    "className": "questions.q090.Q090UndoRedo",
+    "source": "src/questions/q090/Q090UndoRedo.java",
+    "lesson": "docs/questions/q090.md",
+    "expectedOutput": "b\n"
+  },
+  {
+    "id": 91,
+    "title": "Trace legacy Stack push peek and pop",
+    "topic": "Java Collections: Stack",
+    "difficulty": "Beginner",
+    "className": "questions.q091.Q091LegacyStack",
+    "source": "src/questions/q091/Q091LegacyStack.java",
+    "lesson": "docs/questions/q091.md",
+    "expectedOutput": "[3, 2, 1]\n"
+  },
+  {
+    "id": 92,
+    "title": "Find values present in exactly one set",
+    "topic": "Java Collections: HashSet",
+    "difficulty": "Beginner",
+    "className": "questions.q092.Q092SymmetricDifference",
+    "source": "src/questions/q092/Q092SymmetricDifference.java",
+    "lesson": "docs/questions/q092.md",
+    "expectedOutput": "[1, 3]\n"
+  },
+  {
+    "id": 93,
+    "title": "Deduplicate values while preserving first-seen order",
+    "topic": "Java Collections: LinkedHashSet",
+    "difficulty": "Beginner",
+    "className": "questions.q093.Q093FirstSeenOrder",
+    "source": "src/questions/q093/Q093FirstSeenOrder.java",
+    "lesson": "docs/questions/q093.md",
+    "expectedOutput": "[b, a, c]\n"
+  },
+  {
+    "id": 94,
+    "title": "Select a sorted half-open set range",
+    "topic": "Java Collections: TreeSet",
+    "difficulty": "Beginner",
+    "className": "questions.q094.Q094BoundedSetRange",
+    "source": "src/questions/q094/Q094BoundedSetRange.java",
+    "lesson": "docs/questions/q094.md",
+    "expectedOutput": "[3, 5]\n"
+  },
+  {
+    "id": 95,
+    "title": "Allocate the nearest free seat with ordered neighbors",
+    "topic": "Java Collections: NavigableSet",
+    "difficulty": "Easy",
+    "className": "questions.q095.Q095NearestSeat",
+    "source": "src/questions/q095/Q095NearestSeat.java",
+    "lesson": "docs/questions/q095.md",
+    "expectedOutput": "[5, 9, 1]\n"
+  },
+  {
+    "id": 96,
+    "title": "Combine and revoke finite permission flags",
+    "topic": "Java Collections: EnumSet",
+    "difficulty": "Beginner",
+    "className": "questions.q096.Q096EnumPermissions",
+    "source": "src/questions/q096/Q096EnumPermissions.java",
+    "lesson": "docs/questions/q096.md",
+    "expectedOutput": "[READ]\n"
+  },
+  {
+    "id": 97,
+    "title": "Find free slots in a bounded universe",
+    "topic": "Java Collections: BitSet",
+    "difficulty": "Beginner",
+    "className": "questions.q097.Q097BitSetAvailability",
+    "source": "src/questions/q097/Q097BitSetAvailability.java",
+    "lesson": "docs/questions/q097.md",
+    "expectedOutput": "[0, 2, 4]\n"
+  },
+  {
+    "id": 98,
+    "title": "Reserve available inventory atomically within one operation",
+    "topic": "Java Collections: HashMap",
+    "difficulty": "Beginner",
+    "className": "questions.q098.Q098InventoryReservation",
+    "source": "src/questions/q098/Q098InventoryReservation.java",
+    "lesson": "docs/questions/q098.md",
+    "expectedOutput": "{book=2, pen=2}\n"
+  },
+  {
+    "id": 99,
+    "title": "Group names with computeIfAbsent",
+    "topic": "Java Collections: Map.computeIfAbsent",
+    "difficulty": "Beginner",
+    "className": "questions.q099.Q099GroupByInitial",
+    "source": "src/questions/q099/Q099GroupByInitial.java",
+    "lesson": "docs/questions/q099.md",
+    "expectedOutput": "{A=[Ana, Amy], B=[Bob]}\n"
+  },
+  {
+    "id": 100,
+    "title": "Aggregate transaction totals with Map.merge",
+    "topic": "Java Collections: Map.merge",
+    "difficulty": "Beginner",
+    "className": "questions.q100.Q100MergeTotals",
+    "source": "src/questions/q100/Q100MergeTotals.java",
+    "lesson": "docs/questions/q100.md",
+    "expectedOutput": "{food=7, travel=4}\n"
+  },
+  {
+    "id": 101,
+    "title": "Build a reverse lookup index for shared values",
+    "topic": "Java Collections: inverse map",
+    "difficulty": "Beginner",
+    "className": "questions.q101.Q101InvertIndex",
+    "source": "src/questions/q101/Q101InvertIndex.java",
+    "lesson": "docs/questions/q101.md",
+    "expectedOutput": "{dev=[amy, cat], ops=[bob]}\n"
+  },
+  {
+    "id": 102,
+    "title": "Maintain an access-order cache with LinkedHashMap",
+    "topic": "Java Collections: LinkedHashMap",
+    "difficulty": "Easy",
+    "className": "questions.q102.Q102AccessOrderCache",
+    "source": "src/questions/q102/Q102AccessOrderCache.java",
+    "lesson": "docs/questions/q102.md",
+    "expectedOutput": "[a, c]\n"
+  },
+  {
+    "id": 103,
+    "title": "Look up the latest effective price at a timestamp",
+    "topic": "Java Collections: TreeMap.floorEntry",
+    "difficulty": "Beginner",
+    "className": "questions.q103.Q103EffectivePrice",
+    "source": "src/questions/q103/Q103EffectivePrice.java",
+    "lesson": "docs/questions/q103.md",
+    "expectedOutput": "[null, 5, 5, 7]\n"
+  },
+  {
+    "id": 104,
+    "title": "Total map values within an inclusive key range",
+    "topic": "Java Collections: NavigableMap.subMap",
+    "difficulty": "Beginner",
+    "className": "questions.q104.Q104RangeTotalMap",
+    "source": "src/questions/q104/Q104RangeTotalMap.java",
+    "lesson": "docs/questions/q104.md",
+    "expectedOutput": "9\n"
+  },
+  {
+    "id": 105,
+    "title": "Count fixed categories with EnumMap",
+    "topic": "Java Collections: EnumMap",
+    "difficulty": "Beginner",
+    "className": "questions.q105.Q105EnumCounters",
+    "source": "src/questions/q105/Q105EnumCounters.java",
+    "lesson": "docs/questions/q105.md",
+    "expectedOutput": "{NEW=2, RUNNING=0, DONE=1}\n"
+  },
+  {
+    "id": 106,
+    "title": "Compare value equality with object identity as map keys",
+    "topic": "Java Collections: IdentityHashMap",
+    "difficulty": "Beginner",
+    "className": "questions.q106.Q106IdentityKeys",
+    "source": "src/questions/q106/Q106IdentityKeys.java",
+    "lesson": "docs/questions/q106.md",
+    "expectedOutput": "[2, 3]\n"
+  },
+  {
+    "id": 107,
+    "title": "Use weak keys while retaining live owners",
+    "topic": "Java Collections: WeakHashMap",
+    "difficulty": "Beginner",
+    "className": "questions.q107.Q107WeakKeyCache",
+    "source": "src/questions/q107/Q107WeakKeyCache.java",
+    "lesson": "docs/questions/q107.md",
+    "expectedOutput": "[4, 7]\n"
+  },
+  {
+    "id": 108,
+    "title": "Count two workers updates without lost increments",
+    "topic": "Java Collections: ConcurrentHashMap",
+    "difficulty": "Beginner",
+    "className": "questions.q108.Q108ConcurrentCounter",
+    "source": "src/questions/q108/Q108ConcurrentCounter.java",
+    "lesson": "docs/questions/q108.md",
+    "expectedOutput": "250\n"
+  },
+  {
+    "id": 109,
+    "title": "Keep the first registered value with putIfAbsent",
+    "topic": "Java Collections: ConcurrentMap",
+    "difficulty": "Beginner",
+    "className": "questions.q109.Q109FirstRegistration",
+    "source": "src/questions/q109/Q109FirstRegistration.java",
+    "lesson": "docs/questions/q109.md",
+    "expectedOutput": "{a=one, b=two}\n"
+  },
+  {
+    "id": 110,
+    "title": "Read an ordered concurrent-map range",
+    "topic": "Java Collections: ConcurrentSkipListMap",
+    "difficulty": "Beginner",
+    "className": "questions.q110.Q110ConcurrentOrderedRange",
+    "source": "src/questions/q110/Q110ConcurrentOrderedRange.java",
+    "lesson": "docs/questions/q110.md",
+    "expectedOutput": "[b, c]\n"
+  },
+  {
+    "id": 111,
+    "title": "Observe a CopyOnWriteArrayList iterator snapshot",
+    "topic": "Java Collections: CopyOnWriteArrayList",
+    "difficulty": "Beginner",
+    "className": "questions.q111.Q111CopyOnWriteSnapshot",
+    "source": "src/questions/q111/Q111CopyOnWriteSnapshot.java",
+    "lesson": "docs/questions/q111.md",
+    "expectedOutput": "[[a], [a, b]]\n"
+  },
+  {
+    "id": 112,
+    "title": "Deduplicate a rarely changed observer registry",
+    "topic": "Java Collections: CopyOnWriteArraySet",
+    "difficulty": "Beginner",
+    "className": "questions.q112.Q112CopyOnWriteSet",
+    "source": "src/questions/q112/Q112CopyOnWriteSet.java",
+    "lesson": "docs/questions/q112.md",
+    "expectedOutput": "[[a, b], [a, b, c]]\n"
+  },
+  {
+    "id": 113,
+    "title": "Drain a concurrent FIFO with poll",
+    "topic": "Java Collections: ConcurrentLinkedQueue",
+    "difficulty": "Beginner",
+    "className": "questions.q113.Q113ConcurrentQueueDrain",
+    "source": "src/questions/q113/Q113ConcurrentQueueDrain.java",
+    "lesson": "docs/questions/q113.md",
+    "expectedOutput": "[3, 1, 2]\n"
+  },
+  {
+    "id": 114,
+    "title": "Handle backpressure with nonblocking queue offers",
+    "topic": "Java Collections: ArrayBlockingQueue",
+    "difficulty": "Beginner",
+    "className": "questions.q114.Q114BoundedQueueOffers",
+    "source": "src/questions/q114/Q114BoundedQueueOffers.java",
+    "lesson": "docs/questions/q114.md",
+    "expectedOutput": "[[1, 2], [3]]\n"
+  },
+  {
+    "id": 115,
+    "title": "Take a bounded batch from a linked blocking queue",
+    "topic": "Java Collections: LinkedBlockingQueue",
+    "difficulty": "Beginner",
+    "className": "questions.q115.Q115QueueBatchDrain",
+    "source": "src/questions/q115/Q115QueueBatchDrain.java",
+    "lesson": "docs/questions/q115.md",
+    "expectedOutput": "[[1, 2], [3]]\n"
+  },
+  {
+    "id": 116,
+    "title": "Consume a priority queue in sorted removal order",
+    "topic": "Java Collections: PriorityBlockingQueue",
+    "difficulty": "Beginner",
+    "className": "questions.q116.Q116BlockingPriorityOrder",
+    "source": "src/questions/q116/Q116BlockingPriorityOrder.java",
+    "lesson": "docs/questions/q116.md",
+    "expectedOutput": "[1, 1, 2, 3]\n"
+  },
+  {
+    "id": 117,
+    "title": "Poll due tasks from a DelayQueue using a logical clock",
+    "topic": "Java Collections: DelayQueue",
+    "difficulty": "Beginner",
+    "className": "questions.q117.Q117DueTasks",
+    "source": "src/questions/q117/Q117DueTasks.java",
+    "lesson": "docs/questions/q117.md",
+    "expectedOutput": "[1, 0, 2]\n"
+  },
+  {
+    "id": 118,
+    "title": "Observe that a SynchronousQueue has no storage buffer",
+    "topic": "Java Collections: SynchronousQueue",
+    "difficulty": "Beginner",
+    "className": "questions.q118.Q118RendezvousQueue",
+    "source": "src/questions/q118/Q118RendezvousQueue.java",
+    "lesson": "docs/questions/q118.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 119,
+    "title": "Distinguish direct transfer from ordinary queueing",
+    "topic": "Java Collections: LinkedTransferQueue",
+    "difficulty": "Beginner",
+    "className": "questions.q119.Q119TransferVsEnqueue",
+    "source": "src/questions/q119/Q119TransferVsEnqueue.java",
+    "lesson": "docs/questions/q119.md",
+    "expectedOutput": "[3, 2, 1]\n"
+  },
+  {
+    "id": 120,
+    "title": "Traverse a legacy Vector with Enumeration",
+    "topic": "Java Collections: Vector and Enumeration",
+    "difficulty": "Beginner",
+    "className": "questions.q120.Q120VectorEnumeration",
+    "source": "src/questions/q120/Q120VectorEnumeration.java",
+    "lesson": "docs/questions/q120.md",
+    "expectedOutput": "[5, 2, 5]\n"
+  },
+  {
+    "id": 121,
+    "title": "Contrast a read-only live view with a detached snapshot",
+    "topic": "Java Collections: unmodifiableList",
+    "difficulty": "Beginner",
+    "className": "questions.q121.Q121UnmodifiableLiveView",
+    "source": "src/questions/q121/Q121UnmodifiableLiveView.java",
+    "lesson": "docs/questions/q121.md",
+    "expectedOutput": "[[a, b], [a]]\n"
+  },
+  {
+    "id": 122,
+    "title": "See why nCopies does not clone mutable elements",
+    "topic": "Java Collections: Collections.nCopies",
+    "difficulty": "Beginner",
+    "className": "questions.q122.Q122RepeatedReference",
+    "source": "src/questions/q122/Q122RepeatedReference.java",
+    "lesson": "docs/questions/q122.md",
+    "expectedOutput": "[ab, ab, ab]\n"
+  },
+  {
+    "id": 123,
+    "title": "Sort nullable names with missing values last",
+    "topic": "Java Collections: Comparator.nullsLast",
+    "difficulty": "Beginner",
+    "className": "questions.q123.Q123NullSafeComparator",
+    "source": "src/questions/q123/Q123NullSafeComparator.java",
+    "lesson": "docs/questions/q123.md",
+    "expectedOutput": "[a, b, null]\n"
+  },
+  {
+    "id": 124,
+    "title": "Preserve arrival order among equal-priority tasks",
+    "topic": "Java Collections: PriorityQueue comparator",
+    "difficulty": "Beginner",
+    "className": "questions.q124.Q124StablePriorityQueue",
+    "source": "src/questions/q124/Q124StablePriorityQueue.java",
+    "lesson": "docs/questions/q124.md",
+    "expectedOutput": "[b, a, c]\n"
+  },
+  {
+    "id": 125,
+    "title": "Reject a raw-type insertion at the collection boundary",
+    "topic": "Java Collections: checkedList",
+    "difficulty": "Beginner",
+    "className": "questions.q125.Q125CheckedList",
+    "source": "src/questions/q125/Q125CheckedList.java",
+    "lesson": "docs/questions/q125.md",
+    "expectedOutput": "[a, b]\n"
   }
 ]

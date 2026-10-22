@@ -448,5 +448,555 @@
     "source": "src/questions/q295/Q295ClosestPoints.java",
     "lesson": "docs/questions/q295.md",
     "expectedOutput": "[[-1, 0], [1, 1]]\n"
+  },
+  {
+    "id": 296,
+    "title": "Simulate repeatedly smashing the two heaviest stones",
+    "topic": "Max heaps",
+    "difficulty": "Easy",
+    "className": "questions.q296.Q296LastStone",
+    "source": "src/questions/q296/Q296LastStone.java",
+    "lesson": "docs/questions/q296.md",
+    "expectedOutput": "1\n"
+  },
+  {
+    "id": 297,
+    "title": "Find the minimum number of meeting rooms",
+    "topic": "Interval heaps",
+    "difficulty": "Medium",
+    "className": "questions.q297.Q297MeetingRooms",
+    "source": "src/questions/q297/Q297MeetingRooms.java",
+    "lesson": "docs/questions/q297.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 298,
+    "title": "Find the minimum slots for tasks with a cooldown",
+    "topic": "Greedy scheduling",
+    "difficulty": "Medium",
+    "className": "questions.q298.Q298CooldownTasks",
+    "source": "src/questions/q298/Q298CooldownTasks.java",
+    "lesson": "docs/questions/q298.md",
+    "expectedOutput": "8\n"
+  },
+  {
+    "id": 299,
+    "title": "Sort values displaced by at most k positions",
+    "topic": "Bounded heaps",
+    "difficulty": "Medium",
+    "className": "questions.q299.Q299SortNearlySorted",
+    "source": "src/questions/q299/Q299SortNearlySorted.java",
+    "lesson": "docs/questions/q299.md",
+    "expectedOutput": "[1, 2, 3, 4]\n"
+  },
+  {
+    "id": 300,
+    "title": "Find k pairs with the smallest sums",
+    "topic": "Heap frontier",
+    "difficulty": "Medium",
+    "className": "questions.q300.Q300SmallestSumPairs",
+    "source": "src/questions/q300/Q300SmallestSumPairs.java",
+    "lesson": "docs/questions/q300.md",
+    "expectedOutput": "[[1, 2], [1, 4], [7, 2]]\n"
+  },
+  {
+    "id": 301,
+    "title": "Build a binary min-heap in an array",
+    "topic": "Heap construction",
+    "difficulty": "Medium",
+    "className": "questions.q301.Q301BuildMinHeap",
+    "source": "src/questions/q301/Q301BuildMinHeap.java",
+    "lesson": "docs/questions/q301.md",
+    "expectedOutput": "[1, 2, 8, 3, 5]\n"
+  },
+  {
+    "id": 302,
+    "title": "Check the binary min-heap property",
+    "topic": "Heap invariants",
+    "difficulty": "Easy",
+    "className": "questions.q302.Q302ValidateMinHeap",
+    "source": "src/questions/q302/Q302ValidateMinHeap.java",
+    "lesson": "docs/questions/q302.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 303,
+    "title": "Sort an integer array using an explicit heap",
+    "topic": "Sorting with heaps",
+    "difficulty": "Medium",
+    "className": "questions.q303.Q303HeapSort",
+    "source": "src/questions/q303/Q303HeapSort.java",
+    "lesson": "docs/questions/q303.md",
+    "expectedOutput": "[1, 2, 3, 4]\n"
+  },
+  {
+    "id": 304,
+    "title": "Minimize refueling stops to reach a target",
+    "topic": "Greedy max-heap",
+    "difficulty": "Hard",
+    "className": "questions.q304.Q304RefuelStops",
+    "source": "src/questions/q304/Q304RefuelStops.java",
+    "lesson": "docs/questions/q304.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 305,
+    "title": "Find the smallest range covering every sorted feed",
+    "topic": "Heap frontier",
+    "difficulty": "Hard",
+    "className": "questions.q305.Q305CoveringRange",
+    "source": "src/questions/q305/Q305CoveringRange.java",
+    "lesson": "docs/questions/q305.md",
+    "expectedOutput": "[20, 24]\n"
+  },
+  {
+    "id": 306,
+    "title": "Build directed adjacency lists from an edge list",
+    "topic": "Graphs",
+    "difficulty": "Beginner",
+    "className": "questions.q306.Q306AdjacencyLists",
+    "source": "src/questions/q306/Q306AdjacencyLists.java",
+    "lesson": "docs/questions/q306.md",
+    "expectedOutput": "[[1, 2], [], [3], []]\n"
+  },
+  {
+    "id": 307,
+    "title": "Build an undirected adjacency matrix",
+    "topic": "Graphs",
+    "difficulty": "Beginner",
+    "className": "questions.q307.Q307AdjacencyMatrix",
+    "source": "src/questions/q307/Q307AdjacencyMatrix.java",
+    "lesson": "docs/questions/q307.md",
+    "expectedOutput": "[[0, 1, 0], [1, 0, 1], [0, 1, 0]]\n"
+  },
+  {
+    "id": 308,
+    "title": "Count degrees in an undirected multigraph",
+    "topic": "Graphs",
+    "difficulty": "Beginner",
+    "className": "questions.q308.Q308VertexDegrees",
+    "source": "src/questions/q308/Q308VertexDegrees.java",
+    "lesson": "docs/questions/q308.md",
+    "expectedOutput": "[2, 2, 2]\n"
+  },
+  {
+    "id": 309,
+    "title": "Reverse every directed graph edge",
+    "topic": "Graphs",
+    "difficulty": "Easy",
+    "className": "questions.q309.Q309TransposeGraph",
+    "source": "src/questions/q309/Q309TransposeGraph.java",
+    "lesson": "docs/questions/q309.md",
+    "expectedOutput": "[[], [0], [0, 1]]\n"
+  },
+  {
+    "id": 310,
+    "title": "Traverse reachable vertices in breadth-first order",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q310.Q310BreadthFirstOrder",
+    "source": "src/questions/q310/Q310BreadthFirstOrder.java",
+    "lesson": "docs/questions/q310.md",
+    "expectedOutput": "[0, 1, 2, 3]\n"
+  },
+  {
+    "id": 311,
+    "title": "Traverse reachable vertices in depth-first order",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q311.Q311DepthFirstOrder",
+    "source": "src/questions/q311/Q311DepthFirstOrder.java",
+    "lesson": "docs/questions/q311.md",
+    "expectedOutput": "[0, 1, 3, 2]\n"
+  },
+  {
+    "id": 312,
+    "title": "Count connected components in an undirected graph",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q312.Q312ConnectedComponents",
+    "source": "src/questions/q312/Q312ConnectedComponents.java",
+    "lesson": "docs/questions/q312.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 313,
+    "title": "Determine whether a directed target is reachable",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q313.Q313Reachability",
+    "source": "src/questions/q313/Q313Reachability.java",
+    "lesson": "docs/questions/q313.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 314,
+    "title": "Find shortest edge-count distances from a source",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q314.Q314UnweightedDistances",
+    "source": "src/questions/q314/Q314UnweightedDistances.java",
+    "lesson": "docs/questions/q314.md",
+    "expectedOutput": "[0, 1, 1, 2, -1]\n"
+  },
+  {
+    "id": 315,
+    "title": "Reconstruct one shortest unweighted route",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q315.Q315ShortestRoute",
+    "source": "src/questions/q315/Q315ShortestRoute.java",
+    "lesson": "docs/questions/q315.md",
+    "expectedOutput": "[0, 1, 3]\n"
+  },
+  {
+    "id": 316,
+    "title": "Detect a cycle in a simple undirected graph",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q316.Q316UndirectedCycle",
+    "source": "src/questions/q316/Q316UndirectedCycle.java",
+    "lesson": "docs/questions/q316.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 317,
+    "title": "Detect a directed cycle using DFS colors",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q317.Q317DirectedCycle",
+    "source": "src/questions/q317/Q317DirectedCycle.java",
+    "lesson": "docs/questions/q317.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 318,
+    "title": "Produce a deterministic topological order or report a cycle",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q318.Q318TopologicalOrder",
+    "source": "src/questions/q318/Q318TopologicalOrder.java",
+    "lesson": "docs/questions/q318.md",
+    "expectedOutput": "[0, 1, 2, 3]\n"
+  },
+  {
+    "id": 319,
+    "title": "Check whether an undirected graph can be two-colored",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q319.Q319BipartiteCheck",
+    "source": "src/questions/q319/Q319BipartiteCheck.java",
+    "lesson": "docs/questions/q319.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 320,
+    "title": "Enumerate every source-to-target path in a DAG",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q320.Q320AllDagPaths",
+    "source": "src/questions/q320/Q320AllDagPaths.java",
+    "lesson": "docs/questions/q320.md",
+    "expectedOutput": "[[0, 1, 3], [0, 2, 3]]\n"
+  },
+  {
+    "id": 321,
+    "title": "Count four-connected islands in a binary grid",
+    "topic": "Grid graphs",
+    "difficulty": "Medium",
+    "className": "questions.q321.Q321IslandCount",
+    "source": "src/questions/q321/Q321IslandCount.java",
+    "lesson": "docs/questions/q321.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 322,
+    "title": "Find the area of the largest island",
+    "topic": "Grid graphs",
+    "difficulty": "Medium",
+    "className": "questions.q322.Q322MaximumIsland",
+    "source": "src/questions/q322/Q322MaximumIsland.java",
+    "lesson": "docs/questions/q322.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 323,
+    "title": "Recolor the connected region containing a chosen pixel",
+    "topic": "Grid traversal",
+    "difficulty": "Easy",
+    "className": "questions.q323.Q323FloodFill",
+    "source": "src/questions/q323/Q323FloodFill.java",
+    "lesson": "docs/questions/q323.md",
+    "expectedOutput": "[[2, 2], [2, 0]]\n"
+  },
+  {
+    "id": 324,
+    "title": "Compute each cell distance to the nearest zero",
+    "topic": "Multi-source BFS",
+    "difficulty": "Medium",
+    "className": "questions.q324.Q324NearestZero",
+    "source": "src/questions/q324/Q324NearestZero.java",
+    "lesson": "docs/questions/q324.md",
+    "expectedOutput": "[[0, 1, 1], [1, 1, 0]]\n"
+  },
+  {
+    "id": 325,
+    "title": "Find the time until all reachable fresh oranges rot",
+    "topic": "Multi-source BFS",
+    "difficulty": "Medium",
+    "className": "questions.q325.Q325RottingTime",
+    "source": "src/questions/q325/Q325RottingTime.java",
+    "lesson": "docs/questions/q325.md",
+    "expectedOutput": "4\n"
+  },
+  {
+    "id": 326,
+    "title": "Find the shortest one-letter word transformation",
+    "topic": "Implicit graphs",
+    "difficulty": "Hard",
+    "className": "questions.q326.Q326WordLadder",
+    "source": "src/questions/q326/Q326WordLadder.java",
+    "lesson": "docs/questions/q326.md",
+    "expectedOutput": "5\n"
+  },
+  {
+    "id": 327,
+    "title": "Find minimum semesters with unlimited parallel courses",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q327.Q327MinimumSemesters",
+    "source": "src/questions/q327/Q327MinimumSemesters.java",
+    "lesson": "docs/questions/q327.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 328,
+    "title": "Infer an alphabet order from sorted words",
+    "topic": "Topological ordering",
+    "difficulty": "Hard",
+    "className": "questions.q328.Q328AlienAlphabet",
+    "source": "src/questions/q328/Q328AlienAlphabet.java",
+    "lesson": "docs/questions/q328.md",
+    "expectedOutput": "wertf\n"
+  },
+  {
+    "id": 329,
+    "title": "Find shortest paths with nonnegative weights",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q329.Q329DijkstraDistances",
+    "source": "src/questions/q329/Q329DijkstraDistances.java",
+    "lesson": "docs/questions/q329.md",
+    "expectedOutput": "[0, 3, 2, INF]\n"
+  },
+  {
+    "id": 330,
+    "title": "Find shortest paths allowing negative edges",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q330.Q330BellmanFord",
+    "source": "src/questions/q330/Q330BellmanFord.java",
+    "lesson": "docs/questions/q330.md",
+    "expectedOutput": "[0, 4, 2]\n"
+  },
+  {
+    "id": 331,
+    "title": "Find all-pairs shortest distances",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q331.Q331FloydWarshall",
+    "source": "src/questions/q331/Q331FloydWarshall.java",
+    "lesson": "docs/questions/q331.md",
+    "expectedOutput": "[[0, 3, 2], [INF, 0, -1], [INF, INF, 0]]\n"
+  },
+  {
+    "id": 332,
+    "title": "Find an undirected minimum spanning-tree weight with Prim",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q332.Q332PrimMst",
+    "source": "src/questions/q332/Q332PrimMst.java",
+    "lesson": "docs/questions/q332.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 333,
+    "title": "Find a minimum spanning-tree weight using sorted edges",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q333.Q333KruskalMst",
+    "source": "src/questions/q333/Q333KruskalMst.java",
+    "lesson": "docs/questions/q333.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 334,
+    "title": "Process union and connectivity queries online",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q334.Q334OnlineConnectivity",
+    "source": "src/questions/q334/Q334OnlineConnectivity.java",
+    "lesson": "docs/questions/q334.md",
+    "expectedOutput": "[false, true]\n"
+  },
+  {
+    "id": 335,
+    "title": "Return the last edge that closes an undirected cycle",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q335.Q335RedundantEdge",
+    "source": "src/questions/q335/Q335RedundantEdge.java",
+    "lesson": "docs/questions/q335.md",
+    "expectedOutput": "[2, 0]\n"
+  },
+  {
+    "id": 336,
+    "title": "Count provinces from a symmetric connection matrix",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q336.Q336MatrixComponents",
+    "source": "src/questions/q336/Q336MatrixComponents.java",
+    "lesson": "docs/questions/q336.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 337,
+    "title": "Count strongly connected components with Kosaraju",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q337.Q337StrongComponents",
+    "source": "src/questions/q337/Q337StrongComponents.java",
+    "lesson": "docs/questions/q337.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 338,
+    "title": "Find edges whose removal disconnects an undirected graph",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q338.Q338Bridges",
+    "source": "src/questions/q338/Q338Bridges.java",
+    "lesson": "docs/questions/q338.md",
+    "expectedOutput": "[[1, 3]]\n"
+  },
+  {
+    "id": 339,
+    "title": "Find vertices whose removal increases component count",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q339.Q339ArticulationPoints",
+    "source": "src/questions/q339/Q339ArticulationPoints.java",
+    "lesson": "docs/questions/q339.md",
+    "expectedOutput": "[1]\n"
+  },
+  {
+    "id": 340,
+    "title": "Decide whether all undirected edges can be traversed once",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q340.Q340EulerTrailExists",
+    "source": "src/questions/q340/Q340EulerTrailExists.java",
+    "lesson": "docs/questions/q340.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 341,
+    "title": "Decide whether a path visits every vertex exactly once",
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "className": "questions.q341.Q341HamiltonianPath",
+    "source": "src/questions/q341/Q341HamiltonianPath.java",
+    "lesson": "docs/questions/q341.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 342,
+    "title": "Find minimum dice rolls on a board with snakes and ladders",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q342.Q342BoardJumps",
+    "source": "src/questions/q342/Q342BoardJumps.java",
+    "lesson": "docs/questions/q342.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 343,
+    "title": "Find the fewest obstacles to remove across a grid",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q343.Q343ObstacleRemoval",
+    "source": "src/questions/q343/Q343ObstacleRemoval.java",
+    "lesson": "docs/questions/q343.md",
+    "expectedOutput": "2\n"
+  },
+  {
+    "id": 344,
+    "title": "Find the longest directed path length in a DAG",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q344.Q344LongestDagPath",
+    "source": "src/questions/q344/Q344LongestDagPath.java",
+    "lesson": "docs/questions/q344.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 345,
+    "title": "Count directed source-to-target paths in a DAG",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "className": "questions.q345.Q345DagPathCount",
+    "source": "src/questions/q345/Q345DagPathCount.java",
+    "lesson": "docs/questions/q345.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 346,
+    "title": "Find complete dictionary words with a trie",
+    "topic": "Tries",
+    "difficulty": "Beginner",
+    "className": "questions.q346.Q346ExactTrieSearch",
+    "source": "src/questions/q346/Q346ExactTrieSearch.java",
+    "lesson": "docs/questions/q346.md",
+    "expectedOutput": "[true, false, false]\n"
+  },
+  {
+    "id": 347,
+    "title": "Check whether dictionary words share a requested prefix",
+    "topic": "Tries",
+    "difficulty": "Beginner",
+    "className": "questions.q347.Q347TriePrefixExists",
+    "source": "src/questions/q347/Q347TriePrefixExists.java",
+    "lesson": "docs/questions/q347.md",
+    "expectedOutput": "[true, true, false]\n"
+  },
+  {
+    "id": 348,
+    "title": "Count dictionary occurrences under each prefix",
+    "topic": "Tries",
+    "difficulty": "Beginner",
+    "className": "questions.q348.Q348TriePrefixCounts",
+    "source": "src/questions/q348/Q348TriePrefixCounts.java",
+    "lesson": "docs/questions/q348.md",
+    "expectedOutput": "[4, 3, 0, 4]\n"
+  },
+  {
+    "id": 349,
+    "title": "Return the first k lexicographic completions of a prefix",
+    "topic": "Tries",
+    "difficulty": "Medium",
+    "className": "questions.q349.Q349TrieAutocomplete",
+    "source": "src/questions/q349/Q349TrieAutocomplete.java",
+    "lesson": "docs/questions/q349.md",
+    "expectedOutput": "[car, care, cart]\n"
+  },
+  {
+    "id": 350,
+    "title": "Find the longest prefix shared by all dictionary words",
+    "topic": "Tries",
+    "difficulty": "Beginner",
+    "className": "questions.q350.Q350TrieCommonPrefix",
+    "source": "src/questions/q350/Q350TrieCommonPrefix.java",
+    "lesson": "docs/questions/q350.md",
+    "expectedOutput": "fl\n"
   }
 ]

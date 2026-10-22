@@ -4,11 +4,11 @@ Learn **what a structure stores, why it exists, how it works, when to choose it,
 
 Start small. You do not need to finish Java before learning arrays. You also do not need to memorize every algorithm to start solving problems.
 
-## Individual solved questions — partial collection
+## Individual solved questions — 410 available
 
-**[Browse the 160 completed questions and their Java answers](question-bank/README.md).** Each has a separate runnable file, explanatory comments, a lesson page, sample output, and self-tests. The requested 500-question expansion was stopped before completion; this publishes the completed portion, with numbering gaps clearly marked.
+**[Browse the 410 completed questions and their Java answers](question-bank/README.md).** Each has a separate runnable file, explanatory comments, a lesson page, sample output, and self-tests. This partial publication contains 410 of the requested 500 questions; 90 remain unfinished. The index identifies the exact completed ranges.
 
-Start with [Q001: print every array element](docs/questions/q001.md), then follow the numbered answers in the index. The original topic-based curriculum below remains available.
+Start with [Q001: print every array element](docs/questions/q001.md), then follow the numbered answers in the index. The topic-based curriculum below explains the structures and their real-world uses.
 
 ## Start here
 

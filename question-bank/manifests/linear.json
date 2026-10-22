@@ -198,5 +198,705 @@
     "source": "src/questions/q145/Q145KmpSubstring.java",
     "lesson": "docs/questions/q145.md",
     "expectedOutput": "10\n"
+  },
+  {
+    "id": 146,
+    "title": "Encode runs as character-count pairs",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q146.Q146RunLength",
+    "source": "src/questions/q146/Q146RunLength.java",
+    "lesson": "docs/questions/q146.md",
+    "expectedOutput": "a3b2c1\n"
+  },
+  {
+    "id": 147,
+    "title": "Encode ASCII spaces as percent-20",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q147.Q147SpaceEncoding",
+    "source": "src/questions/q147/Q147SpaceEncoding.java",
+    "lesson": "docs/questions/q147.md",
+    "expectedOutput": "Mr%20John%20Smith\n"
+  },
+  {
+    "id": 148,
+    "title": "Parse and clamp a signed decimal prefix",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "className": "questions.q148.Q148ParseInteger",
+    "source": "src/questions/q148/Q148ParseInteger.java",
+    "lesson": "docs/questions/q148.md",
+    "expectedOutput": "-42\n"
+  },
+  {
+    "id": 149,
+    "title": "Evaluate a valid Roman numeral",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q149.Q149RomanValue",
+    "source": "src/questions/q149/Q149RomanValue.java",
+    "lesson": "docs/questions/q149.md",
+    "expectedOutput": "1994\n"
+  },
+  {
+    "id": 150,
+    "title": "Find a longest palindromic substring",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "className": "questions.q150.Q150LongestPalindrome",
+    "source": "src/questions/q150/Q150LongestPalindrome.java",
+    "lesson": "docs/questions/q150.md",
+    "expectedOutput": "bab\n"
+  },
+  {
+    "id": 151,
+    "title": "Group words with equal character multiplicities",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "className": "questions.q151.Q151GroupAnagrams",
+    "source": "src/questions/q151/Q151GroupAnagrams.java",
+    "lesson": "docs/questions/q151.md",
+    "expectedOutput": "[[eat, tea, ate], [tan]]\n"
+  },
+  {
+    "id": 152,
+    "title": "Find a longest substring with at most k distinct chars",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "className": "questions.q152.Q152AtMostKDistinct",
+    "source": "src/questions/q152/Q152AtMostKDistinct.java",
+    "lesson": "docs/questions/q152.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 153,
+    "title": "Find a shortest substring covering required characters",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "className": "questions.q153.Q153MinimumCover",
+    "source": "src/questions/q153/Q153MinimumCover.java",
+    "lesson": "docs/questions/q153.md",
+    "expectedOutput": "BANC\n"
+  },
+  {
+    "id": 154,
+    "title": "Compare arbitrarily large version components",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "className": "questions.q154.Q154CompareVersions",
+    "source": "src/questions/q154/Q154CompareVersions.java",
+    "lesson": "docs/questions/q154.md",
+    "expectedOutput": "0\n"
+  },
+  {
+    "id": 155,
+    "title": "Add binary strings without numeric parsing",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "className": "questions.q155.Q155AddBinary",
+    "source": "src/questions/q155/Q155AddBinary.java",
+    "lesson": "docs/questions/q155.md",
+    "expectedOutput": "10101\n"
+  },
+  {
+    "id": 156,
+    "title": "Multiply decimal strings by positional arithmetic",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "className": "questions.q156.Q156MultiplyDecimal",
+    "source": "src/questions/q156/Q156MultiplyDecimal.java",
+    "lesson": "docs/questions/q156.md",
+    "expectedOutput": "56088\n"
+  },
+  {
+    "id": 157,
+    "title": "Read a zigzag layout row by row",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "className": "questions.q157.Q157Zigzag",
+    "source": "src/questions/q157/Q157Zigzag.java",
+    "lesson": "docs/questions/q157.md",
+    "expectedOutput": "PAHNAPLSIIGYIR\n"
+  },
+  {
+    "id": 158,
+    "title": "Check a one-to-one character substitution",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q158.Q158Isomorphic",
+    "source": "src/questions/q158/Q158Isomorphic.java",
+    "lesson": "docs/questions/q158.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 159,
+    "title": "Match pattern symbols bijectively to words",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "className": "questions.q159.Q159WordPattern",
+    "source": "src/questions/q159/Q159WordPattern.java",
+    "lesson": "docs/questions/q159.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 160,
+    "title": "Find starts containing a permutation of equal-length words",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "className": "questions.q160.Q160ConcatenatedWords",
+    "source": "src/questions/q160/Q160ConcatenatedWords.java",
+    "lesson": "docs/questions/q160.md",
+    "expectedOutput": "[0, 9]\n"
+  },
+  {
+    "id": 161,
+    "title": "Traverse a singly linked list",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q161.Q161Traverse",
+    "source": "src/questions/q161/Q161Traverse.java",
+    "lesson": "docs/questions/q161.md",
+    "expectedOutput": "[1, 2, 3]\n"
+  },
+  {
+    "id": 162,
+    "title": "Count nodes of an acyclic list",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q162.Q162Length",
+    "source": "src/questions/q162/Q162Length.java",
+    "lesson": "docs/questions/q162.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 163,
+    "title": "Find the first index of a list value",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q163.Q163Search",
+    "source": "src/questions/q163/Q163Search.java",
+    "lesson": "docs/questions/q163.md",
+    "expectedOutput": "1\n"
+  },
+  {
+    "id": 164,
+    "title": "Insert a new head node",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q164.Q164Prepend",
+    "source": "src/questions/q164/Q164Prepend.java",
+    "lesson": "docs/questions/q164.md",
+    "expectedOutput": "[1, 2, 3]\n"
+  },
+  {
+    "id": 165,
+    "title": "Append a new tail node",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q165.Q165Append",
+    "source": "src/questions/q165/Q165Append.java",
+    "lesson": "docs/questions/q165.md",
+    "expectedOutput": "[1, 2, 3]\n"
+  },
+  {
+    "id": 166,
+    "title": "Insert before a zero-based list position",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q166.Q166InsertAt",
+    "source": "src/questions/q166/Q166InsertAt.java",
+    "lesson": "docs/questions/q166.md",
+    "expectedOutput": "[1, 2, 3]\n"
+  },
+  {
+    "id": 167,
+    "title": "Remove the first node",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q167.Q167DeleteHead",
+    "source": "src/questions/q167/Q167DeleteHead.java",
+    "lesson": "docs/questions/q167.md",
+    "expectedOutput": "[2, 3]\n"
+  },
+  {
+    "id": 168,
+    "title": "Remove the final node",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q168.Q168DeleteTail",
+    "source": "src/questions/q168/Q168DeleteTail.java",
+    "lesson": "docs/questions/q168.md",
+    "expectedOutput": "[1, 2]\n"
+  },
+  {
+    "id": 169,
+    "title": "Remove a node at a specified position",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q169.Q169DeleteAt",
+    "source": "src/questions/q169/Q169DeleteAt.java",
+    "lesson": "docs/questions/q169.md",
+    "expectedOutput": "[4, 6]\n"
+  },
+  {
+    "id": 170,
+    "title": "Remove every node containing a selected value",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q170.Q170DeleteValue",
+    "source": "src/questions/q170/Q170DeleteValue.java",
+    "lesson": "docs/questions/q170.md",
+    "expectedOutput": "[1, 3]\n"
+  },
+  {
+    "id": 171,
+    "title": "Reverse a singly linked list in place",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q171.Q171Reverse",
+    "source": "src/questions/q171/Q171Reverse.java",
+    "lesson": "docs/questions/q171.md",
+    "expectedOutput": "[3, 2, 1]\n"
+  },
+  {
+    "id": 172,
+    "title": "Find the second middle node of a list",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q172.Q172Middle",
+    "source": "src/questions/q172/Q172Middle.java",
+    "lesson": "docs/questions/q172.md",
+    "expectedOutput": "OptionalInt[3]\n"
+  },
+  {
+    "id": 173,
+    "title": "Find the kth node from the end",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q173.Q173KthFromEnd",
+    "source": "src/questions/q173/Q173KthFromEnd.java",
+    "lesson": "docs/questions/q173.md",
+    "expectedOutput": "OptionalInt[6]\n"
+  },
+  {
+    "id": 174,
+    "title": "Detect a cycle using two moving pointers",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q174.Q174DetectCycle",
+    "source": "src/questions/q174/Q174DetectCycle.java",
+    "lesson": "docs/questions/q174.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 175,
+    "title": "Find the entry value of a reference cycle",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q175.Q175CycleEntry",
+    "source": "src/questions/q175/Q175CycleEntry.java",
+    "lesson": "docs/questions/q175.md",
+    "expectedOutput": "OptionalInt[20]\n"
+  },
+  {
+    "id": 176,
+    "title": "Merge two sorted linked lists by relinking",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q176.Q176MergeSorted",
+    "source": "src/questions/q176/Q176MergeSorted.java",
+    "lesson": "docs/questions/q176.md",
+    "expectedOutput": "[1, 2, 3, 4, 5]\n"
+  },
+  {
+    "id": 177,
+    "title": "Remove repeated values from a sorted list",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q177.Q177DeduplicateSorted",
+    "source": "src/questions/q177/Q177DeduplicateSorted.java",
+    "lesson": "docs/questions/q177.md",
+    "expectedOutput": "[1, 2, 3]\n"
+  },
+  {
+    "id": 178,
+    "title": "Remove later duplicate values from an unsorted list",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q178.Q178DeduplicateUnsorted",
+    "source": "src/questions/q178/Q178DeduplicateUnsorted.java",
+    "lesson": "docs/questions/q178.md",
+    "expectedOutput": "[3, 1, 2]\n"
+  },
+  {
+    "id": 179,
+    "title": "Insert a value into a sorted list",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q179.Q179SortedInsert",
+    "source": "src/questions/q179/Q179SortedInsert.java",
+    "lesson": "docs/questions/q179.md",
+    "expectedOutput": "[1, 3, 4, 5]\n"
+  },
+  {
+    "id": 180,
+    "title": "Check whether list values form a palindrome",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q180.Q180Palindrome",
+    "source": "src/questions/q180/Q180Palindrome.java",
+    "lesson": "docs/questions/q180.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 181,
+    "title": "Find the first shared node of two acyclic lists",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q181.Q181Intersection",
+    "source": "src/questions/q181/Q181Intersection.java",
+    "lesson": "docs/questions/q181.md",
+    "expectedOutput": "OptionalInt[8]\n"
+  },
+  {
+    "id": 182,
+    "title": "Rotate a list right by k positions",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q182.Q182Rotate",
+    "source": "src/questions/q182/Q182Rotate.java",
+    "lesson": "docs/questions/q182.md",
+    "expectedOutput": "[4, 5, 1, 2, 3]\n"
+  },
+  {
+    "id": 183,
+    "title": "Swap neighboring nodes by rewiring links",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q183.Q183SwapPairs",
+    "source": "src/questions/q183/Q183SwapPairs.java",
+    "lesson": "docs/questions/q183.md",
+    "expectedOutput": "[2, 1, 4, 3, 5]\n"
+  },
+  {
+    "id": 184,
+    "title": "Reverse a doubly linked list",
+    "topic": "Linked lists",
+    "difficulty": "Medium",
+    "className": "questions.q184.Q184DoublyReverse",
+    "source": "src/questions/q184/Q184DoublyReverse.java",
+    "lesson": "docs/questions/q184.md",
+    "expectedOutput": "[3, 2, 1]\n"
+  },
+  {
+    "id": 185,
+    "title": "Count nodes in a circular list",
+    "topic": "Linked lists",
+    "difficulty": "Easy",
+    "className": "questions.q185.Q185CircularLength",
+    "source": "src/questions/q185/Q185CircularLength.java",
+    "lesson": "docs/questions/q185.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 186,
+    "title": "Reverse values through a stack",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Beginner",
+    "className": "questions.q186.Q186StackReverse",
+    "source": "src/questions/q186/Q186StackReverse.java",
+    "lesson": "docs/questions/q186.md",
+    "expectedOutput": "[3, 2, 1]\n"
+  },
+  {
+    "id": 187,
+    "title": "Validate nesting of three bracket types",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Easy",
+    "className": "questions.q187.Q187BalancedBrackets",
+    "source": "src/questions/q187/Q187BalancedBrackets.java",
+    "lesson": "docs/questions/q187.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 188,
+    "title": "Evaluate a valid postfix arithmetic expression",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q188.Q188Postfix",
+    "source": "src/questions/q188/Q188Postfix.java",
+    "lesson": "docs/questions/q188.md",
+    "expectedOutput": "9\n"
+  },
+  {
+    "id": 189,
+    "title": "Find the next strictly greater value to the right",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q189.Q189NextGreater",
+    "source": "src/questions/q189/Q189NextGreater.java",
+    "lesson": "docs/questions/q189.md",
+    "expectedOutput": "[OptionalInt[4], OptionalInt[4], OptionalInt.empty, OptionalInt.empty]\n"
+  },
+  {
+    "id": 190,
+    "title": "Find the next strictly smaller index to the right",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q190.Q190NextSmaller",
+    "source": "src/questions/q190/Q190NextSmaller.java",
+    "lesson": "docs/questions/q190.md",
+    "expectedOutput": "[3, 2, 3, -1]\n"
+  },
+  {
+    "id": 191,
+    "title": "Find the nearest greater index on the left",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q191.Q191PreviousGreater",
+    "source": "src/questions/q191/Q191PreviousGreater.java",
+    "lesson": "docs/questions/q191.md",
+    "expectedOutput": "[-1, 0, 1, -1, 3]\n"
+  },
+  {
+    "id": 192,
+    "title": "Compute consecutive stock-price spans",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q192.Q192StockSpan",
+    "source": "src/questions/q192/Q192StockSpan.java",
+    "lesson": "docs/questions/q192.md",
+    "expectedOutput": "[1, 1, 1, 2, 1, 4, 6]\n"
+  },
+  {
+    "id": 193,
+    "title": "Count days until a strictly warmer temperature",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q193.Q193WarmerDays",
+    "source": "src/questions/q193/Q193WarmerDays.java",
+    "lesson": "docs/questions/q193.md",
+    "expectedOutput": "[1, 1, 4, 2, 1, 1, 0, 0]\n"
+  },
+  {
+    "id": 194,
+    "title": "Find the largest rectangle in a histogram",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Hard",
+    "className": "questions.q194.Q194Histogram",
+    "source": "src/questions/q194/Q194Histogram.java",
+    "lesson": "docs/questions/q194.md",
+    "expectedOutput": "10\n"
+  },
+  {
+    "id": 195,
+    "title": "Find every fixed-window maximum with a deque",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Hard",
+    "className": "questions.q195.Q195WindowMaximum",
+    "source": "src/questions/q195/Q195WindowMaximum.java",
+    "lesson": "docs/questions/q195.md",
+    "expectedOutput": "[3, 3, 5, 5, 6, 7]\n"
+  },
+  {
+    "id": 196,
+    "title": "Maintain stack minima through pushes and pops",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q196.Q196MinimumStack",
+    "source": "src/questions/q196/Q196MinimumStack.java",
+    "lesson": "docs/questions/q196.md",
+    "expectedOutput": "[1, 3]\n"
+  },
+  {
+    "id": 197,
+    "title": "Implement FIFO removal with two stacks",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q197.Q197QueueFromStacks",
+    "source": "src/questions/q197/Q197QueueFromStacks.java",
+    "lesson": "docs/questions/q197.md",
+    "expectedOutput": "[1, 2, 3]\n"
+  },
+  {
+    "id": 198,
+    "title": "Implement LIFO behavior with queue rotation",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q198.Q198StackFromQueue",
+    "source": "src/questions/q198/Q198StackFromQueue.java",
+    "lesson": "docs/questions/q198.md",
+    "expectedOutput": "[3, 2, 1]\n"
+  },
+  {
+    "id": 199,
+    "title": "Simulate a bounded circular-array queue",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q199.Q199CircularQueue",
+    "source": "src/questions/q199/Q199CircularQueue.java",
+    "lesson": "docs/questions/q199.md",
+    "expectedOutput": "[true, true, false, 1, true, 2, 3]\n"
+  },
+  {
+    "id": 200,
+    "title": "Read a deque by alternating front and back",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Easy",
+    "className": "questions.q200.Q200AlternatingEnds",
+    "source": "src/questions/q200/Q200AlternatingEnds.java",
+    "lesson": "docs/questions/q200.md",
+    "expectedOutput": "[1, 5, 2, 4, 3]\n"
+  },
+  {
+    "id": 201,
+    "title": "Generate the first n positive binary representations",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Easy",
+    "className": "questions.q201.Q201BinaryNumbers",
+    "source": "src/questions/q201/Q201BinaryNumbers.java",
+    "lesson": "docs/questions/q201.md",
+    "expectedOutput": "[1, 10, 11, 100, 101]\n"
+  },
+  {
+    "id": 202,
+    "title": "Track the earliest nonrepeating character after each arrival",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q202.Q202FirstUniqueStream",
+    "source": "src/questions/q202/Q202FirstUniqueStream.java",
+    "lesson": "docs/questions/q202.md",
+    "expectedOutput": "a#bb\n"
+  },
+  {
+    "id": 203,
+    "title": "Reverse the first k queue values only",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Easy",
+    "className": "questions.q203.Q203ReverseQueuePrefix",
+    "source": "src/questions/q203/Q203ReverseQueuePrefix.java",
+    "lesson": "docs/questions/q203.md",
+    "expectedOutput": "[3, 2, 1, 4, 5]\n"
+  },
+  {
+    "id": 204,
+    "title": "Interleave the two halves of an even queue",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Easy",
+    "className": "questions.q204.Q204InterleaveHalves",
+    "source": "src/questions/q204/Q204InterleaveHalves.java",
+    "lesson": "docs/questions/q204.md",
+    "expectedOutput": "[1, 4, 2, 5, 3, 6]\n"
+  },
+  {
+    "id": 205,
+    "title": "Find a feasible start for a circular fuel tour",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q205.Q205CircularTour",
+    "source": "src/questions/q205/Q205CircularTour.java",
+    "lesson": "docs/questions/q205.md",
+    "expectedOutput": "3\n"
+  },
+  {
+    "id": 206,
+    "title": "Resolve one-dimensional asteroid collisions",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q206.Q206Asteroids",
+    "source": "src/questions/q206/Q206Asteroids.java",
+    "lesson": "docs/questions/q206.md",
+    "expectedOutput": "[10]\n"
+  },
+  {
+    "id": 207,
+    "title": "Repeatedly remove adjacent equal character pairs",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Easy",
+    "className": "questions.q207.Q207AdjacentCancellation",
+    "source": "src/questions/q207/Q207AdjacentCancellation.java",
+    "lesson": "docs/questions/q207.md",
+    "expectedOutput": "ca\n"
+  },
+  {
+    "id": 208,
+    "title": "Decode nested repetition brackets",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q208.Q208DecodeRepeats",
+    "source": "src/questions/q208/Q208DecodeRepeats.java",
+    "lesson": "docs/questions/q208.md",
+    "expectedOutput": "accaccacc\n"
+  },
+  {
+    "id": 209,
+    "title": "Simplify an absolute Unix-style path",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q209.Q209CanonicalPath",
+    "source": "src/questions/q209/Q209CanonicalPath.java",
+    "lesson": "docs/questions/q209.md",
+    "expectedOutput": "/c\n"
+  },
+  {
+    "id": 210,
+    "title": "Score balanced parentheses by nesting rules",
+    "topic": "Stacks, queues, and deques",
+    "difficulty": "Medium",
+    "className": "questions.q210.Q210ParenthesisScore",
+    "source": "src/questions/q210/Q210ParenthesisScore.java",
+    "lesson": "docs/questions/q210.md",
+    "expectedOutput": "6\n"
+  },
+  {
+    "id": 211,
+    "title": "Count words in sorted dictionary order",
+    "topic": "Hash maps and sets",
+    "difficulty": "Easy",
+    "className": "questions.q211.Q211WordFrequencies",
+    "source": "src/questions/q211/Q211WordFrequencies.java",
+    "lesson": "docs/questions/q211.md",
+    "expectedOutput": "{apple=1, pear=2}\n"
+  },
+  {
+    "id": 212,
+    "title": "Find the first integer appearing exactly once",
+    "topic": "Hash maps and sets",
+    "difficulty": "Easy",
+    "className": "questions.q212.Q212FirstUniqueInteger",
+    "source": "src/questions/q212/Q212FirstUniqueInteger.java",
+    "lesson": "docs/questions/q212.md",
+    "expectedOutput": "OptionalInt[6]\n"
+  },
+  {
+    "id": 213,
+    "title": "Compare arrays while preserving duplicate multiplicities",
+    "topic": "Hash maps and sets",
+    "difficulty": "Easy",
+    "className": "questions.q213.Q213EqualMultisets",
+    "source": "src/questions/q213/Q213EqualMultisets.java",
+    "lesson": "docs/questions/q213.md",
+    "expectedOutput": "true\n"
+  },
+  {
+    "id": 214,
+    "title": "Return the distinct intersection in first-array order",
+    "topic": "Hash maps and sets",
+    "difficulty": "Easy",
+    "className": "questions.q214.Q214DistinctIntersection",
+    "source": "src/questions/q214/Q214DistinctIntersection.java",
+    "lesson": "docs/questions/q214.md",
+    "expectedOutput": "[3, 2]\n"
+  },
+  {
+    "id": 215,
+    "title": "Intersect arrays including matched duplicate occurrences",
+    "topic": "Hash maps and sets",
+    "difficulty": "Easy",
+    "className": "questions.q215.Q215MultisetIntersection",
+    "source": "src/questions/q215/Q215MultisetIntersection.java",
+    "lesson": "docs/questions/q215.md",
+    "expectedOutput": "[2, 2]\n"
   }
 ]

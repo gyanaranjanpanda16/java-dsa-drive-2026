@@ -46,7 +46,11 @@ public final class QuestionBankTest {
             }
             completed++;
         }
-        Check.that(completed == 160, "This partial edition must contain exactly 160 published questions");
+        Check.that(completed == 410, "This partial edition must contain exactly 410 published questions");
+        for (int id = 1; id <= 500; id++) {
+            boolean published = id <= 215 || (id >= 251 && id <= 350) || (id >= 376 && id <= 470);
+            Check.that(ids.contains(Integer.toString(id)) == published, "Published coverage differs at Q" + id);
+        }
         System.out.println("QuestionBankTest: " + completed + " question programs verified; " + Check.count() + " checks passed.");
     }
 }

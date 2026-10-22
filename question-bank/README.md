@@ -1,20 +1,20 @@
-# Solved Java question bank — partial edition
+# Solved Java question bank
 
-**Status: 160 completed questions out of the requested 500. Work was stopped at the user's request.** This edition publishes the answers already written; it does not claim that the full 500-question collection or every Java collection topic is finished.
+**410 completed and tested questions out of the requested 500.** This is a partial publication; **90 questions remain unfinished** (Q216–Q250, Q351–Q375, Q471–Q500).
 
-Every listed question has its own runnable Java file, explanation page, sample output, and at least three self-test checks. Questions are original educational exercises covering common techniques, not verified records of questions asked by a particular employer. The code uses Java 17-compatible standard-library APIs.
+Every listed question has its own runnable Java file, explanatory comments, a lesson page, sample output, and at least three self-test checks. These are educational exercises covering common techniques, not verified records of questions asked by a particular employer. Programs use Java 17-compatible standard-library APIs.
 
-## What is available
+## Available programs
 
 | Number range | Completed | Coverage |
 | --- | ---: | --- |
-| Q001–Q065 | 65 | Printing elements, basic Java, array scans, transformations, prefix sums, windows, and common array algorithms |
-| Q126–Q145 | 20 | String operations, character counting, windows, and substring matching |
-| Q251–Q295 | 45 | Binary trees, BSTs, and heap/priority-queue problems |
-| Q376–Q405 | 30 | Recursion, backtracking, and initial dynamic-programming problems |
-| **Total** | **160** | **The gaps in numbering represent unfinished work.** |
+| Q001–Q125 | 125 | Java basics, arrays, matrices, and Java collection APIs |
+| Q126–Q215 | 90 | Strings, linked lists, stacks, queues, and initial hashing problems |
+| Q251–Q350 | 100 | Trees, BSTs, heaps, graphs, and initial tries |
+| Q376–Q470 | 95 | Recursion, backtracking, dynamic programming, greedy algorithms, and binary search |
+| **Total** | **410** | **Only completed programs appear below.** |
 
-The remaining **340** requested answers are not included. Some planned topics (including dedicated linked-list, queue, stack, and map question batches) remain unfinished. The earlier [topic-based curriculum](../README.md) still contains examples and explanations for these structures.
+For the underlying concepts and real-world tradeoffs, read the [topic-based curriculum](../README.md), [Java collections guide](../docs/17-java-collections.md), and [real-world case studies](../docs/14-real-world-scenarios.md).
 
 ## Start with the first program
 
@@ -28,11 +28,13 @@ bash scripts/run.sh questions.q001.Q001PrintElements
 bash scripts/test.sh
 ```
 
-The first command prints `10 20 30`. The second compiles everything, runs the original curriculum tests, and verifies all 160 question self-tests and demonstration outputs. No paid service or external Java library is required.
+The first command prints `10 20 30`. The second compiles everything, runs the curriculum tests, and verifies all 410 question self-tests and demonstration outputs. No external Java library is required.
 
-The JSON manifests contain the exact expected sample outputs. The TSV index is the test runner's dependency-free lookup table. Documentation explains the accepted input domain: a sample passing does not establish correctness for arbitrary inputs outside that domain.
+Read the question before opening its answer. Write a small example, attempt a baseline, identify the invariant, then compare the commented implementation. Revisit questions independently instead of counting a copied solution as learned. The stated input contracts and complexity limits matter.
 
-## Browse the completed answers
+The JSON manifests store exact sample outputs; the TSV index drives the Java test runner. Maintainers can regenerate navigation with `python3 scripts/update-question-index.py` after verifying new manifest entries, then rerun all tests. Python is only needed for rebuilding navigation, not for running the Java programs.
+
+## Browse completed answers
 
 | ID | Question | Topic | Level | Java answer |
 | --- | --- | --- | --- | --- |
@@ -101,6 +103,66 @@ The JSON manifests contain the exact expected sample outputs. The TSV index is t
 | Q063 | [Find the longest run of ones](../docs/questions/q063.md) | Array runs | Beginner | [Code](../src/questions/q063/Q063ConsecutiveOnes.java) |
 | Q064 | [Find the longest binary window after at most k zero flips](../docs/questions/q064.md) | Sliding windows | Medium | [Code](../src/questions/q064/Q064OnesAfterFlips.java) |
 | Q065 | [Count contiguous subarrays with an integer target sum](../docs/questions/q065.md) | Prefix frequency maps | Medium | [Code](../src/questions/q065/Q065CountTargetSubarrays.java) |
+| Q066 | [Find a longest interval with a target sum](../docs/questions/q066.md) | Prefix sums | Medium | [Code](../src/questions/q066/Q066LongestTargetSubarray.java) |
+| Q067 | [Rotate a square matrix clockwise](../docs/questions/q067.md) | Matrix transformations | Medium | [Code](../src/questions/q067/Q067RotateSquare.java) |
+| Q068 | [Transpose a rectangular matrix](../docs/questions/q068.md) | Matrix indexing | Beginner | [Code](../src/questions/q068/Q068Transpose.java) |
+| Q069 | [Sum both diagonals without double-counting the center](../docs/questions/q069.md) | Matrix scans | Beginner | [Code](../src/questions/q069/Q069DiagonalTotal.java) |
+| Q070 | [Read a rectangular matrix in clockwise spiral order](../docs/questions/q070.md) | Matrix boundaries | Medium | [Code](../src/questions/q070/Q070SpiralTraversal.java) |
+| Q071 | [Search a matrix sorted by rows and columns](../docs/questions/q071.md) | Staircase search | Medium | [Code](../src/questions/q071/Q071SortedMatrixSearch.java) |
+| Q072 | [Zero rows and columns containing an original zero](../docs/questions/q072.md) | Matrix marking | Medium | [Code](../src/questions/q072/Q072ZeroMatrixRowsColumns.java) |
+| Q073 | [Merge overlapping closed intervals](../docs/questions/q073.md) | Sorting and intervals | Medium | [Code](../src/questions/q073/Q073MergeIntervals.java) |
+| Q074 | [Insert one interval into a disjoint sorted interval list](../docs/questions/q074.md) | Interval scans | Medium | [Code](../src/questions/q074/Q074InsertInterval.java) |
+| Q075 | [Find the next lexicographic permutation](../docs/questions/q075.md) | Lexicographic ordering | Medium | [Code](../src/questions/q075/Q075NextPermutation.java) |
+| Q076 | [Insert replace and remove ArrayList elements by position](../docs/questions/q076.md) | Java Collections: ArrayList | Beginner | [Code](../src/questions/q076/Q076ArrayListEdits.java) |
+| Q077 | [Remove even values safely while iterating a list](../docs/questions/q077.md) | Java Collections: Iterator | Beginner | [Code](../src/questions/q077/Q077IteratorRemoval.java) |
+| Q078 | [Insert follow-up tasks during list traversal](../docs/questions/q078.md) | Java Collections: ListIterator | Beginner | [Code](../src/questions/q078/Q078ListIteratorInsertion.java) |
+| Q079 | [Delete a half-open range through a backed list view](../docs/questions/q079.md) | Java Collections: subList | Beginner | [Code](../src/questions/q079/Q079SubListDeletion.java) |
+| Q080 | [Filter a list using set membership while preserving duplicates](../docs/questions/q080.md) | Java Collections: retainAll | Beginner | [Code](../src/questions/q080/Q080RetainAllowed.java) |
+| Q081 | [Rotate a list with the Collections utility](../docs/questions/q081.md) | Java Collections: Collections.rotate | Beginner | [Code](../src/questions/q081/Q081RotateList.java) |
+| Q082 | [Sort integers by magnitude with numeric tie-breaking](../docs/questions/q082.md) | Java Collections: Comparator | Beginner | [Code](../src/questions/q082/Q082AbsoluteComparator.java) |
+| Q083 | [Sort words by length while preserving equal-length order](../docs/questions/q083.md) | Java Collections: stable sorting | Beginner | [Code](../src/questions/q083/Q083StableLengthSort.java) |
+| Q084 | [Insert into a sorted ArrayList using binarySearch](../docs/questions/q084.md) | Java Collections: binarySearch | Beginner | [Code](../src/questions/q084/Q084SortedListInsertion.java) |
+| Q085 | [Create a detached immutable List.copyOf snapshot](../docs/questions/q085.md) | Java Collections: List.copyOf | Beginner | [Code](../src/questions/q085/Q085ImmutableSnapshot.java) |
+| Q086 | [Observe a fixed-size list backed by an array](../docs/questions/q086.md) | Java Collections: Arrays.asList | Beginner | [Code](../src/questions/q086/Q086FixedSizeList.java) |
+| Q087 | [Remove the first and last matching occurrences](../docs/questions/q087.md) | Java Collections: LinkedList and Deque | Beginner | [Code](../src/questions/q087/Q087LinkedListOccurrences.java) |
+| Q088 | [Retain only the most recent events](../docs/questions/q088.md) | Java Collections: ArrayDeque | Beginner | [Code](../src/questions/q088/Q088RecentHistory.java) |
+| Q089 | [Simulate fair round-robin task scheduling](../docs/questions/q089.md) | Java Collections: queue scheduling | Easy | [Code](../src/questions/q089/Q089RoundRobin.java) |
+| Q090 | [Implement text undo and redo with two stacks](../docs/questions/q090.md) | Java Collections: two deques | Easy | [Code](../src/questions/q090/Q090UndoRedo.java) |
+| Q091 | [Trace legacy Stack push peek and pop](../docs/questions/q091.md) | Java Collections: Stack | Beginner | [Code](../src/questions/q091/Q091LegacyStack.java) |
+| Q092 | [Find values present in exactly one set](../docs/questions/q092.md) | Java Collections: HashSet | Beginner | [Code](../src/questions/q092/Q092SymmetricDifference.java) |
+| Q093 | [Deduplicate values while preserving first-seen order](../docs/questions/q093.md) | Java Collections: LinkedHashSet | Beginner | [Code](../src/questions/q093/Q093FirstSeenOrder.java) |
+| Q094 | [Select a sorted half-open set range](../docs/questions/q094.md) | Java Collections: TreeSet | Beginner | [Code](../src/questions/q094/Q094BoundedSetRange.java) |
+| Q095 | [Allocate the nearest free seat with ordered neighbors](../docs/questions/q095.md) | Java Collections: NavigableSet | Easy | [Code](../src/questions/q095/Q095NearestSeat.java) |
+| Q096 | [Combine and revoke finite permission flags](../docs/questions/q096.md) | Java Collections: EnumSet | Beginner | [Code](../src/questions/q096/Q096EnumPermissions.java) |
+| Q097 | [Find free slots in a bounded universe](../docs/questions/q097.md) | Java Collections: BitSet | Beginner | [Code](../src/questions/q097/Q097BitSetAvailability.java) |
+| Q098 | [Reserve available inventory atomically within one operation](../docs/questions/q098.md) | Java Collections: HashMap | Beginner | [Code](../src/questions/q098/Q098InventoryReservation.java) |
+| Q099 | [Group names with computeIfAbsent](../docs/questions/q099.md) | Java Collections: Map.computeIfAbsent | Beginner | [Code](../src/questions/q099/Q099GroupByInitial.java) |
+| Q100 | [Aggregate transaction totals with Map.merge](../docs/questions/q100.md) | Java Collections: Map.merge | Beginner | [Code](../src/questions/q100/Q100MergeTotals.java) |
+| Q101 | [Build a reverse lookup index for shared values](../docs/questions/q101.md) | Java Collections: inverse map | Beginner | [Code](../src/questions/q101/Q101InvertIndex.java) |
+| Q102 | [Maintain an access-order cache with LinkedHashMap](../docs/questions/q102.md) | Java Collections: LinkedHashMap | Easy | [Code](../src/questions/q102/Q102AccessOrderCache.java) |
+| Q103 | [Look up the latest effective price at a timestamp](../docs/questions/q103.md) | Java Collections: TreeMap.floorEntry | Beginner | [Code](../src/questions/q103/Q103EffectivePrice.java) |
+| Q104 | [Total map values within an inclusive key range](../docs/questions/q104.md) | Java Collections: NavigableMap.subMap | Beginner | [Code](../src/questions/q104/Q104RangeTotalMap.java) |
+| Q105 | [Count fixed categories with EnumMap](../docs/questions/q105.md) | Java Collections: EnumMap | Beginner | [Code](../src/questions/q105/Q105EnumCounters.java) |
+| Q106 | [Compare value equality with object identity as map keys](../docs/questions/q106.md) | Java Collections: IdentityHashMap | Beginner | [Code](../src/questions/q106/Q106IdentityKeys.java) |
+| Q107 | [Use weak keys while retaining live owners](../docs/questions/q107.md) | Java Collections: WeakHashMap | Beginner | [Code](../src/questions/q107/Q107WeakKeyCache.java) |
+| Q108 | [Count two workers updates without lost increments](../docs/questions/q108.md) | Java Collections: ConcurrentHashMap | Beginner | [Code](../src/questions/q108/Q108ConcurrentCounter.java) |
+| Q109 | [Keep the first registered value with putIfAbsent](../docs/questions/q109.md) | Java Collections: ConcurrentMap | Beginner | [Code](../src/questions/q109/Q109FirstRegistration.java) |
+| Q110 | [Read an ordered concurrent-map range](../docs/questions/q110.md) | Java Collections: ConcurrentSkipListMap | Beginner | [Code](../src/questions/q110/Q110ConcurrentOrderedRange.java) |
+| Q111 | [Observe a CopyOnWriteArrayList iterator snapshot](../docs/questions/q111.md) | Java Collections: CopyOnWriteArrayList | Beginner | [Code](../src/questions/q111/Q111CopyOnWriteSnapshot.java) |
+| Q112 | [Deduplicate a rarely changed observer registry](../docs/questions/q112.md) | Java Collections: CopyOnWriteArraySet | Beginner | [Code](../src/questions/q112/Q112CopyOnWriteSet.java) |
+| Q113 | [Drain a concurrent FIFO with poll](../docs/questions/q113.md) | Java Collections: ConcurrentLinkedQueue | Beginner | [Code](../src/questions/q113/Q113ConcurrentQueueDrain.java) |
+| Q114 | [Handle backpressure with nonblocking queue offers](../docs/questions/q114.md) | Java Collections: ArrayBlockingQueue | Beginner | [Code](../src/questions/q114/Q114BoundedQueueOffers.java) |
+| Q115 | [Take a bounded batch from a linked blocking queue](../docs/questions/q115.md) | Java Collections: LinkedBlockingQueue | Beginner | [Code](../src/questions/q115/Q115QueueBatchDrain.java) |
+| Q116 | [Consume a priority queue in sorted removal order](../docs/questions/q116.md) | Java Collections: PriorityBlockingQueue | Beginner | [Code](../src/questions/q116/Q116BlockingPriorityOrder.java) |
+| Q117 | [Poll due tasks from a DelayQueue using a logical clock](../docs/questions/q117.md) | Java Collections: DelayQueue | Beginner | [Code](../src/questions/q117/Q117DueTasks.java) |
+| Q118 | [Observe that a SynchronousQueue has no storage buffer](../docs/questions/q118.md) | Java Collections: SynchronousQueue | Beginner | [Code](../src/questions/q118/Q118RendezvousQueue.java) |
+| Q119 | [Distinguish direct transfer from ordinary queueing](../docs/questions/q119.md) | Java Collections: LinkedTransferQueue | Beginner | [Code](../src/questions/q119/Q119TransferVsEnqueue.java) |
+| Q120 | [Traverse a legacy Vector with Enumeration](../docs/questions/q120.md) | Java Collections: Vector and Enumeration | Beginner | [Code](../src/questions/q120/Q120VectorEnumeration.java) |
+| Q121 | [Contrast a read-only live view with a detached snapshot](../docs/questions/q121.md) | Java Collections: unmodifiableList | Beginner | [Code](../src/questions/q121/Q121UnmodifiableLiveView.java) |
+| Q122 | [See why nCopies does not clone mutable elements](../docs/questions/q122.md) | Java Collections: Collections.nCopies | Beginner | [Code](../src/questions/q122/Q122RepeatedReference.java) |
+| Q123 | [Sort nullable names with missing values last](../docs/questions/q123.md) | Java Collections: Comparator.nullsLast | Beginner | [Code](../src/questions/q123/Q123NullSafeComparator.java) |
+| Q124 | [Preserve arrival order among equal-priority tasks](../docs/questions/q124.md) | Java Collections: PriorityQueue comparator | Beginner | [Code](../src/questions/q124/Q124StablePriorityQueue.java) |
+| Q125 | [Reject a raw-type insertion at the collection boundary](../docs/questions/q125.md) | Java Collections: checkedList | Beginner | [Code](../src/questions/q125/Q125CheckedList.java) |
 | Q126 | [Print every character with its index](../docs/questions/q126.md) | Strings | Beginner | [Code](../src/questions/q126/Q126Characters.java) |
 | Q127 | [Reverse text using two pointers](../docs/questions/q127.md) | Strings | Beginner | [Code](../src/questions/q127/Q127Reverse.java) |
 | Q128 | [Check an exact palindrome](../docs/questions/q128.md) | Strings | Beginner | [Code](../src/questions/q128/Q128Palindrome.java) |
@@ -121,6 +183,76 @@ The JSON manifests contain the exact expected sample outputs. The TSV index is t
 | Q143 | [Find the longest common prefix of strings](../docs/questions/q143.md) | Strings | Easy | [Code](../src/questions/q143/Q143CommonPrefix.java) |
 | Q144 | [Find the first exact substring match](../docs/questions/q144.md) | Strings | Easy | [Code](../src/questions/q144/Q144NaiveSubstring.java) |
 | Q145 | [Find a substring using KMP failure links](../docs/questions/q145.md) | Strings | Medium | [Code](../src/questions/q145/Q145KmpSubstring.java) |
+| Q146 | [Encode runs as character-count pairs](../docs/questions/q146.md) | Strings | Easy | [Code](../src/questions/q146/Q146RunLength.java) |
+| Q147 | [Encode ASCII spaces as percent-20](../docs/questions/q147.md) | Strings | Easy | [Code](../src/questions/q147/Q147SpaceEncoding.java) |
+| Q148 | [Parse and clamp a signed decimal prefix](../docs/questions/q148.md) | Strings | Medium | [Code](../src/questions/q148/Q148ParseInteger.java) |
+| Q149 | [Evaluate a valid Roman numeral](../docs/questions/q149.md) | Strings | Easy | [Code](../src/questions/q149/Q149RomanValue.java) |
+| Q150 | [Find a longest palindromic substring](../docs/questions/q150.md) | Strings | Medium | [Code](../src/questions/q150/Q150LongestPalindrome.java) |
+| Q151 | [Group words with equal character multiplicities](../docs/questions/q151.md) | Strings | Medium | [Code](../src/questions/q151/Q151GroupAnagrams.java) |
+| Q152 | [Find a longest substring with at most k distinct chars](../docs/questions/q152.md) | Strings | Medium | [Code](../src/questions/q152/Q152AtMostKDistinct.java) |
+| Q153 | [Find a shortest substring covering required characters](../docs/questions/q153.md) | Strings | Hard | [Code](../src/questions/q153/Q153MinimumCover.java) |
+| Q154 | [Compare arbitrarily large version components](../docs/questions/q154.md) | Strings | Medium | [Code](../src/questions/q154/Q154CompareVersions.java) |
+| Q155 | [Add binary strings without numeric parsing](../docs/questions/q155.md) | Strings | Medium | [Code](../src/questions/q155/Q155AddBinary.java) |
+| Q156 | [Multiply decimal strings by positional arithmetic](../docs/questions/q156.md) | Strings | Medium | [Code](../src/questions/q156/Q156MultiplyDecimal.java) |
+| Q157 | [Read a zigzag layout row by row](../docs/questions/q157.md) | Strings | Medium | [Code](../src/questions/q157/Q157Zigzag.java) |
+| Q158 | [Check a one-to-one character substitution](../docs/questions/q158.md) | Strings | Easy | [Code](../src/questions/q158/Q158Isomorphic.java) |
+| Q159 | [Match pattern symbols bijectively to words](../docs/questions/q159.md) | Strings | Easy | [Code](../src/questions/q159/Q159WordPattern.java) |
+| Q160 | [Find starts containing a permutation of equal-length words](../docs/questions/q160.md) | Strings | Hard | [Code](../src/questions/q160/Q160ConcatenatedWords.java) |
+| Q161 | [Traverse a singly linked list](../docs/questions/q161.md) | Linked lists | Easy | [Code](../src/questions/q161/Q161Traverse.java) |
+| Q162 | [Count nodes of an acyclic list](../docs/questions/q162.md) | Linked lists | Easy | [Code](../src/questions/q162/Q162Length.java) |
+| Q163 | [Find the first index of a list value](../docs/questions/q163.md) | Linked lists | Easy | [Code](../src/questions/q163/Q163Search.java) |
+| Q164 | [Insert a new head node](../docs/questions/q164.md) | Linked lists | Easy | [Code](../src/questions/q164/Q164Prepend.java) |
+| Q165 | [Append a new tail node](../docs/questions/q165.md) | Linked lists | Easy | [Code](../src/questions/q165/Q165Append.java) |
+| Q166 | [Insert before a zero-based list position](../docs/questions/q166.md) | Linked lists | Easy | [Code](../src/questions/q166/Q166InsertAt.java) |
+| Q167 | [Remove the first node](../docs/questions/q167.md) | Linked lists | Easy | [Code](../src/questions/q167/Q167DeleteHead.java) |
+| Q168 | [Remove the final node](../docs/questions/q168.md) | Linked lists | Easy | [Code](../src/questions/q168/Q168DeleteTail.java) |
+| Q169 | [Remove a node at a specified position](../docs/questions/q169.md) | Linked lists | Easy | [Code](../src/questions/q169/Q169DeleteAt.java) |
+| Q170 | [Remove every node containing a selected value](../docs/questions/q170.md) | Linked lists | Easy | [Code](../src/questions/q170/Q170DeleteValue.java) |
+| Q171 | [Reverse a singly linked list in place](../docs/questions/q171.md) | Linked lists | Easy | [Code](../src/questions/q171/Q171Reverse.java) |
+| Q172 | [Find the second middle node of a list](../docs/questions/q172.md) | Linked lists | Easy | [Code](../src/questions/q172/Q172Middle.java) |
+| Q173 | [Find the kth node from the end](../docs/questions/q173.md) | Linked lists | Easy | [Code](../src/questions/q173/Q173KthFromEnd.java) |
+| Q174 | [Detect a cycle using two moving pointers](../docs/questions/q174.md) | Linked lists | Easy | [Code](../src/questions/q174/Q174DetectCycle.java) |
+| Q175 | [Find the entry value of a reference cycle](../docs/questions/q175.md) | Linked lists | Easy | [Code](../src/questions/q175/Q175CycleEntry.java) |
+| Q176 | [Merge two sorted linked lists by relinking](../docs/questions/q176.md) | Linked lists | Easy | [Code](../src/questions/q176/Q176MergeSorted.java) |
+| Q177 | [Remove repeated values from a sorted list](../docs/questions/q177.md) | Linked lists | Easy | [Code](../src/questions/q177/Q177DeduplicateSorted.java) |
+| Q178 | [Remove later duplicate values from an unsorted list](../docs/questions/q178.md) | Linked lists | Easy | [Code](../src/questions/q178/Q178DeduplicateUnsorted.java) |
+| Q179 | [Insert a value into a sorted list](../docs/questions/q179.md) | Linked lists | Easy | [Code](../src/questions/q179/Q179SortedInsert.java) |
+| Q180 | [Check whether list values form a palindrome](../docs/questions/q180.md) | Linked lists | Easy | [Code](../src/questions/q180/Q180Palindrome.java) |
+| Q181 | [Find the first shared node of two acyclic lists](../docs/questions/q181.md) | Linked lists | Easy | [Code](../src/questions/q181/Q181Intersection.java) |
+| Q182 | [Rotate a list right by k positions](../docs/questions/q182.md) | Linked lists | Easy | [Code](../src/questions/q182/Q182Rotate.java) |
+| Q183 | [Swap neighboring nodes by rewiring links](../docs/questions/q183.md) | Linked lists | Easy | [Code](../src/questions/q183/Q183SwapPairs.java) |
+| Q184 | [Reverse a doubly linked list](../docs/questions/q184.md) | Linked lists | Medium | [Code](../src/questions/q184/Q184DoublyReverse.java) |
+| Q185 | [Count nodes in a circular list](../docs/questions/q185.md) | Linked lists | Easy | [Code](../src/questions/q185/Q185CircularLength.java) |
+| Q186 | [Reverse values through a stack](../docs/questions/q186.md) | Stacks, queues, and deques | Beginner | [Code](../src/questions/q186/Q186StackReverse.java) |
+| Q187 | [Validate nesting of three bracket types](../docs/questions/q187.md) | Stacks, queues, and deques | Easy | [Code](../src/questions/q187/Q187BalancedBrackets.java) |
+| Q188 | [Evaluate a valid postfix arithmetic expression](../docs/questions/q188.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q188/Q188Postfix.java) |
+| Q189 | [Find the next strictly greater value to the right](../docs/questions/q189.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q189/Q189NextGreater.java) |
+| Q190 | [Find the next strictly smaller index to the right](../docs/questions/q190.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q190/Q190NextSmaller.java) |
+| Q191 | [Find the nearest greater index on the left](../docs/questions/q191.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q191/Q191PreviousGreater.java) |
+| Q192 | [Compute consecutive stock-price spans](../docs/questions/q192.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q192/Q192StockSpan.java) |
+| Q193 | [Count days until a strictly warmer temperature](../docs/questions/q193.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q193/Q193WarmerDays.java) |
+| Q194 | [Find the largest rectangle in a histogram](../docs/questions/q194.md) | Stacks, queues, and deques | Hard | [Code](../src/questions/q194/Q194Histogram.java) |
+| Q195 | [Find every fixed-window maximum with a deque](../docs/questions/q195.md) | Stacks, queues, and deques | Hard | [Code](../src/questions/q195/Q195WindowMaximum.java) |
+| Q196 | [Maintain stack minima through pushes and pops](../docs/questions/q196.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q196/Q196MinimumStack.java) |
+| Q197 | [Implement FIFO removal with two stacks](../docs/questions/q197.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q197/Q197QueueFromStacks.java) |
+| Q198 | [Implement LIFO behavior with queue rotation](../docs/questions/q198.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q198/Q198StackFromQueue.java) |
+| Q199 | [Simulate a bounded circular-array queue](../docs/questions/q199.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q199/Q199CircularQueue.java) |
+| Q200 | [Read a deque by alternating front and back](../docs/questions/q200.md) | Stacks, queues, and deques | Easy | [Code](../src/questions/q200/Q200AlternatingEnds.java) |
+| Q201 | [Generate the first n positive binary representations](../docs/questions/q201.md) | Stacks, queues, and deques | Easy | [Code](../src/questions/q201/Q201BinaryNumbers.java) |
+| Q202 | [Track the earliest nonrepeating character after each arrival](../docs/questions/q202.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q202/Q202FirstUniqueStream.java) |
+| Q203 | [Reverse the first k queue values only](../docs/questions/q203.md) | Stacks, queues, and deques | Easy | [Code](../src/questions/q203/Q203ReverseQueuePrefix.java) |
+| Q204 | [Interleave the two halves of an even queue](../docs/questions/q204.md) | Stacks, queues, and deques | Easy | [Code](../src/questions/q204/Q204InterleaveHalves.java) |
+| Q205 | [Find a feasible start for a circular fuel tour](../docs/questions/q205.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q205/Q205CircularTour.java) |
+| Q206 | [Resolve one-dimensional asteroid collisions](../docs/questions/q206.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q206/Q206Asteroids.java) |
+| Q207 | [Repeatedly remove adjacent equal character pairs](../docs/questions/q207.md) | Stacks, queues, and deques | Easy | [Code](../src/questions/q207/Q207AdjacentCancellation.java) |
+| Q208 | [Decode nested repetition brackets](../docs/questions/q208.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q208/Q208DecodeRepeats.java) |
+| Q209 | [Simplify an absolute Unix-style path](../docs/questions/q209.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q209/Q209CanonicalPath.java) |
+| Q210 | [Score balanced parentheses by nesting rules](../docs/questions/q210.md) | Stacks, queues, and deques | Medium | [Code](../src/questions/q210/Q210ParenthesisScore.java) |
+| Q211 | [Count words in sorted dictionary order](../docs/questions/q211.md) | Hash maps and sets | Easy | [Code](../src/questions/q211/Q211WordFrequencies.java) |
+| Q212 | [Find the first integer appearing exactly once](../docs/questions/q212.md) | Hash maps and sets | Easy | [Code](../src/questions/q212/Q212FirstUniqueInteger.java) |
+| Q213 | [Compare arrays while preserving duplicate multiplicities](../docs/questions/q213.md) | Hash maps and sets | Easy | [Code](../src/questions/q213/Q213EqualMultisets.java) |
+| Q214 | [Return the distinct intersection in first-array order](../docs/questions/q214.md) | Hash maps and sets | Easy | [Code](../src/questions/q214/Q214DistinctIntersection.java) |
+| Q215 | [Intersect arrays including matched duplicate occurrences](../docs/questions/q215.md) | Hash maps and sets | Easy | [Code](../src/questions/q215/Q215MultisetIntersection.java) |
 | Q251 | [List tree values in inorder](../docs/questions/q251.md) | Trees and BST | Beginner | [Code](../src/questions/q251/Q251Inorder.java) |
 | Q252 | [List tree values in preorder](../docs/questions/q252.md) | Trees and BST | Beginner | [Code](../src/questions/q252/Q252Preorder.java) |
 | Q253 | [List tree values in postorder](../docs/questions/q253.md) | Trees and BST | Beginner | [Code](../src/questions/q253/Q253Postorder.java) |
@@ -166,6 +298,61 @@ The JSON manifests contain the exact expected sample outputs. The TSV index is t
 | Q293 | [Select the k most frequent integers](../docs/questions/q293.md) | Hashing and heaps | Medium | [Code](../src/questions/q293/Q293FrequentValues.java) |
 | Q294 | [Select the most frequent words with lexical ties](../docs/questions/q294.md) | Maps and priority queues | Medium | [Code](../src/questions/q294/Q294FrequentWords.java) |
 | Q295 | [Return k points nearest the origin](../docs/questions/q295.md) | Heaps and geometry | Medium | [Code](../src/questions/q295/Q295ClosestPoints.java) |
+| Q296 | [Simulate repeatedly smashing the two heaviest stones](../docs/questions/q296.md) | Max heaps | Easy | [Code](../src/questions/q296/Q296LastStone.java) |
+| Q297 | [Find the minimum number of meeting rooms](../docs/questions/q297.md) | Interval heaps | Medium | [Code](../src/questions/q297/Q297MeetingRooms.java) |
+| Q298 | [Find the minimum slots for tasks with a cooldown](../docs/questions/q298.md) | Greedy scheduling | Medium | [Code](../src/questions/q298/Q298CooldownTasks.java) |
+| Q299 | [Sort values displaced by at most k positions](../docs/questions/q299.md) | Bounded heaps | Medium | [Code](../src/questions/q299/Q299SortNearlySorted.java) |
+| Q300 | [Find k pairs with the smallest sums](../docs/questions/q300.md) | Heap frontier | Medium | [Code](../src/questions/q300/Q300SmallestSumPairs.java) |
+| Q301 | [Build a binary min-heap in an array](../docs/questions/q301.md) | Heap construction | Medium | [Code](../src/questions/q301/Q301BuildMinHeap.java) |
+| Q302 | [Check the binary min-heap property](../docs/questions/q302.md) | Heap invariants | Easy | [Code](../src/questions/q302/Q302ValidateMinHeap.java) |
+| Q303 | [Sort an integer array using an explicit heap](../docs/questions/q303.md) | Sorting with heaps | Medium | [Code](../src/questions/q303/Q303HeapSort.java) |
+| Q304 | [Minimize refueling stops to reach a target](../docs/questions/q304.md) | Greedy max-heap | Hard | [Code](../src/questions/q304/Q304RefuelStops.java) |
+| Q305 | [Find the smallest range covering every sorted feed](../docs/questions/q305.md) | Heap frontier | Hard | [Code](../src/questions/q305/Q305CoveringRange.java) |
+| Q306 | [Build directed adjacency lists from an edge list](../docs/questions/q306.md) | Graphs | Beginner | [Code](../src/questions/q306/Q306AdjacencyLists.java) |
+| Q307 | [Build an undirected adjacency matrix](../docs/questions/q307.md) | Graphs | Beginner | [Code](../src/questions/q307/Q307AdjacencyMatrix.java) |
+| Q308 | [Count degrees in an undirected multigraph](../docs/questions/q308.md) | Graphs | Beginner | [Code](../src/questions/q308/Q308VertexDegrees.java) |
+| Q309 | [Reverse every directed graph edge](../docs/questions/q309.md) | Graphs | Easy | [Code](../src/questions/q309/Q309TransposeGraph.java) |
+| Q310 | [Traverse reachable vertices in breadth-first order](../docs/questions/q310.md) | Graphs | Medium | [Code](../src/questions/q310/Q310BreadthFirstOrder.java) |
+| Q311 | [Traverse reachable vertices in depth-first order](../docs/questions/q311.md) | Graphs | Medium | [Code](../src/questions/q311/Q311DepthFirstOrder.java) |
+| Q312 | [Count connected components in an undirected graph](../docs/questions/q312.md) | Graphs | Medium | [Code](../src/questions/q312/Q312ConnectedComponents.java) |
+| Q313 | [Determine whether a directed target is reachable](../docs/questions/q313.md) | Graphs | Medium | [Code](../src/questions/q313/Q313Reachability.java) |
+| Q314 | [Find shortest edge-count distances from a source](../docs/questions/q314.md) | Graphs | Medium | [Code](../src/questions/q314/Q314UnweightedDistances.java) |
+| Q315 | [Reconstruct one shortest unweighted route](../docs/questions/q315.md) | Graphs | Medium | [Code](../src/questions/q315/Q315ShortestRoute.java) |
+| Q316 | [Detect a cycle in a simple undirected graph](../docs/questions/q316.md) | Graphs | Medium | [Code](../src/questions/q316/Q316UndirectedCycle.java) |
+| Q317 | [Detect a directed cycle using DFS colors](../docs/questions/q317.md) | Graphs | Medium | [Code](../src/questions/q317/Q317DirectedCycle.java) |
+| Q318 | [Produce a deterministic topological order or report a cycle](../docs/questions/q318.md) | Graphs | Medium | [Code](../src/questions/q318/Q318TopologicalOrder.java) |
+| Q319 | [Check whether an undirected graph can be two-colored](../docs/questions/q319.md) | Graphs | Medium | [Code](../src/questions/q319/Q319BipartiteCheck.java) |
+| Q320 | [Enumerate every source-to-target path in a DAG](../docs/questions/q320.md) | Graphs | Medium | [Code](../src/questions/q320/Q320AllDagPaths.java) |
+| Q321 | [Count four-connected islands in a binary grid](../docs/questions/q321.md) | Grid graphs | Medium | [Code](../src/questions/q321/Q321IslandCount.java) |
+| Q322 | [Find the area of the largest island](../docs/questions/q322.md) | Grid graphs | Medium | [Code](../src/questions/q322/Q322MaximumIsland.java) |
+| Q323 | [Recolor the connected region containing a chosen pixel](../docs/questions/q323.md) | Grid traversal | Easy | [Code](../src/questions/q323/Q323FloodFill.java) |
+| Q324 | [Compute each cell distance to the nearest zero](../docs/questions/q324.md) | Multi-source BFS | Medium | [Code](../src/questions/q324/Q324NearestZero.java) |
+| Q325 | [Find the time until all reachable fresh oranges rot](../docs/questions/q325.md) | Multi-source BFS | Medium | [Code](../src/questions/q325/Q325RottingTime.java) |
+| Q326 | [Find the shortest one-letter word transformation](../docs/questions/q326.md) | Implicit graphs | Hard | [Code](../src/questions/q326/Q326WordLadder.java) |
+| Q327 | [Find minimum semesters with unlimited parallel courses](../docs/questions/q327.md) | Graphs | Medium | [Code](../src/questions/q327/Q327MinimumSemesters.java) |
+| Q328 | [Infer an alphabet order from sorted words](../docs/questions/q328.md) | Topological ordering | Hard | [Code](../src/questions/q328/Q328AlienAlphabet.java) |
+| Q329 | [Find shortest paths with nonnegative weights](../docs/questions/q329.md) | Graphs | Medium | [Code](../src/questions/q329/Q329DijkstraDistances.java) |
+| Q330 | [Find shortest paths allowing negative edges](../docs/questions/q330.md) | Graphs | Medium | [Code](../src/questions/q330/Q330BellmanFord.java) |
+| Q331 | [Find all-pairs shortest distances](../docs/questions/q331.md) | Graphs | Medium | [Code](../src/questions/q331/Q331FloydWarshall.java) |
+| Q332 | [Find an undirected minimum spanning-tree weight with Prim](../docs/questions/q332.md) | Graphs | Medium | [Code](../src/questions/q332/Q332PrimMst.java) |
+| Q333 | [Find a minimum spanning-tree weight using sorted edges](../docs/questions/q333.md) | Graphs | Medium | [Code](../src/questions/q333/Q333KruskalMst.java) |
+| Q334 | [Process union and connectivity queries online](../docs/questions/q334.md) | Graphs | Medium | [Code](../src/questions/q334/Q334OnlineConnectivity.java) |
+| Q335 | [Return the last edge that closes an undirected cycle](../docs/questions/q335.md) | Graphs | Medium | [Code](../src/questions/q335/Q335RedundantEdge.java) |
+| Q336 | [Count provinces from a symmetric connection matrix](../docs/questions/q336.md) | Graphs | Medium | [Code](../src/questions/q336/Q336MatrixComponents.java) |
+| Q337 | [Count strongly connected components with Kosaraju](../docs/questions/q337.md) | Graphs | Medium | [Code](../src/questions/q337/Q337StrongComponents.java) |
+| Q338 | [Find edges whose removal disconnects an undirected graph](../docs/questions/q338.md) | Graphs | Medium | [Code](../src/questions/q338/Q338Bridges.java) |
+| Q339 | [Find vertices whose removal increases component count](../docs/questions/q339.md) | Graphs | Medium | [Code](../src/questions/q339/Q339ArticulationPoints.java) |
+| Q340 | [Decide whether all undirected edges can be traversed once](../docs/questions/q340.md) | Graphs | Medium | [Code](../src/questions/q340/Q340EulerTrailExists.java) |
+| Q341 | [Decide whether a path visits every vertex exactly once](../docs/questions/q341.md) | Graphs | Hard | [Code](../src/questions/q341/Q341HamiltonianPath.java) |
+| Q342 | [Find minimum dice rolls on a board with snakes and ladders](../docs/questions/q342.md) | Graphs | Medium | [Code](../src/questions/q342/Q342BoardJumps.java) |
+| Q343 | [Find the fewest obstacles to remove across a grid](../docs/questions/q343.md) | Graphs | Medium | [Code](../src/questions/q343/Q343ObstacleRemoval.java) |
+| Q344 | [Find the longest directed path length in a DAG](../docs/questions/q344.md) | Graphs | Medium | [Code](../src/questions/q344/Q344LongestDagPath.java) |
+| Q345 | [Count directed source-to-target paths in a DAG](../docs/questions/q345.md) | Graphs | Medium | [Code](../src/questions/q345/Q345DagPathCount.java) |
+| Q346 | [Find complete dictionary words with a trie](../docs/questions/q346.md) | Tries | Beginner | [Code](../src/questions/q346/Q346ExactTrieSearch.java) |
+| Q347 | [Check whether dictionary words share a requested prefix](../docs/questions/q347.md) | Tries | Beginner | [Code](../src/questions/q347/Q347TriePrefixExists.java) |
+| Q348 | [Count dictionary occurrences under each prefix](../docs/questions/q348.md) | Tries | Beginner | [Code](../src/questions/q348/Q348TriePrefixCounts.java) |
+| Q349 | [Return the first k lexicographic completions of a prefix](../docs/questions/q349.md) | Tries | Medium | [Code](../src/questions/q349/Q349TrieAutocomplete.java) |
+| Q350 | [Find the longest prefix shared by all dictionary words](../docs/questions/q350.md) | Tries | Beginner | [Code](../src/questions/q350/Q350TrieCommonPrefix.java) |
 | Q376 | [Recursive Factorial](../docs/questions/q376.md) | Recursion and backtracking | Easy | [Code](../src/questions/q376/Q376RecursiveFactorial.java) |
 | Q377 | [Recursive Digit Sum](../docs/questions/q377.md) | Recursion and backtracking | Easy | [Code](../src/questions/q377/Q377RecursiveDigitSum.java) |
 | Q378 | [Recursive Array Total](../docs/questions/q378.md) | Recursion and backtracking | Easy | [Code](../src/questions/q378/Q378RecursiveArrayTotal.java) |
@@ -196,3 +383,68 @@ The JSON manifests contain the exact expected sample outputs. The TSV index is t
 | Q403 | [House Robber](../docs/questions/q403.md) | Dynamic programming | Medium | [Code](../src/questions/q403/Q403HouseRobber.java) |
 | Q404 | [Circular House Robber](../docs/questions/q404.md) | Dynamic programming | Medium | [Code](../src/questions/q404/Q404CircularHouseRobber.java) |
 | Q405 | [Unique Grid Paths](../docs/questions/q405.md) | Dynamic programming | Easy | [Code](../src/questions/q405/Q405UniqueGridPaths.java) |
+| Q406 | [Grid Paths With Obstacles](../docs/questions/q406.md) | Dynamic programming | Medium | [Code](../src/questions/q406/Q406GridPathsWithObstacles.java) |
+| Q407 | [Minimum Grid Path Sum](../docs/questions/q407.md) | Dynamic programming | Medium | [Code](../src/questions/q407/Q407MinimumGridPathSum.java) |
+| Q408 | [Triangle Minimum Path](../docs/questions/q408.md) | Dynamic programming | Medium | [Code](../src/questions/q408/Q408TriangleMinimumPath.java) |
+| Q409 | [Maximal Square Area](../docs/questions/q409.md) | Dynamic programming | Medium | [Code](../src/questions/q409/Q409MaximalSquareArea.java) |
+| Q410 | [Count All One Squares](../docs/questions/q410.md) | Dynamic programming | Medium | [Code](../src/questions/q410/Q410CountAllOneSquares.java) |
+| Q411 | [Minimum Coin Count](../docs/questions/q411.md) | Dynamic programming | Medium | [Code](../src/questions/q411/Q411MinimumCoinCount.java) |
+| Q412 | [Coin Combination Count](../docs/questions/q412.md) | Dynamic programming | Medium | [Code](../src/questions/q412/Q412CoinCombinationCount.java) |
+| Q413 | [Ordered Sum Count](../docs/questions/q413.md) | Dynamic programming | Medium | [Code](../src/questions/q413/Q413OrderedSumCount.java) |
+| Q414 | [Target Sum Sign Assignments](../docs/questions/q414.md) | Dynamic programming | Medium | [Code](../src/questions/q414/Q414TargetSumSignAssignments.java) |
+| Q415 | [Equal Sum Partition](../docs/questions/q415.md) | Dynamic programming | Medium | [Code](../src/questions/q415/Q415EqualSumPartition.java) |
+| Q416 | [Minimum Subset Sum Difference](../docs/questions/q416.md) | Dynamic programming | Medium | [Code](../src/questions/q416/Q416MinimumSubsetSumDifference.java) |
+| Q417 | [Zero One Knapsack](../docs/questions/q417.md) | Dynamic programming | Medium | [Code](../src/questions/q417/Q417ZeroOneKnapsack.java) |
+| Q418 | [Unbounded Knapsack](../docs/questions/q418.md) | Dynamic programming | Medium | [Code](../src/questions/q418/Q418UnboundedKnapsack.java) |
+| Q419 | [Rod Cutting Revenue](../docs/questions/q419.md) | Dynamic programming | Medium | [Code](../src/questions/q419/Q419RodCuttingRevenue.java) |
+| Q420 | [Count Subsets With Target Sum](../docs/questions/q420.md) | Dynamic programming | Medium | [Code](../src/questions/q420/Q420CountSubsetsWithTargetSum.java) |
+| Q421 | [Longest Common Subsequence Length](../docs/questions/q421.md) | Dynamic programming | Medium | [Code](../src/questions/q421/Q421LongestCommonSubsequenceLength.java) |
+| Q422 | [Longest Common Substring Length](../docs/questions/q422.md) | Dynamic programming | Medium | [Code](../src/questions/q422/Q422LongestCommonSubstringLength.java) |
+| Q423 | [Edit Distance](../docs/questions/q423.md) | Dynamic programming | Medium | [Code](../src/questions/q423/Q423EditDistance.java) |
+| Q424 | [Minimum Deletions To Equal Strings](../docs/questions/q424.md) | Dynamic programming | Medium | [Code](../src/questions/q424/Q424MinimumDeletionsToEqualStrings.java) |
+| Q425 | [Distinct Target Subsequences](../docs/questions/q425.md) | Dynamic programming | Medium | [Code](../src/questions/q425/Q425DistinctTargetSubsequences.java) |
+| Q426 | [Count Palindromic Substrings](../docs/questions/q426.md) | Dynamic programming | Medium | [Code](../src/questions/q426/Q426CountPalindromicSubstrings.java) |
+| Q427 | [Longest Palindromic Subsequence](../docs/questions/q427.md) | Dynamic programming | Medium | [Code](../src/questions/q427/Q427LongestPalindromicSubsequence.java) |
+| Q428 | [Minimum Palindrome Partition Cuts](../docs/questions/q428.md) | Dynamic programming | Medium | [Code](../src/questions/q428/Q428MinimumPalindromePartitionCuts.java) |
+| Q429 | [Interleaving Strings](../docs/questions/q429.md) | Dynamic programming | Medium | [Code](../src/questions/q429/Q429InterleavingStrings.java) |
+| Q430 | [Wildcard Pattern Match](../docs/questions/q430.md) | Dynamic programming | Medium | [Code](../src/questions/q430/Q430WildcardPatternMatch.java) |
+| Q431 | [Longest Increasing Subsequence](../docs/questions/q431.md) | Dynamic programming | Medium | [Code](../src/questions/q431/Q431LongestIncreasingSubsequence.java) |
+| Q432 | [Count Longest Increasing Subsequences](../docs/questions/q432.md) | Dynamic programming | Medium | [Code](../src/questions/q432/Q432CountLongestIncreasingSubsequences.java) |
+| Q433 | [Longest Bitonic Subsequence](../docs/questions/q433.md) | Dynamic programming | Medium | [Code](../src/questions/q433/Q433LongestBitonicSubsequence.java) |
+| Q434 | [Word Break Feasibility](../docs/questions/q434.md) | Dynamic programming | Medium | [Code](../src/questions/q434/Q434WordBreakFeasibility.java) |
+| Q435 | [Count Word Segmentations](../docs/questions/q435.md) | Dynamic programming | Medium | [Code](../src/questions/q435/Q435CountWordSegmentations.java) |
+| Q436 | [Decode Digit Strings](../docs/questions/q436.md) | Dynamic programming | Medium | [Code](../src/questions/q436/Q436DecodeDigitStrings.java) |
+| Q437 | [Maximal All One Rectangle](../docs/questions/q437.md) | Dynamic programming | Hard | [Code](../src/questions/q437/Q437MaximalAllOneRectangle.java) |
+| Q438 | [Matrix Chain Multiplication Cost](../docs/questions/q438.md) | Dynamic programming | Hard | [Code](../src/questions/q438/Q438MatrixChainMultiplicationCost.java) |
+| Q439 | [Burst Balloons](../docs/questions/q439.md) | Dynamic programming | Hard | [Code](../src/questions/q439/Q439BurstBalloons.java) |
+| Q440 | [Egg Drop Minimum Moves](../docs/questions/q440.md) | Dynamic programming | Hard | [Code](../src/questions/q440/Q440EggDropMinimumMoves.java) |
+| Q441 | [Stock Profit With Cooldown](../docs/questions/q441.md) | Dynamic programming | Medium | [Code](../src/questions/q441/Q441StockProfitWithCooldown.java) |
+| Q442 | [Stock Profit With Transaction Fee](../docs/questions/q442.md) | Dynamic programming | Medium | [Code](../src/questions/q442/Q442StockProfitWithTransactionFee.java) |
+| Q443 | [Stock Profit With At Most K Trades](../docs/questions/q443.md) | Dynamic programming | Hard | [Code](../src/questions/q443/Q443StockProfitWithAtMostKTrades.java) |
+| Q444 | [Dungeon Minimum Initial Health](../docs/questions/q444.md) | Dynamic programming | Hard | [Code](../src/questions/q444/Q444DungeonMinimumInitialHealth.java) |
+| Q445 | [Minimum Falling Path Sum](../docs/questions/q445.md) | Dynamic programming | Medium | [Code](../src/questions/q445/Q445MinimumFallingPathSum.java) |
+| Q446 | [Regular Expression Full Match](../docs/questions/q446.md) | Dynamic programming | Hard | [Code](../src/questions/q446/Q446RegularExpressionFullMatch.java) |
+| Q447 | [Boolean Parenthesization Count](../docs/questions/q447.md) | Dynamic programming | Hard | [Code](../src/questions/q447/Q447BooleanParenthesizationCount.java) |
+| Q448 | [Optimal Search Tree Cost](../docs/questions/q448.md) | Dynamic programming | Hard | [Code](../src/questions/q448/Q448OptimalSearchTreeCost.java) |
+| Q449 | [Frog Jump Across Stones](../docs/questions/q449.md) | Dynamic programming | Hard | [Code](../src/questions/q449/Q449FrogJumpAcrossStones.java) |
+| Q450 | [Longest Arithmetic Subsequence](../docs/questions/q450.md) | Dynamic programming | Medium | [Code](../src/questions/q450/Q450LongestArithmeticSubsequence.java) |
+| Q451 | [Maximum Compatible Meetings](../docs/questions/q451.md) | Greedy and search on answer | Medium | [Code](../src/questions/q451/Q451MaximumCompatibleMeetings.java) |
+| Q452 | [Maximum Courses Before Deadlines](../docs/questions/q452.md) | Greedy and search on answer | Hard | [Code](../src/questions/q452/Q452MaximumCoursesBeforeDeadlines.java) |
+| Q453 | [Assign Cookies](../docs/questions/q453.md) | Greedy and search on answer | Easy | [Code](../src/questions/q453/Q453AssignCookies.java) |
+| Q454 | [Lemonade Change](../docs/questions/q454.md) | Greedy and search on answer | Easy | [Code](../src/questions/q454/Q454LemonadeChange.java) |
+| Q455 | [Jump Game Reachability](../docs/questions/q455.md) | Greedy and search on answer | Medium | [Code](../src/questions/q455/Q455JumpGameReachability.java) |
+| Q456 | [Minimum Forward Jumps](../docs/questions/q456.md) | Greedy and search on answer | Medium | [Code](../src/questions/q456/Q456MinimumForwardJumps.java) |
+| Q457 | [Gas Station Circuit](../docs/questions/q457.md) | Greedy and search on answer | Medium | [Code](../src/questions/q457/Q457GasStationCircuit.java) |
+| Q458 | [Minimum Candy Allocation](../docs/questions/q458.md) | Greedy and search on answer | Hard | [Code](../src/questions/q458/Q458MinimumCandyAllocation.java) |
+| Q459 | [Task Scheduler With Cooldown](../docs/questions/q459.md) | Greedy and search on answer | Medium | [Code](../src/questions/q459/Q459TaskSchedulerWithCooldown.java) |
+| Q460 | [Partition Labels](../docs/questions/q460.md) | Greedy and search on answer | Medium | [Code](../src/questions/q460/Q460PartitionLabels.java) |
+| Q461 | [Queue Reconstruction By Height](../docs/questions/q461.md) | Greedy and search on answer | Medium | [Code](../src/questions/q461/Q461QueueReconstructionByHeight.java) |
+| Q462 | [Huffman Weighted Encoding Cost](../docs/questions/q462.md) | Greedy and search on answer | Medium | [Code](../src/questions/q462/Q462HuffmanWeightedEncodingCost.java) |
+| Q463 | [Maximum Units On A Truck](../docs/questions/q463.md) | Greedy and search on answer | Easy | [Code](../src/questions/q463/Q463MaximumUnitsOnATruck.java) |
+| Q464 | [Fractional Knapsack](../docs/questions/q464.md) | Greedy and search on answer | Medium | [Code](../src/questions/q464/Q464FractionalKnapsack.java) |
+| Q465 | [Deadline Job Sequencing Profit](../docs/questions/q465.md) | Greedy and search on answer | Medium | [Code](../src/questions/q465/Q465DeadlineJobSequencingProfit.java) |
+| Q466 | [Minimum Simultaneous Platforms](../docs/questions/q466.md) | Greedy and search on answer | Medium | [Code](../src/questions/q466/Q466MinimumSimultaneousPlatforms.java) |
+| Q467 | [Minimum Rescue Boats](../docs/questions/q467.md) | Greedy and search on answer | Medium | [Code](../src/questions/q467/Q467MinimumRescueBoats.java) |
+| Q468 | [Minimum Refueling Stops](../docs/questions/q468.md) | Greedy and search on answer | Hard | [Code](../src/questions/q468/Q468MinimumRefuelingStops.java) |
+| Q469 | [Minimum Banana Eating Speed](../docs/questions/q469.md) | Greedy and search on answer | Medium | [Code](../src/questions/q469/Q469MinimumBananaEatingSpeed.java) |
+| Q470 | [Ship Packages Within Days](../docs/questions/q470.md) | Greedy and search on answer | Medium | [Code](../src/questions/q470/Q470ShipPackagesWithinDays.java) |
